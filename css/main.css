@@ -1,0 +1,51 @@
+html,
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    overflow: hidden;
+    background-image: url('/img/backgound.png');
+}
+
+.white-text,.title {
+    font-size: 24px;
+    color: white;
+}
+
+
+.operatorBox {
+    max-width: 350px;
+    border: none;
+}
+
+.op-img {
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.466);
+    border-width: 5px;
+}
+
+.op-badge {
+    margin-top: -1075px;
+    margin-left: 250px;
+    width: 100px;
+}
+
+.op-name {
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    margin: auto;
+    margin-top: -90px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#op-bottom-frame {
+    position: absolute;
+    margin-top: -39px;
+}
+
+
