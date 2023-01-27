@@ -5,7 +5,6 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     color: #000000;
-    overflow: hidden;
     background-image: url('../img/backgound.png');
 }
 
@@ -99,7 +98,28 @@ body {
     text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/* Grips */
 
+.operator-grip {
+    top: 50%;
+    left: 160%;
+    position: absolute;
+}
+.grip-description {
+    top: 20%;
+    left: 100%;
+    color: white;
+    margin: 0 90px 0 0;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.weapon-grip-name,.secondweapon-grip-name {
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin: 0 90px 0 0;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 /* Scope */
 .operator-scope {
@@ -119,3 +139,38 @@ body {
     margin: 0 90px 0 0;
     text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+
+@media (max-width: 700px) {
+    .operatorBox {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .operator-weapon, .operator-secondweapon, .operator-gadget {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+    .operator-attachment, .operator-scope {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+}
+
+

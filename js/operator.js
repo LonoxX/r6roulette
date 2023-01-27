@@ -1,4 +1,3 @@
-console.log('operator.js loaded');
 var Attacker = {
   Ace: {
     name: 'Ace',
@@ -11,13 +10,16 @@ var Attacker = {
         img: 'img/weapon/AK-12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -25,13 +27,16 @@ var Attacker = {
         img: 'img/weapon/M1014.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -41,13 +46,16 @@ var Attacker = {
         img: 'img/weapon/P9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -73,13 +81,16 @@ var Attacker = {
         img: 'img/weapon/G8A1.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -87,13 +98,16 @@ var Attacker = {
         img: 'img/weapon/SuperNova.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -103,13 +117,16 @@ var Attacker = {
         img: 'img/weapon/Gonne-6.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -117,13 +134,16 @@ var Attacker = {
         img: 'img/weapon/SMG-11.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -149,13 +169,16 @@ var Attacker = {
         img: 'img/weapon/R4-C.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -163,13 +186,16 @@ var Attacker = {
         img: 'img/weapon/G36C.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -179,13 +205,16 @@ var Attacker = {
         img: 'img/weapon/5-7_USG.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -193,13 +222,16 @@ var Attacker = {
         img: 'img/weapon/M45_MEUSOC.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -225,13 +257,16 @@ var Attacker = {
         img: 'img/weapon/MK17_CQB.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -239,13 +274,16 @@ var Attacker = {
         img: 'img/weapon/SR-25.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -255,13 +293,16 @@ var Attacker = {
         img: 'img/weapon/D-50.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -287,13 +328,16 @@ var Attacker = {
         img: 'img/weapon/G52-Tactical_Shield.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -303,13 +347,16 @@ var Attacker = {
         img: 'img/weapon/P12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -335,13 +382,16 @@ var Attacker = {
         img: 'img/weapon/C8-SFW.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -349,13 +399,16 @@ var Attacker = {
         img: 'img/weapon/CAMRS.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -365,13 +418,16 @@ var Attacker = {
         img: 'img/weapon/Mk1_9mm.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -397,13 +453,16 @@ var Attacker = {
         img: 'img/weapon/PARA-308.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -411,13 +470,16 @@ var Attacker = {
         img: 'img/weapon/M249.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -427,13 +489,16 @@ var Attacker = {
         img: 'img/weapon/PRB92.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -459,13 +524,16 @@ var Attacker = {
         img: 'img/weapon/Mk_14_EBR.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -473,13 +541,16 @@ var Attacker = {
         img: 'img/weapon/BOSG-12-2.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -489,13 +560,16 @@ var Attacker = {
         img: 'img/weapon/Gonne-6.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -503,13 +577,16 @@ var Attacker = {
         img: 'img/weapon/SMG-12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -535,13 +612,16 @@ var Attacker = {
         img: 'img/weapon/Spear_308.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -549,13 +629,16 @@ var Attacker = {
         img: 'img/weapon/6P41.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -563,13 +646,16 @@ var Attacker = {
         img: 'img/weapon/SASG-12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -579,13 +665,16 @@ var Attacker = {
         img: 'img/weapon/PMM.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -593,13 +682,16 @@ var Attacker = {
         img: 'img/weapon/Gonne-6.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -625,13 +717,16 @@ var Attacker = {
         img: 'img/weapon/AR33.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -639,13 +734,16 @@ var Attacker = {
         img: 'img/weapon/SR-25.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -655,13 +753,16 @@ var Attacker = {
         img: 'img/weapon/GSh-18.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -687,13 +788,16 @@ var Attacker = {
         img: 'img/weapon/AK-12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -701,13 +805,16 @@ var Attacker = {
         img: 'img/weapon/6P41.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -715,13 +822,16 @@ var Attacker = {
         img: 'img/weapon/Ballistic_Shield.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -731,13 +841,16 @@ var Attacker = {
         img: 'img/weapon/PMM.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -745,13 +858,16 @@ var Attacker = {
         img: 'img/weapon/GSh-18.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -777,13 +893,16 @@ var Attacker = {
         img: 'img/weapon/OTs-03.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -793,13 +912,16 @@ var Attacker = {
         img: 'img/weapon/PMM.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -807,13 +929,16 @@ var Attacker = {
         img: 'img/weapon/Gonne-6.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -839,13 +964,16 @@ var Attacker = {
         img: 'img/weapon/F90.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -853,13 +981,16 @@ var Attacker = {
         img: 'img/weapon/M249_SAW.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -869,13 +1000,16 @@ var Attacker = {
         img: 'img/weapon/Super_Shorty.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -883,13 +1017,16 @@ var Attacker = {
         img: 'img/weapon/SDP_9mm.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary3: {
@@ -897,13 +1034,16 @@ var Attacker = {
         img: 'img/weapon/Gonne-6.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -929,13 +1069,16 @@ var Attacker = {
         img: 'img/weapon/552_Commando.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -943,13 +1086,16 @@ var Attacker = {
         img: 'img/weapon/SG-CQB.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -959,13 +1105,16 @@ var Attacker = {
         img: 'img/weapon/P229.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -991,13 +1140,16 @@ var Attacker = {
         img: 'img/weapon/Type-89.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1005,13 +1157,16 @@ var Attacker = {
         img: 'img/weapon/SuperNova.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1021,13 +1176,16 @@ var Attacker = {
         img: 'img/weapon/P229.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1035,13 +1193,16 @@ var Attacker = {
         img: 'img/weapon/Bearing_9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1067,13 +1228,16 @@ var Attacker = {
         img: 'img/weapon/ARX200.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1081,13 +1245,16 @@ var Attacker = {
         img: 'img/weapon/G36C.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -1097,13 +1264,16 @@ var Attacker = {
         img: 'img/weapon/Mk1_9mm.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1111,13 +1281,16 @@ var Attacker = {
         img: 'img/weapon/GONNE-6.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1143,13 +1316,16 @@ var Attacker = {
         img: 'img/weapon/AUG_A2.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1157,13 +1333,16 @@ var Attacker = {
         img: 'img/weapon/552_Commando.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -1171,13 +1350,16 @@ var Attacker = {
         img: 'img/weapon/G8A1.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1187,13 +1369,16 @@ var Attacker = {
         img: 'img/weapon/P12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1219,13 +1404,16 @@ var Attacker = {
         img: 'img/weapon/C7E.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1233,13 +1421,16 @@ var Attacker = {
         img: 'img/weapon/PDW9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -1247,13 +1438,16 @@ var Attacker = {
         img: 'img/weapon/ITA12L.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1263,13 +1457,16 @@ var Attacker = {
         img: 'img/weapon/USP40.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1277,13 +1474,16 @@ var Attacker = {
         img: 'img/weapon/ITA12S.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1309,13 +1509,16 @@ var Attacker = {
         img: 'img/weapon/CSRX_300.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1325,13 +1528,16 @@ var Attacker = {
         img: 'img/weapon/SPSMG9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1339,13 +1545,16 @@ var Attacker = {
         img: 'img/weapon/C75_Auto.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1371,13 +1580,16 @@ var Attacker = {
         img: 'img/weapon/V308.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1385,13 +1597,16 @@ var Attacker = {
         img: 'img/weapon/417.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -1399,13 +1614,16 @@ var Attacker = {
         img: 'img/weapon/SG-CQB.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1415,13 +1633,16 @@ var Attacker = {
         img: 'img/weapon/Gonne-6.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1429,13 +1650,16 @@ var Attacker = {
         img: 'img/weapon/LFP586.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1461,13 +1685,16 @@ var Attacker = {
         img: 'img/weapon/AR-15-50.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1475,13 +1702,16 @@ var Attacker = {
         img: 'img/weapon/M4_GS.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1491,13 +1721,16 @@ var Attacker = {
         img: 'img/weapon/1911_TACOPS.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1523,13 +1756,16 @@ var Attacker = {
         img: 'img/weapon/LE_ROC_SHIELD.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1539,13 +1775,16 @@ var Attacker = {
         img: 'img/weapon/P9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1553,13 +1792,16 @@ var Attacker = {
         img: 'img/weapon/LFP586.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1585,13 +1827,16 @@ var Attacker = {
         img: 'img/weapon/FMG-9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1599,13 +1844,16 @@ var Attacker = {
         img: 'img/weapon/SIX12_SD.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1615,13 +1863,16 @@ var Attacker = {
         img: 'img/weapon/5-7_USG.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1629,13 +1880,16 @@ var Attacker = {
         img: 'img/weapon/D-50.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1661,13 +1915,16 @@ var Attacker = {
         img: 'img/weapon/AK-74M.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1675,13 +1932,16 @@ var Attacker = {
         img: 'img/weapon/ARX200.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1691,13 +1951,16 @@ var Attacker = {
         img: 'img/weapon/PRB92.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -1705,13 +1968,16 @@ var Attacker = {
         img: 'img/weapon/.44_MAG_SEMI-AUTO.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1737,13 +2003,16 @@ var Attacker = {
         img: 'img/weapon/556xi.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1751,13 +2020,16 @@ var Attacker = {
         img: 'img/weapon/PDW9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1767,13 +2039,16 @@ var Attacker = {
         img: 'img/weapon/PMM.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1799,13 +2074,16 @@ var Attacker = {
         img: 'img/weapon/POF9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1813,13 +2091,16 @@ var Attacker = {
         img: 'img/weapon/417.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1829,13 +2110,16 @@ var Attacker = {
         img: 'img/weapon/SDP_9mm.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1861,13 +2145,16 @@ var Attacker = {
         img: 'img/weapon/L85A2.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1875,13 +2162,16 @@ var Attacker = {
         img: 'img/weapon/M590A1.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
     },
@@ -1891,13 +2181,16 @@ var Attacker = {
         img: 'img/weapon/P12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1923,13 +2216,16 @@ var Attacker = {
         img: 'img/weapon/AR33.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -1937,13 +2233,16 @@ var Attacker = {
         img: 'img/weapon/L85A2.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -1951,13 +2250,16 @@ var Attacker = {
         img: 'img/weapon/M590A1.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1967,13 +2269,16 @@ var Attacker = {
         img: 'img/weapon/P226_Mk_25.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -1999,13 +2304,16 @@ var Attacker = {
         img: 'img/weapon/M1014.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -2013,13 +2321,16 @@ var Attacker = {
         img: 'img/weapon/556xi.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -2027,13 +2338,16 @@ var Attacker = {
         img: 'img/weapon/M590A1.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -2043,13 +2357,16 @@ var Attacker = {
         img: 'img/weapon/5-7_USG.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -2058,13 +2375,16 @@ var Attacker = {
           img: 'img/weapon/M45_MEUSOC.png',
           attachment: {
             attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder' },
+            attachment: { name: 'Placeholder 2' },
+            attachment: { name: 'Placeholder 3' },
+          },
+          gripe: {
+            'Placeholder': { name: 'Placeholder' },
+            'Placeholder 2': { name: 'Placeholder 2' },
           },
           scope: {
-            scope: { name: 'Placeholder' },
-            scope: { name: 'Placeholder' },
-            scope: { name: 'Placeholder' },
+            'Placeholder': { name: 'Placeholder' },
+            'Placeholder 2': { name: 'Placeholder 2' },
           }
         }
       }
@@ -2091,13 +2411,16 @@ var Attacker = {
         img: 'img/weapon/F2.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -2105,13 +2428,16 @@ var Attacker = {
         img: 'img/weapon/417.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary3: {
@@ -2119,13 +2445,16 @@ var Attacker = {
         img: 'img/weapon/SG-CQB.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -2135,13 +2464,16 @@ var Attacker = {
         img: 'img/weapon/P9.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -2150,13 +2482,16 @@ var Attacker = {
           img: 'img/weapon/LFP586.png',
           attachment: {
             attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder' },
+            attachment: { name: 'Placeholder 2' },
+            attachment: { name: 'Placeholder 3' },
+          },
+          gripe: {
+            'Placeholder': { name: 'Placeholder' },
+            'Placeholder 2': { name: 'Placeholder 2' },
           },
           scope: {
-            scope: { name: 'Placeholder' },
-            scope: { name: 'Placeholder' },
-            scope: { name: 'Placeholder' },
+            'Placeholder': { name: 'Placeholder' },
+            'Placeholder 2': { name: 'Placeholder 2' },
           }
         }
       }
@@ -2182,30 +2517,34 @@ var Attacker = {
         name: 'SC3000K',
         img: 'img/weapon/SC3000K.png',
         attachment: {
-          attachment: {
-            name: 'Placeholder'
-          },
-          attachment: {
-            name: 'Placeholder'
-          },
-          attachment: {
-            name: 'Placeholder'
-          },
+          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
+        },
+        scope: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
         name: 'MP7',
         img: 'img/weapon/MP7.png',
         attachment: {
-          attachment: {
-            name: 'Placeholder'
-          },
-          attachment: {
-            name: 'Placeholder'
-          },
-          attachment: {
-            name: 'Placeholder'
-          },
+          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
+        },
+        scope: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -2215,13 +2554,16 @@ var Attacker = {
         img: 'img/weapon/5-7_USG.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       secondary2: {
@@ -2230,13 +2572,16 @@ var Attacker = {
           img: 'img/weapon/Gonne-6.png',
           attachment: {
             attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder' },
+            attachment: { name: 'Placeholder 2' },
+            attachment: { name: 'Placeholder 3' },
+          },
+          gripe: {
+            'Placeholder': { name: 'Placeholder' },
+            'Placeholder 2': { name: 'Placeholder 2' },
           },
           scope: {
-            scope: { name: 'Placeholder' },
-            scope: { name: 'Placeholder' },
-            scope: { name: 'Placeholder' },
+            'Placeholder': { name: 'Placeholder' },
+            'Placeholder 2': { name: 'Placeholder 2' },
           }
         }
       }
@@ -2263,13 +2608,16 @@ var Attacker = {
         img: 'img/weapon/LMG-E.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       },
       primary2: {
@@ -2277,13 +2625,16 @@ var Attacker = {
         img: 'img/weapon/M762.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -2293,13 +2644,16 @@ var Attacker = {
         img: 'img/weapon/RG15.png',
         attachment: {
           attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         },
         scope: {
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
-          scope: { name: 'Placeholder' },
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
@@ -2317,5 +2671,5 @@ var Attacker = {
 }
 
 var Defender = {
-
+  
 }

@@ -19,6 +19,10 @@ operator_gadgets_img = document.querySelector(".gadget-img");
 Attachment = document.querySelector(".weapon-attachment-name");
 Attachment2 = document.querySelector(".secondweapon-attachment-name");
 
+// Grip
+Grip = document.querySelector(".weapon-grip-name");
+Grip2 = document.querySelector(".secondweapon-grip-name");
+
 // Scope
 Scope = document.querySelector(".weapon-scope-name");
 Scope2 = document.querySelector(".secondweapon-scope-name");
@@ -53,21 +57,24 @@ function randomOperator(operator) {
 
     var operatorPrimary = Object.values(chosen.primary);
     var randomPrimary = operatorPrimary[Math.floor(Math.random() * operatorPrimary.length)];
-
     var operatorPrimaryAttachments = Object.values(randomPrimary.attachment);
     var randomPrimaryAttachment = operatorPrimaryAttachments[Math.floor(Math.random() * operatorPrimaryAttachments.length)];
+    var operatorPrimarygripe = Object.values(randomPrimary.gripe);
+    var randomPrimaryGrip = operatorPrimarygripe[Math.floor(Math.random() * operatorPrimarygripe.length)];    var operatorPrimaryScope = Object.values(randomPrimary.scope);
+    var randomPrimaryScope = operatorPrimaryScope[Math.floor(Math.random() * operatorPrimaryScope.length)]; 
 
     var operatorSecondary = Object.values(chosen.secondary);
     var randomSecondary = operatorSecondary[Math.floor(Math.random() * operatorSecondary.length)];
-
-    var operatorPrimaryScope = Object.values(randomPrimary.scope);
-    var randomPrimaryScope = operatorPrimaryScope[Math.floor(Math.random() * operatorPrimaryScope.length)]; 
-
     var operatorSecondaryScope = Object.values(randomSecondary.scope);
     var randomSecondaryScope = operatorSecondaryScope[Math.floor(Math.random() * operatorSecondaryScope.length)];
+    var operatorSecondarygripe = Object.values(randomSecondary.gripe);
+    var randomSecondaryGrip = operatorSecondarygripe[Math.floor(Math.random() * operatorSecondarygripe.length)];
+    var operatorSecondaryAttachments = Object.values(randomSecondary.attachment);
+    var randomSecondaryAttachment = operatorSecondaryAttachments[Math.floor(Math.random() * operatorSecondaryAttachments.length)];
 
-    var operatorPrimaryAttachments2 = Object.values(randomSecondary.attachment);
-    var randomPrimaryAttachment2 = operatorPrimaryAttachments2[Math.floor(Math.random() * operatorPrimaryAttachments2.length)];
+
+
+
 
     var operatorGadgets = Object.values(chosen.gadgets);
     var randomGadget = operatorGadgets[Math.floor(Math.random() * operatorGadgets.length)];
@@ -76,13 +83,19 @@ function randomOperator(operator) {
     operator_weapons.textContent = randomPrimary.name;
     operator_weapons_img.src = randomPrimary.img;
     Attachment.textContent = randomPrimaryAttachment.name;
-    Attachment2.textContent = randomPrimaryAttachment2.name;
     Scope.textContent = randomPrimaryScope.name;
-    Scope2.textContent = randomSecondaryScope.name;
+    console.log(randomPrimaryScope.name);
+    Grip.textContent = randomPrimaryGrip.name;
 
     // Secondary Weapon
     operator_weapons2.textContent = randomSecondary.name;
     operator_weapons2_img.src = randomSecondary.img;
+    Attachment2.textContent = randomSecondaryAttachment.name;
+    Scope2.textContent = randomSecondaryScope.name;
+    Grip2.textContent = randomSecondaryGrip.name;
+    console.log(randomSecondaryAttachment.name);
+
+
     // Gadget
     operator_gadgets.textContent = randomGadget.name;
     operator_gadgets_img.src = randomGadget.img;
