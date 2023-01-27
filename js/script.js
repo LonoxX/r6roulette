@@ -1,82 +1,76 @@
-var Attacker = {
-    Ace: {name: 'Ace'},
-    Amaru: {name: 'Amaru'},
-    Ash: {name: 'Ash'},
-    Blackbeard: {name: 'Blackbeard'},
-    Blitz: {name: 'Blitz'},
-    Buck: {name: 'Buck'},
-    Capitao: {name: 'Capitao'},
-    Dokkaebi: {name: 'Dokkaebi'},
-    Finka:{name: 'Finka'},
-    Flores: {name: 'Flores'},
-    Fuze: {name: 'Fuze'},
-    Glaz: {name: 'Glaz'},
-    Gridlock: {name: 'Gridlock'},
-    Grim: {name: 'Grim'},
-    Hibana: {name: 'Hibana'},
-    Iana: {name: 'Iana'},
-    IQ: {name: 'IQ'},
-    Jackal: {name: 'Jackal'},
-    Kali: {name: 'Kali'},
-    Lion: {name: 'Lion'},
-    Maverick: {name: 'Maverick'},
-    Montagne: {name: 'Montagne'},
-    Nokk: {name: 'Nokk'},
-    Nomad: {name: 'Nomad'},
-    Osa: {name: 'Osa'},
-    Sens: {name: 'Sens'},
-    Sledge: {name: 'Sledge'},
-    Thatcher: {name: 'Thatcher'},
-    Thermite: {name: 'Thermite'},
-    Twitch: {name: 'Twitch'},
-    Ying: {name: 'Ying'},
-    Zero: {name: 'Zero'},
-    Zofia: {name: 'Zofia'}
+var Attacker  = {
+    Iana: {
+        name: 'Iana',
+        role: 'Attacker',
+        img: 'img/Attacker/Iana.png',
+        badge: 'img/Attacker/Badge/Iana-Badge.png',
+        primary: {
+            primary: {
+                name: 'ARX200', 
+                img: 'img/weapon/ARX200.png',
+                attachment: { 
+                    attachment2: {name: 'Compensator'},
+                    attachment3: {name: 'Flash Hider'},
+                    attachment4: {name: 'Suppressor'},
+                }
+        },
+            primary2: {
+                name: 'G36C', 
+                img: 'img/weapon/G36C.png',
+                attachment: {
+                    attachment3: {name: 'Flash Hider'},
+                    attachment4: {name: 'Suppressor'},
+                }
+        },
+            
+        },
+        secondary: {
+            secondary: {name: 'Mk 1 9mm',
+             img: 'img/weapon/Mk1_9mm.png',
+             attachment: {
+                 attachment3: {name: 'Flash Hider'},
+                 attachment4: {name: 'Suppressor'},
+             }
+            },
+            secondary2: {
+                name: 'GONNE-6',
+                img: 'img/weapon/GONNE-6.png',
+                attachment: {
+                    attachment3: {name: 'Keins verfügbar'},
+                },
+            }
+        },
+        gadgets: {
+            gadget1: {name: 'Frag Grenade', img: 'img/gadgets/Frag_Grenade.png'},
+            gadget2: {name: 'Smoke Grenade', img: 'img/gadgets/Smoke_Grenade.png'}
+        }
+    }
 }
 
 var Defender = {
-    Alibi:{name: 'Alibi'},
-    Aruni:{name: 'Aruni'},
-    Azami:{name: 'Azami'},
-    Bandit: {name: 'Bandit'},
-    Castle: {name: 'Castle'},
-    Caveira:{name: 'Caveira'},
-    Clash:{name: 'Clash'},
-    Doc:{name: 'Doc'},
-    Echo: {name: 'Echo'},
-    Ela:{name: 'Ela'},
-    Frost:{name: 'Frost'},
-    Goyo: {name: 'Goyo'},
-    Jäger:{name: 'Jäger'},
-    Kaid: {name: 'Kaid'},
-    Kapkan: {name: 'Kapkan'},
-    Lesion: {name: 'Lesion'},
-    Melusi: {name: 'Melusi'},
-    Maestro: {name: 'Maestro'},
-    Mira: {name: 'Mira'},
-    Mozzie: {name: 'Mozzie'},
-    Mute: {name: 'Mute'},
-    Oryx: {name: 'Oryx'},
-    Pulse:{name: 'Pulse'},
-    Rook:{name: 'Rook'},
-    Smoke:{name: 'Smoke'},
-    Solis:{name: 'Solis'},
-    Tachanka:{name: 'Tachanka'},
-    Thorn:{name: 'Thorn'},
-    Thunderbird:{name: 'Thunderbird'},
-    Valkyrie:{name: 'Valkyrie'},
-    Vigil:{name: 'Vigil'},
-    Wamai:{name: 'Wamai'},
-    Warden: {name: 'Warden'}
 }
 
-
-//R6
 R6attacker = document.querySelector("#attacker");
 R6defender = document.querySelector("#defender");
-R6img = document.querySelector(".op-img");
-R6badge = document.querySelector(".op-badge");
-R6name = document.querySelector(".op-name");
+R6img = document.querySelector(".operator-img");
+R6badge = document.querySelector(".operator-badge");
+R6name = document.querySelector(".operator-name");
+
+// Main Weapon
+operator_weapons = document.querySelector(".weapon-name");
+operator_weapons_img = document.querySelector(".weapon-img");
+// Secondary Weapon
+operator_weapons2 = document.querySelector(".secondweapon-name");
+operator_weapons2_img = document.querySelector(".secondweapon-img");
+// Gadget
+operator_gadgets = document.querySelector(".gadget-name");
+operator_gadgets_img = document.querySelector(".gadget-img");
+
+
+// Attachment
+Attachment = document.querySelector(".weapon-attachment-name");
+Attachment2 = document.querySelector(".secondweapon-attachment-name");
+
 
 
 R6img.style.width = "352px";
@@ -99,8 +93,36 @@ function randomDefender() {
 function randomOperator(operator) {
     chosen = operator[Math.floor(Math.random() * operator.length)];
     chosenName = chosen.name;
-    R6img.src = "img/"+chosenName+".png";
-    R6badge.src = "img/"+chosenName+"-Badge"+".png";
+    operatorRole = chosen.role;
+    R6img.src = "img/" + operatorRole + "/" + chosenName + ".png";
+    R6badge.src = "img/" + operatorRole + "/Badge/" + chosenName + "-Badge" + ".png";
     R6img.style.width = "352px";
     R6name.textContent = chosenName;
+
+    var operatorPrimary = Object.values(chosen.primary);
+    var randomPrimary = operatorPrimary[Math.floor(Math.random() * operatorPrimary.length)];
+
+    var operatorPrimaryAttachments = Object.values(randomPrimary.attachment);
+    var randomPrimaryAttachment = operatorPrimaryAttachments[Math.floor(Math.random() * operatorPrimaryAttachments.length)];
+
+    var operatorSecondary = Object.values(chosen.secondary);
+    var randomSecondary = operatorSecondary[Math.floor(Math.random() * operatorSecondary.length)];
+
+    var operatorPrimaryAttachments2 = Object.values(randomSecondary.attachment);
+    var randomPrimaryAttachment2 = operatorPrimaryAttachments2[Math.floor(Math.random() * operatorPrimaryAttachments2.length)];
+
+    var operatorGadgets = Object.values(chosen.gadgets);
+    var randomGadget = operatorGadgets[Math.floor(Math.random() * operatorGadgets.length)];
+
+    // Main Weapon
+    operator_weapons.textContent = randomPrimary.name;
+    operator_weapons_img.src = randomPrimary.img;
+    Attachment.textContent = randomPrimaryAttachment.name;
+    Attachment2.textContent = randomPrimaryAttachment2.name;
+    // Secondary Weapon
+    operator_weapons2.textContent = randomSecondary.name;
+    operator_weapons2_img.src = randomSecondary.img;
+    // Gadget
+    operator_gadgets.textContent = randomGadget.name;
+    operator_gadgets_img.src = randomGadget.img;
 }

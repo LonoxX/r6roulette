@@ -13,26 +13,24 @@ body {
     font-size: 24px;
     color: white;
 }
-
-
+/* Operator */
 .operatorBox {
+    top: 15%;
+    left: 10%;
+    position: fixed;
     max-width: 350px;
     border: none;
 }
+.operator-img {
+    border: 3px solid rgba(0, 0, 0, 0.507);
 
-.op-img {
-    border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.466);
-    border-width: 5px;
 }
-
-.op-badge {
+.operator-badge {
     margin-top: -1075px;
     margin-left: 250px;
     width: 100px;
 }
-
-.op-name {
+.operator-name {
     font-size: 3rem;
     color: white;
     position: relative;
@@ -43,9 +41,59 @@ body {
     text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#op-bottom-frame {
+#operator-bottom-frame {
     position: absolute;
     margin-top: -39px;
 }
+/* Weapon */
+.operator-weapon {
+    top: 30%;
+    left: 40%;
+    position: fixed;
+    max-width: 350px;
+    border: 3px solid rgba(0, 0, 0, 0.507); 
+}
 
+.weapon-name,.secondweapon-name,.gadget-name {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.operator-secondweapon {
+    top: 50%;
+    left: 40%;
+    position: fixed;
+    max-width: 350px;
+    border: 3px solid rgba(0, 0, 0, 0.507); 
+}
 
+/* Gadget */
+.operator-gadget {
+    top: 30%;
+    left: 75%;
+    position: fixed;
+    max-width: 350px;
+    border: 3px solid rgba(0, 0, 0, 0.507); 
+}
+/* Attachment */
+.attachment-description {
+    top: 20%;
+    left: 100%;
+    color: white;
+    margin: 0 90px 0 0;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.operator-attachment {
+    top: 0px;
+    left: 110%;
+    position: absolute;
+}
+.weapon-attachment-name,.secondweapon-attachment-name {
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin: 0 90px 0 0;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
