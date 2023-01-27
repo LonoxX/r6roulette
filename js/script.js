@@ -19,6 +19,10 @@ operator_gadgets_img = document.querySelector(".gadget-img");
 Attachment = document.querySelector(".weapon-attachment-name");
 Attachment2 = document.querySelector(".secondweapon-attachment-name");
 
+// Scope
+Scope = document.querySelector(".weapon-scope-name");
+Scope2 = document.querySelector(".secondweapon-scope-name");
+
 
 
 R6img.style.width = "352px";
@@ -56,6 +60,12 @@ function randomOperator(operator) {
     var operatorSecondary = Object.values(chosen.secondary);
     var randomSecondary = operatorSecondary[Math.floor(Math.random() * operatorSecondary.length)];
 
+    var operatorPrimaryScope = Object.values(randomPrimary.scope);
+    var randomPrimaryScope = operatorPrimaryScope[Math.floor(Math.random() * operatorPrimaryScope.length)]; 
+
+    var operatorSecondaryScope = Object.values(randomSecondary.scope);
+    var randomSecondaryScope = operatorSecondaryScope[Math.floor(Math.random() * operatorSecondaryScope.length)];
+
     var operatorPrimaryAttachments2 = Object.values(randomSecondary.attachment);
     var randomPrimaryAttachment2 = operatorPrimaryAttachments2[Math.floor(Math.random() * operatorPrimaryAttachments2.length)];
 
@@ -67,6 +77,9 @@ function randomOperator(operator) {
     operator_weapons_img.src = randomPrimary.img;
     Attachment.textContent = randomPrimaryAttachment.name;
     Attachment2.textContent = randomPrimaryAttachment2.name;
+    Scope.textContent = randomPrimaryScope.name;
+    Scope2.textContent = randomSecondaryScope.name;
+
     // Secondary Weapon
     operator_weapons2.textContent = randomSecondary.name;
     operator_weapons2_img.src = randomSecondary.img;

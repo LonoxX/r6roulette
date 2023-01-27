@@ -77,6 +77,12 @@ body {
     border: 3px solid rgba(0, 0, 0, 0.507); 
 }
 /* Attachment */
+
+.operator-attachment {
+    top: 0px;
+    left: 110%;
+    position: absolute;
+}
 .attachment-description {
     top: 20%;
     left: 100%;
@@ -85,12 +91,28 @@ body {
     text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
-.operator-attachment {
-    top: 0px;
+.weapon-attachment-name,.secondweapon-attachment-name {
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin: 0 90px 0 0;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+/* Scope */
+.operator-scope {
+    top: 50%;
     left: 110%;
     position: absolute;
 }
-.weapon-attachment-name,.secondweapon-attachment-name {
+.scope-description {
+    color: white;
+    text-shadow: -2px 2px black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.weapon-scope-name,.secondweapon-scope-name {
     font-size: 20px;
     width: 100%;
     color: white;
