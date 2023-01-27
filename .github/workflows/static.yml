@@ -1,7 +1,6 @@
 name: Deploy-Page
 
 on:
-  push:
     release:
       types: 
       - released
