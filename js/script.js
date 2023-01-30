@@ -62,8 +62,6 @@ function randomOperator(operator) {
     var randomSecondaryGrip = operatorSecondarygripe[Math.floor(Math.random() * operatorSecondarygripe.length)];
     var operatorSecondaryAttachments = Object.values(randomSecondary.attachment);
     var randomSecondaryAttachment = operatorSecondaryAttachments[Math.floor(Math.random() * operatorSecondaryAttachments.length)];
-
-
     var operatorGadgets = Object.values(chosen.gadgets);
     var randomGadget = operatorGadgets[Math.floor(Math.random() * operatorGadgets.length)];
 
@@ -83,4 +81,22 @@ function randomOperator(operator) {
     // Gadget
     operator_gadgets.textContent = randomGadget.name;
     operator_gadgets_img.src = randomGadget.img;
+
+    R6img.onerror = function() {
+        this.src = "https://pic.pnnet.dev/300x500";
+    };
+
+    R6badge.onerror = function() {
+        this.src = "https://pic.pnnet.dev/201x201";
+    };
+
+    operator_weapons_img.onerror = function() {
+        this.src = "https://pic.pnnet.dev/290x100";
+    };
+    operator_weapons2_img.onerror = function() {
+        this.src = "https://pic.pnnet.dev/290x100";
+    }
+    operator_gadgets_img.onerror = function() {
+        this.src = "https://pic.pnnet.dev/290x100";
+    }
 }
