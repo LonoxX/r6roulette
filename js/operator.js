@@ -777,7 +777,8 @@ var Attacker = {
       gadget3: {
         name: 'Impact EMP Grenade',
         img: './img/gadgets/Impact_EMP_Grenade.png'
-    }
+      }
+    },
   },
   Finka: {
     name: 'Finka',
@@ -2118,6 +2119,7 @@ var Attacker = {
           'none': { name: 'Kein Scope' },
         }
       },
+    },
     gadgets: {
       gadget1: {
         name: 'Claymore',
@@ -2130,6 +2132,7 @@ var Attacker = {
       gadget3: {
         name: 'Impact EMP Grenade',
         img: './img/gadgets/Impact_EMP_Grenade.png'
+      }
     }
   },
   Maverick: {
@@ -3213,109 +3216,5 @@ var Attacker = {
 }
 
 var Defender = {
-  Blackbeard: {
-    name: 'Blackbeard',
-    role: 'Attacker',
-    img: './img/Attacker/Blackbeard.png',
-    badge: './img/Attacker/Badge/Blackbeard-Badge.png',
-    primary: {
-      primary: {
-        name: 'Mk17 CQB',
-        img: './img/weapon/MK17_CQB.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-          'Vertical Grip': { name: 'Vertical Grip' },
-          'Angled Grip': { name: 'Angled Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-          'Scope 1.5x': { name: 'Scope 1.5x' },
-          'Scope 2.0x': { name: 'Scope 2.0x' },
-          'Red Dot A': { name: 'Red Dot A' },
-          'Red Dot B': { name: 'Red Dot B' },
-          'Red Dot C': { name: 'Red Dot C' },
-          'Holo A' : { name: 'Holo A' },
-          'Holo B': { name: 'Holo B' },
-          'Holo C': { name: 'Holo C' },
-          'Holo D': { name: 'Holo D' },
-          'Reflex A': { name: 'Reflex A' },
-          'Reflex B': { name: 'Reflex B' },
-          'Reflex C': { name: 'Reflex C' },
-        }
-      },
-      primary2: {
-        name: 'SR-25',
-        img: './img/weapon/SR-25.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-          'Vertical Grip': { name: 'Vertical Grip' },
-          'Angled Grip': { name: 'Angled Grip' },        
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-          'Scope 1.5x': { name: 'Scope 1.5x' },
-          'Scope 2.0x': { name: 'Scope 2.0x' },
-          'Scope 2.5x': { name: 'Scope 2.5x' },
-          'Scope 2.5x A': { name: 'Scope 2.5x A' },
-          'Scope 2.5x B': { name: 'Scope 2.5x B' },
-          'Red Dot A': { name: 'Red Dot A' },
-          'Red Dot B': { name: 'Red Dot B' },
-          'Red Dot C': { name: 'Red Dot C' },
-          'Holo A' : { name: 'Holo A' },
-          'Holo B': { name: 'Holo B' },
-          'Holo C': { name: 'Holo C' },
-          'Holo D': { name: 'Holo D' },
-          'Reflex A': { name: 'Reflex A' },
-          'Reflex B': { name: 'Reflex B' },
-          'Reflex C': { name: 'Reflex C' },
-        }
-      },
-    },
-    secondary: {
-      secondary: {
-        name: 'P9',
-        img: './img/weapon/P9.png',
-        attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
-        },
-        gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
-        },
-        scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
-        }
-      }
-    },
-    gadgets: {
-      gadget1: {
-        name: 'Claymore',
-        img: './img/gadgets/Claymore.png'
-      },
-      gadget2: {
-        name: 'Stun Grenade',
-        img: './img/gadgets/Smoke_Grenade.png'
-      },
-      gadget3: {
-        name: 'Impact EMP Grenade',
-        img: './img/gadgets/Impact_EMP_Grenade.png'
-      }
-    }
-  }
+  
 }
