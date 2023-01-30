@@ -168,34 +168,60 @@ var Attacker = {
         name: 'R4-C',
         img: 'img/weapon/R4-C.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary2: {
         name: 'G36C',
         img: 'img/weapon/G36C.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
     },
@@ -204,34 +230,30 @@ var Attacker = {
         name: '5.7 USG',
         img: 'img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       },
       secondary2: {
         name: 'M45 MEUSOC',
         img: 'img/weapon/M45_MEUSOC.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -327,17 +349,13 @@ var Attacker = {
         name: 'G52-Tactical Shield',
         img: 'img/weapon/G52-Tactical_Shield.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -346,17 +364,15 @@ var Attacker = {
         name: 'P12',
         img: 'img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -371,7 +387,7 @@ var Attacker = {
       }
     }
   },
-  Buck: {
+  Buck: { // TODO: Hier Weitermachen
     name: 'Buck',
     role: 'Attacker',
     img: 'img/Attacker/Buck.png',
@@ -787,51 +803,80 @@ var Attacker = {
         name: 'AK-12',
         img: 'img/weapon/AK-12.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Scope 2.0x': { name: 'Scope 2.0x' },
+          'Scope 2.5x': { name: 'Scope 2.5x' },
+          'Scope 2.5x A': { name: 'Scope 2.5x A' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary2: {
         name: '6P41',
         img: 'img/weapon/6P41.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Scope 2.0x': { name: 'Scope 2.0x' },
+          'Scope 2.5x': { name: 'Scope 2.5x' },
+          'Scope 2.5x A': { name: 'Scope 2.5x A' },
+          'Scope 2.5x B': { name: 'Scope 2.5x B' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary3: {
         name: 'Ballistic Shield',
         img: 'img/weapon/Ballistic_Shield.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -840,34 +885,30 @@ var Attacker = {
         name: 'PMM',
         img: 'img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       },
       secondary2: {
-        name: 'GSh-18',
+        name: 'GSH-18',
         img: 'img/weapon/GSh-18.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -879,6 +920,10 @@ var Attacker = {
       gadget2: {
         name: 'HARD BREACH CHARGE',
         img: 'img/gadgets/SecondaryBreacher.png'
+      },
+      gadget3: {
+        name: 'Stun Grenade',
+        img: 'img/gadgets/Stun_Grenade.png'
       }
     }
   },
@@ -892,17 +937,26 @@ var Attacker = {
         name: 'OTs-03',
         img: 'img/weapon/OTs-03.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       }
     },
@@ -911,34 +965,56 @@ var Attacker = {
         name: 'PMM',
         img: 'img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       },
       secondary2: {
         name: 'Gonne-6',
         img: 'img/weapon/Gonne-6.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+        }
+      },
+      secondary3: {
+        name: 'Bearing9',
+        img: 'img/weapon/Bearing_9.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       }
     },
@@ -950,7 +1026,10 @@ var Attacker = {
       gadget2: {
         name: 'Frag Grenade',
         img: 'img/gadgets/Frag_Grenade.png'
-      }
+      },
+      gadget3: {
+        name: 'Claymore',
+        img: 'img/gadgets/Claymore.png'
     }
   },
   Gridlock: {
@@ -1755,17 +1834,14 @@ var Attacker = {
         name: 'LE ROC SHIELD',
         img: 'img/weapon/LE_ROC_SHIELD.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
-        scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+        scope: {  
+          'none': { name: 'Kein Scope' },
+          'Scope 12.0x': { name: 'Scope 12.0x' },
         }
       }
     },
@@ -1774,34 +1850,28 @@ var Attacker = {
         name: 'P9',
         img: 'img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       },
       secondary2: {
         name: 'LFP586',
         img: 'img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -2084,7 +2154,7 @@ var Attacker = {
         scope: {
           'Placeholder': { name: 'Placeholder' },
           'Placeholder 2': { name: 'Placeholder 2' },
-        }
+        },
       },
       primary2: {
         name: '417',
@@ -2144,34 +2214,53 @@ var Attacker = {
         name: 'L85A2',
         img: 'img/weapon/L85A2.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary2: {
         name: 'M590A1',
         img: 'img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
     },
@@ -2180,17 +2269,15 @@ var Attacker = {
         name: 'P226 Mk 25',
         img: 'img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -2215,51 +2302,86 @@ var Attacker = {
         name: 'AR33',
         img: 'img/weapon/AR33.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Scope 2.0x': { name: 'Scope 2.0x' },
+          'Scope 2.5x': { name: 'Scope 2.5x' },
+          'Scope 2.5x B': { name: 'Scope 2.5x B' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary2: {
         name: 'L85A2',
         img: 'img/weapon/L85A2.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary3: {
         name: 'M590A1',
         img: 'img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       }
     },
@@ -2268,17 +2390,15 @@ var Attacker = {
         name: 'P226 Mk 25',
         img: 'img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
@@ -2303,88 +2423,89 @@ var Attacker = {
         name: 'M1014',
         img: 'img/weapon/M1014.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary2: {
         name: '556xi',
         img: 'img/weapon/556xi.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Scope 2.0x': { name: 'Scope 2.0x' },
+          'Scope 2.5x': { name: 'Scope 2.5x' },
+          'Scope 2.5x B': { name: 'Scope 2.5x B' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
-      primary3: {
-        name: 'M590A1',
-        img: 'img/weapon/M590A1.png',
-        attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
-        },
-        gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
-        },
-        scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
-        }
-      }
     },
     secondary: {
       secondary: {
         name: '5.7 USG',
         img: 'img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       },
+    },
       secondary2: {
         secondary: {
           name: 'M45 MEUSOC',
           img: 'img/weapon/M45_MEUSOC.png',
           attachment: {
-            attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder 2' },
-            attachment: { name: 'Placeholder 3' },
+            attachment: { name: 'Kein Atachment' },
+            attachment: { name: 'Muzzle Brake' },
+            attachment: { name: 'Suppressor' },
           },
           gripe: {
-            'Placeholder': { name: 'Placeholder' },
-            'Placeholder 2': { name: 'Placeholder 2' },
+            'none': { name: 'Kein Grip' },
           },
           scope: {
-            'Placeholder': { name: 'Placeholder' },
-            'Placeholder 2': { name: 'Placeholder 2' },
+            'none': { name: 'Kein Scope' },
           }
         }
       }
@@ -2410,51 +2531,75 @@ var Attacker = {
         name: 'F2',
         img: 'img/weapon/F2.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary2: {
         name: '417',
         img: 'img/weapon/417.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Scope 2.0x': { name: 'Scope 2.0x' },
+          'Scope 2.5x': { name: 'Scope 2.5x' },
+          'Scope 2.5x B': { name: 'Scope 2.5x B' },
+          'Scope 3.0x' : { name: 'Scope 3.0x' },
         }
       },
       primary3: {
         name: 'SG-CQB',
         img: 'img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       }
     },
@@ -2463,17 +2608,15 @@ var Attacker = {
         name: 'P9',
         img: 'img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       },
       secondary2: {
@@ -2481,17 +2624,13 @@ var Attacker = {
           name: 'LFP586',
           img: 'img/weapon/LFP586.png',
           attachment: {
-            attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder 2' },
-            attachment: { name: 'Placeholder 3' },
+            attachment: { name: 'Kein Atachment' },
           },
           gripe: {
-            'Placeholder': { name: 'Placeholder' },
-            'Placeholder 2': { name: 'Placeholder 2' },
+            'none': { name: 'Kein Grip' },
           },
           scope: {
-            'Placeholder': { name: 'Placeholder' },
-            'Placeholder 2': { name: 'Placeholder 2' },
+            'none': { name: 'Kein Scope' },
           }
         }
       }
@@ -2567,29 +2706,27 @@ var Attacker = {
         }
       },
       secondary2: {
-        secondary: {
-          name: 'Gonne-6',
-          img: 'img/weapon/Gonne-6.png',
-          attachment: {
-            attachment: { name: 'Placeholder' },
-            attachment: { name: 'Placeholder 2' },
-            attachment: { name: 'Placeholder 3' },
-          },
-          gripe: {
-            'Placeholder': { name: 'Placeholder' },
-            'Placeholder 2': { name: 'Placeholder 2' },
-          },
-          scope: {
-            'Placeholder': { name: 'Placeholder' },
-            'Placeholder 2': { name: 'Placeholder 2' },
-          }
+        name: 'Gonne-6',
+        img: 'img/weapon/Gonne-6.png',
+        attachment: {
+          attachment: { name: 'Placeholder' },
+          attachment: { name: 'Placeholder 2' },
+          attachment: { name: 'Placeholder 3' },
+        },
+        gripe: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
+        },
+        scope: {
+          'Placeholder': { name: 'Placeholder' },
+          'Placeholder 2': { name: 'Placeholder 2' },
         }
       }
     },
     gadgets: {
       gadget1: {
-        name: 'HARD BREACH CHARGE',
-        img: 'img/gadgets/SecondaryBreacher.png'
+        name: 'Breach Charge',
+        img: 'img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
@@ -2671,5 +2808,6 @@ var Attacker = {
 }
 
 var Defender = {
+
   
 }
