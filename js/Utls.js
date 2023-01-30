@@ -1,4 +1,17 @@
-Scope = {
+attachment = {
+  attachment: { name: 'Kein Atachment' },
+  attachment: { name: 'Flash Hilder' },
+  attachment: { name: 'Compensator' },
+  attachment: { name: 'Muzzle Brake' },
+  attachment: { name: 'Suppressor' },
+  attachment: { name: 'Extended Barrel' },
+}
+gripe = {
+  'none': { name: 'Kein Grip' },
+  'Vertical Grip': { name: 'Vertical Grip' },
+  'Angled Grip': { name: 'Angled Grip' },
+}
+scope = {
   'none': { name: 'Kein Scope' },
   'Scope 1.5x': { name: 'Scope 1.5x' },
   'Scope 2.0x': { name: 'Scope 2.0x' },
@@ -19,19 +32,4 @@ Scope = {
   'Reflex A': { name: 'Reflex A' },
   'Reflex B': { name: 'Reflex B' },
   'Reflex C': { name: 'Reflex C' },
-}
-
-Atachments = {
-  attachment: { name: 'Kein Atachment' },
-  attachment: { name: 'Flash Hilder' },
-  attachment: { name: 'Compensator' },
-  attachment: { name: 'Muzzle Brake' },
-  attachment: { name: 'Suppressor' },
-  attachment: { name: 'Extended Barrel' },
-}
-
-Grips = {
-  'none': { name: 'Kein Grip' },
-  'Vertical Grip': { name: 'Vertical Grip' },
-  'Angled Grip': { name: 'Angled Grip' },
 }
