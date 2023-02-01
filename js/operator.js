@@ -155,17 +155,30 @@ var Attacker = {
         name: 'SMG-11',
         img: './img/weapon/SMG-11.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       secondary2: {
@@ -3706,8 +3719,243 @@ var Defender = {
       }
     }
   },
+  Mute: {
+    name: 'Mute',
+    role: 'Defender',
+    img: './img/Defender/Mute.png',
+    badge: './img/Defender/Badge/Mute-Badge.png',
+    primary: {
+      primary: {
+        name: 'MP5K',
+        img: './img/weapon/MP5K.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' }
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },  
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+        }
+      },
+      primary2: {
+        name: 'M590A1',
+        img: './img/weapon/M590A1.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+        }
+      }
+    },
+    secondary: {
+      secondary: {
+        name: 'P226 Mk 25',
+        img: './img/weapon/P226_Mk_25.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+        }
+      },
+      secondary2: {
+        name: 'SMG-11',
+        img: './img/weapon/SMG-11.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+        }
+      }
+    },
+    gadgets: {
+      gadget1: {
+        name: 'Nitro Cell',
+        img: './img/gadgets/Nitro_Cell.png'
+      },
+      gadget2: {
+        name: 'Bulletproof Camera',
+        img: './img/gadgets/Bulletproof_Camera.png'
+      }
+    }
+  },
+  Castle: {
+    name: 'Castle',
+    role: 'Defender',
+    img: './img/Defender/Castle.png',
+    badge: './img/Defender/Badge/Castle-Badge.png',
+    primary: {
+      primary: {
+        name: 'UMP45',
+        img: './img/weapon/UMP45.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
+        },
+        gripe: {  
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
+        },
+        scope: { 
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+      }
+    },
+    primary2: {
+      name: 'M590A1',
+      img: './img/weapon/M590A1.png',
+      attachment: {
+        attachment: { name: 'Kein Atachment' },
+      },
+      gripe: {
+        'none': { name: 'Kein Grip' },
+      },
+      scope: {
+        'none': { name: 'Kein Scope' },
+        'Red Dot A': { name: 'Red Dot A' },
+        'Red Dot B': { name: 'Red Dot B' },
+        'Red Dot C': { name: 'Red Dot C' },
+        'Holo A' : { name: 'Holo A' },
+        'Holo B': { name: 'Holo B' },
+        'Holo C': { name: 'Holo C' },
+        'Holo D': { name: 'Holo D' },
+        'Reflex A': { name: 'Reflex A' },
+        'Reflex B': { name: 'Reflex B' },
+        'Reflex C': { name: 'Reflex C' },
+      }
+    },
+    secondary: {
+      secondary: {
+        name: '5.7 USG',
+        img: './img/weapon/5-7_USG.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+        }
+      },
+      secondary2: {
+        name: '5.7 USG',
+        img: './img/weapon/5-7_USG.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+        }
+      },
+      secondary3: {
+        name: '5.7 USG',
+        img: './img/weapon/5-7_USG.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+        }
+      },
+    },
+  },
+    gadgets: {
+      gadget1: {
+        name: 'Nitro Cell',
+        img: './img/gadgets/Nitro_Cell.png'
+      },
+      gadget2: {
+        name: 'Bulletproof Camera',
+        img: './img/gadgets/Bulletproof_Camera.png'
+      }
+    }
+  },
+
 }
-  // Mute: {name: 'Mute'},
+
   // Castle: {name: 'Castle'},
   // Pulse: {name: 'Pulse'},
   // Doc: {name: 'Doc'},
