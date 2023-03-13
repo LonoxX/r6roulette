@@ -1339,6 +1339,7 @@ var Attacker = {
       gadget3: {
         name: 'Claymore',
         img: './img/gadgets/Claymore.png'
+      }
     }
   },
   Gridlock: {
@@ -2493,7 +2494,6 @@ var Attacker = {
         },
         scope: {  
           'none': { name: 'Kein Scope' },
-          'Scope 12.0x': { name: 'Scope 12.0x' },
         }
       }
     },
@@ -3247,7 +3247,6 @@ var Attacker = {
           'none': { name: 'Kein Scope' },
         }
       },
-    },
       secondary2: {
         secondary: {
           name: 'M45 MEUSOC',
@@ -3452,6 +3451,19 @@ var Attacker = {
         name: 'MP7',
         img: './img/weapon/MP7.png',
         attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3462,13 +3474,6 @@ var Attacker = {
           'Reflex A': { name: 'Reflex A' },
           'Reflex B': { name: 'Reflex B' },
           'Reflex C': { name: 'Reflex C' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-          'Scope 1.5x': { name: 'Scope 1.5x' },
         }
       }
     },
@@ -3956,7 +3961,7 @@ var Defender = {
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './img/gadgets/Bulletproof_Camera.png'
+        img: './img/gadgets/Bulletproof_camera.png'
       }
     }
   },
@@ -4202,7 +4207,7 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './img/gadgets/Bulletproof_Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       },
       gadget2: {
         name: 'Barbed Wire',
@@ -5749,8 +5754,8 @@ var Defender = {
     badge: './img/defender/Badge/Clash-Badge.png',
     primary: {
       primary: {
-        name: 'CCS Shield',
-        img: './img/weapon/CCS Shield.png',
+        name: 'CCE Shield',
+        img: './img/weapon/CCE_Shield.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
