@@ -1077,7 +1077,7 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'GSH-18',
-        img: './img/weapon/GSh-18.png',
+        img: './img/weapon/GSH_18.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Muzzle Brake' },
@@ -1207,7 +1207,7 @@ var Attacker = {
       },
       secondary2: {
         name: 'GSH-18',
-        img: './img/weapon/GSh-18.png',
+        img: './img/weapon/GSH_18.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Muzzle Brake' },
@@ -2120,7 +2120,7 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Hard Breach Charge',
-        img: './img/gadgets/Hard_Breach_Charge.png'
+        img: './img/gadgets/SecondaryBreacher.png'
       },
       gadget2: {
         name: 'Smoke Grenade',
@@ -3505,7 +3505,7 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Hard Breach Charge',
-        img: './img/gadgets/HARD_BREACH_CHARGE.png'
+        img: './img/gadgets/SecondaryBreacher.png'
       },
       gadget2: {
         name: 'Claymore',
@@ -3673,7 +3673,7 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'Super Shorty',
-        img: './img/weapon/Super Shorty.png',
+        img: './img/weapon/Super_Shorty.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -3713,11 +3713,11 @@ var Attacker = {
     gadget: {
       gadget: {
         name: 'Stun Grenade',
-        img: './img/gadget/Stun Grenade.png',
+        img: './img/gadgets/Stun_Grenade.png',
       },
       gadget2: {
         name: 'Claymore',
-        img: './img/gadget/Claymore.png',
+        img: './img/gadgets/Claymore.png',
       }
     }
   },
@@ -3840,121 +3840,7 @@ var Defender = {
       }
     }
   },
-  Mute: {
-    name: 'Mute',
-    role: 'defender',
-    img: './img/defender/Mute.png',
-    badge: './img/defender/Badge/Mute-Badge.png',
-    primary: {
-      primary: {
-        name: 'MP5K',
-        img: './img/weapon/MP5K.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' }
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },  
-          'Red Dot A': { name: 'Red Dot A' },
-          'Red Dot B': { name: 'Red Dot B' },
-          'Red Dot C': { name: 'Red Dot C' },
-          'Holo A' : { name: 'Holo A' },
-          'Holo B': { name: 'Holo B' },
-          'Holo C': { name: 'Holo C' },
-          'Holo D': { name: 'Holo D' },
-          'Reflex A': { name: 'Reflex A' },
-          'Reflex B': { name: 'Reflex B' },
-          'Reflex C': { name: 'Reflex C' },
-        }
-      },
-      primary2: {
-        name: 'M590A1',
-        img: './img/weapon/M590A1.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-        },
-        scope: {
-          'Red Dot A': { name: 'Red Dot A' },
-          'Red Dot B': { name: 'Red Dot B' },
-          'Red Dot C': { name: 'Red Dot C' },
-          'Holo A' : { name: 'Holo A' },
-          'Holo B': { name: 'Holo B' },
-          'Holo C': { name: 'Holo C' },
-          'Holo D': { name: 'Holo D' },
-          'Reflex A': { name: 'Reflex A' },
-          'Reflex B': { name: 'Reflex B' },
-          'Reflex C': { name: 'Reflex C' },
-        }
-      }
-    },
-    secondary: {
-      secondary: {
-        name: 'P226 Mk 25',
-        img: './img/weapon/P226_Mk_25.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-        }
-      },
-      secondary2: {
-        name: 'SMG-11',
-        img: './img/weapon/SMG-11.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-          'Vertical Grip': { name: 'Vertical Grip' },
-          'Angled Grip': { name: 'Angled Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-          'Red Dot A': { name: 'Red Dot A' },
-          'Red Dot B': { name: 'Red Dot B' },
-          'Red Dot C': { name: 'Red Dot C' },
-          'Holo A' : { name: 'Holo A' },
-          'Holo B': { name: 'Holo B' },
-          'Holo C': { name: 'Holo C' },
-          'Holo D': { name: 'Holo D' },
-          'Reflex A': { name: 'Reflex A' },
-          'Reflex B': { name: 'Reflex B' },
-          'Reflex C': { name: 'Reflex C' },
-        }
-      }
-    },
-    gadgets: {
-      gadget1: {
-        name: 'Nitro Cell',
-        img: './img/gadgets/Nitro_Cell.png'
-      },
-      gadget2: {
-        name: 'Bulletproof Camera',
-        img: './img/gadgets/Bulletproof_Camera.png'
-      }
-    }
-  },
+  
   Castle: {
     name: 'Castle',
     role: 'defender',
@@ -4015,52 +3901,52 @@ var Defender = {
         'Reflex C': { name: 'Reflex C' },
       }
     },
+  },
+  secondary: {
     secondary: {
-      secondary: {
-        name: '5.7 USG',
-        img: './img/weapon/5-7_USG.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-        }
+      name: '5.7 USG',
+      img: './img/weapon/5-7_USG.png',
+      attachment: {
+        attachment: { name: 'Kein Atachment' },  
+        attachment: { name: 'Muzzle Brake' },
+        attachment: { name: 'Suppressor' },
       },
-      secondary2: {
-        name: '5.7 USG',
-        img: './img/weapon/5-7_USG.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-        }
+      gripe: {
+        'none': { name: 'Kein Grip' },
       },
-      secondary3: {
-        name: '5.7 USG',
-        img: './img/weapon/5-7_USG.png',
-        attachment: {
-          attachment: { name: 'Kein Atachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-        },
-        gripe: {
-          'none': { name: 'Kein Grip' },
-        },
-        scope: {
-          'none': { name: 'Kein Scope' },
-        }
+      scope: {
+        'none': { name: 'Kein Scope' },
+      }
+    },
+    secondary2: {
+      name: '5.7 USG',
+      img: './img/weapon/5-7_USG.png',
+      attachment: {
+        attachment: { name: 'Kein Atachment' },  
+        attachment: { name: 'Muzzle Brake' },
+        attachment: { name: 'Suppressor' },
       },
+      gripe: {
+        'none': { name: 'Kein Grip' },
+      },
+      scope: {
+        'none': { name: 'Kein Scope' },
+      }
+    },
+    secondary3: {
+      name: '5.7 USG',
+      img: './img/weapon/5-7_USG.png',
+      attachment: {
+        attachment: { name: 'Kein Atachment' },  
+        attachment: { name: 'Muzzle Brake' },
+        attachment: { name: 'Suppressor' },
+      },
+      gripe: {
+        'none': { name: 'Kein Grip' },
+      },
+      scope: {
+        'none': { name: 'Kein Scope' },
+      }
     },
   },
     gadgets: {
@@ -4134,49 +4020,49 @@ var Defender = {
           'Reflex C': { name: 'Reflex C' },
         }
       },
-      secondary: {
-        secondary: {
-          name: 'M45 MEUSOC',
-          img: './img/weapon/M45_MEUSOC.png',
-          attachment: {
-            attachment: { name: 'Kein Atachment' },  
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
-          },
-          gripe: {
-            'none': { name: 'Kein Grip' },
-          },
-          scope: {
-            'none': { name: 'Kein Scope' },
-          }
-        },
-        secondary2: {
-          name: '5.7 USG',
-          img: './img/weapon/5-7_USG.png',
-          attachment: {
-            attachment: { name: 'Kein Atachment' },  
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
-          },
-          gripe: {
-            'none': { name: 'Kein Grip' },
-          },
-          scope: {
-            'none': { name: 'Kein Scope' },
-          }
-        },
-      },
-      gadgets: {
-        gadget1: {
-          name: 'Barbed Wire',
-          img: './img/gadgets/Barbed_Wire.png'
-        },
-        gadget2: {
-          name: 'Nitro Cell',
-          img: './img/gadgets/Nitro_Cell.png'
-        }
-      }
     },
+    secondary: {
+      secondary: {
+        name: 'M45 MEUSOC',
+        img: './img/weapon/M45_MEUSOC.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+        }
+      },
+      secondary2: {
+        name: '5.7 USG',
+        img: './img/weapon/5-7_USG.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+        }
+      },
+    },
+    gadgets: {
+      gadget1: {
+        name: 'Barbed Wire',
+        img: './img/gadgets/Barbed_Wire.png'
+      },
+      gadget2: {
+        name: 'Nitro Cell',
+        img: './img/gadgets/Nitro_Cell.png'
+      }
+    }
   },
   Doc: {
     name: 'Doc',
@@ -4301,7 +4187,7 @@ var Defender = {
       },
       secondary3: {
         name: 'Bailiff 410',
-        img: './img/weapon/Bailiff-410.png',
+        img: './img/weapon/Bailiff_410.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -4316,11 +4202,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof_Camera.png',
+        img: './img/gadgets/Bulletproof_Camera.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed_Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       }
     }
   },
@@ -4449,11 +4335,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Proximity Alarm',
-        img: './img/gadget/Proximity Alarm.png',
+        img: './img/gadgets/Proximity_alarm.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
     }
   },
@@ -4556,11 +4442,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -4686,11 +4572,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './img/gadget/Deployable Shield.png',
+        img: './img/gadgets/Deployable_Shield.png',
       }
     },
   },
@@ -4772,11 +4658,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       }
     }
   },
@@ -4856,11 +4742,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -4971,11 +4857,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './img/gadget/Deployable Shield.png',
+        img: './img/gadgets/Deployable_Shield.png',
       }
     }
   },
@@ -5058,11 +4944,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -5142,11 +5028,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Proximity Alarm',
-        img: './img/gadget/Proximity Alarm.png',
+        img: './img/gadgets/Proximity_alarm.png',
       }
     }
   },
@@ -5254,11 +5140,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './img/gadget/Deployable Shield.png',
+        img: './img/gadgets/Deployable_Shield.png',
       }
     }
   },
@@ -5342,11 +5228,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Proximity Alarm',
-        img: './img/gadget/Proximity Alarm.png',
+        img: './img/gadgets/Proximity_alarm.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -5430,11 +5316,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       }
     }
   },
@@ -5521,11 +5407,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './img/gadget/Deployable Shield.png',
+        img: './img/gadgets/Deployable_Shield.png',
       }
     }
   },
@@ -5599,7 +5485,7 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'C75 Auto',
-        img: './img/weapon/C75 Auto.png',
+        img: './img/weapon/C75_Auto.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Suppressor' },
@@ -5639,11 +5525,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       }
     }
   },
@@ -5713,7 +5599,7 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bailiff 410',
-        img: './img/weapon/Bailiff 410.png',
+        img: './img/weapon/Bailiff_410.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -5726,7 +5612,7 @@ var Defender = {
       },
       secondary2: {
         name: 'Keratos .357',
-        img: './img/weapon/Keratos .357.png',
+        img: './img/weapon/Keratos_357.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Muzzle Brake' },
@@ -5743,11 +5629,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       }
     }
   },
@@ -5759,7 +5645,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'Mx4 Storm',
-        img: './img/weapon/Mx4 Storm.png',
+        img: './img/weapon/Mx4_Storm.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
@@ -5818,7 +5704,7 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bailiff 410',
-        img: './img/weapon/Bailiff 410.png',
+        img: './img/weapon/Bailiff_410.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -5831,7 +5717,7 @@ var Defender = {
       },
       secondary2: {
         name: 'Keratos .357',
-        img: './img/weapon/Keratos .357.png',
+        img: './img/weapon/Keratos_357.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Muzzle Brake' },
@@ -5848,11 +5734,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './img/gadget/Deployable Shield.png',
+        img: './img/gadgets/Deployable_Shield.png',
       }
     }
   },
@@ -5879,7 +5765,7 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Super Shorty',
-        img: './img/weapon/Super Shorty.png',
+        img: './img/weapon/Super_Shorty.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -5946,11 +5832,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       }
     }
   },
@@ -5962,7 +5848,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'Aug A3',
-        img: './img/weapon/Aug A3.png',
+        img: './img/weapon/AUG_A3.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
@@ -6049,11 +5935,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       }
     }
   },
@@ -6065,7 +5951,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'Commando 9',
-        img: './img/weapon/Commando 9.png',
+        img: './img/weapon/Commando_9.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
@@ -6095,7 +5981,7 @@ var Defender = {
       },
       primary2: {
         name: 'P10 RONI',
-        img: './img/weapon/P10 RONI.png',
+        img: './img/weapon/P10Roni.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
@@ -6145,11 +6031,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -6256,11 +6142,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Deployable Shield',
-        img: './img/gadget/Deployable Shield.png',
+        img: './img/gadgets/Deployable_Shield.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -6350,118 +6236,116 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Proximity Alarm',
-        img: './img/gadget/Proximity Alarm.png',
+        img: './img/gadgets/Proximity_alarm.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }   
   },
   Warmai: {
-    name: 'Warmai',
+    name: 'Wamai',
     role: 'defender',
-    img: './img/defender/Warmai.png',
-    badge: './img/defender/Badge/Warmai-Badge.png',
+    img: './img/defender/Wamai.png',
+    badge: './img/defender/Badge/Wamai-Badge.png',
     primary: {
       primary: {
-        primary: {
-          name: 'AUG A2',
-          img: './img/weapon/AUG_A2.png',
-          attachment: {
-            attachment: { name: 'Kein Atachment' },
-            attachment: { name: 'Flash Hilder' },
-            attachment: { name: 'Compensator' },
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
-          },
-          gripe: {
-            'none': { name: 'Kein Grip' },
-          },
-          scope: {
-            'none': { name: 'Kein Scope' },
-            'Red Dot A': { name: 'Red Dot A' },
-            'Red Dot B': { name: 'Red Dot B' },
-            'Red Dot C': { name: 'Red Dot C' },
-            'Holo A' : { name: 'Holo A' },
-            'Holo B': { name: 'Holo B' },
-            'Holo C': { name: 'Holo C' },
-            'Holo D': { name: 'Holo D' },
-            'Reflex A': { name: 'Reflex A' },
-            'Reflex B': { name: 'Reflex B' },
-            'Reflex C': { name: 'Reflex C' },
-          }
+        name: 'AUG A2',
+        img: './img/weapon/AUG_A2.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
-        primary2: {
-          name: 'MP5K',
-          img: './img/weapon/MP5K.png',
-          attachment: {
-            attachment: { name: 'Kein Atachment' },
-            attachment: { name: 'Flash Hilder' },
-            attachment: { name: 'Compensator' },
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
-            attachment: { name: 'Extended Barrel' }
-          },
-          gripe: {
-            'none': { name: 'Kein Grip' },
-          },
-          scope: {
-            'none': { name: 'Kein Scope' },  
-            'Red Dot A': { name: 'Red Dot A' },
-            'Red Dot B': { name: 'Red Dot B' },
-            'Red Dot C': { name: 'Red Dot C' },
-            'Holo A' : { name: 'Holo A' },
-            'Holo B': { name: 'Holo B' },
-            'Holo C': { name: 'Holo C' },
-            'Holo D': { name: 'Holo D' },
-            'Reflex A': { name: 'Reflex A' },
-            'Reflex B': { name: 'Reflex B' },
-            'Reflex C': { name: 'Reflex C' },
-          }
+        gripe: {
+          'none': { name: 'Kein Grip' },
         },
+        scope: {
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+        }
       },
+      primary2: {
+        name: 'MP5K',
+        img: './img/weapon/MP5K.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' }
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },  
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+        }
+      },
+    },
+    secondary: {
       secondary: {
-        secondary: {
-          name: 'Keratos .357',
-          img: './img/weapon/Keratos .357.png',
-          attachment: {
-            attachment: { name: 'Kein Atachment' },
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
-          },
-          gripe: {
-            'none': { name: 'Kein Grip' },
-          },
-          scope: {
-            'none': { name: 'Kein Scope' },
-          },
+        name: 'Keratos .357',
+        img: './img/weapon/Keratos_357.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
-        secondary2: {
-          name: 'P12',
-          img: './img/weapon/P12.png',
-          attachment: {
-            attachment: { name: 'Kein Atachment' },
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
-          },
-          gripe: {
-            'none': { name: 'Kein Grip' },
-          },
-          scope: {
-            'none': { name: 'Kein Scope' },
-          }
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+        },
+      },
+      secondary2: {
+        name: 'P12',
+        img: './img/weapon/P12.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
         }
       },
-      gadgets: {
-        gadget1: {
-          name: 'Impact Grenade',
-          img: './img/gadget/Impact Grenade.png',
-        },
-        gadget2: {
-          name: 'Proximity Alarm',
-          img: './img/gadget/Proximity Alarm.png',
-        }
+    },
+    gadgets: {
+      gadget1: {
+        name: 'Impact Grenade',
+        img: './img/gadgets/Impact_Grenade.png',
+      },
+      gadget2: {
+        name: 'Proximity Alarm',
+        img: './img/gadgets/Proximity_alarm.png',
       }
     }
   },
@@ -6529,7 +6413,7 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bailiff 410',
-        img: './img/weapon/Bailiff-410.png',
+        img: './img/weapon/Bailiff_410.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -6559,19 +6443,19 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Proximity Alarm',
-        img: './img/gadget/Proximity Alarm.png',
+        img: './img/gadgets/Proximity_alarm.png',
       }
     }
   },
-  Milusi: {
-    name: 'Milusi',
+  Melusi: {
+    name: 'Melusi',
     role: 'defender',
-    img: './img/defender/Milusi.png',
-    badge: './img/defender/Badge/Milusi-Badge.png',
+    img: './img/defender/Melusi.png',
+    badge: './img/defender/Badge/Melusi-Badge.png',
     primary: {
       primary: {
         name: 'MP5',
@@ -6646,11 +6530,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       }
     }
   },
@@ -6662,7 +6546,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'P10 RONI',
-        img: './img/weapon/P10 RONI.png',
+        img: './img/weapon/P10Roni.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
@@ -6740,11 +6624,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       }
     }
   },
@@ -6858,11 +6742,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './img/gadget/Nitro Cell.png',
+        img: './img/gadgets/Nitro_Cell.png',
       }
     }
  
@@ -6959,11 +6843,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Deployable Shield',
-        img: './img/gadget/Deployable Shield.png',
+        img: './img/gadgets/Deployable_Shield.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       }
     }
   },
@@ -7052,11 +6936,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './img/gadget/Barbed Wire.png',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       }
     }
   },
@@ -7122,46 +7006,44 @@ var Defender = {
     },
     secondary: {  
       secondary: {
-        secondary: {
-          name: 'SMG-11',
-          img: './img/weapon/SMG-11.png',
-          attachment: {
-            attachment: { name: 'Kein Atachment' },
-            attachment: { name: 'Flash Hilder' },
-            attachment: { name: 'Compensator' },
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
-            attachment: { name: 'Extended Barrel' },
-          },
-          gripe: {
-            'none': { name: 'Kein Grip' },
-            'Vertical Grip': { name: 'Vertical Grip' },
-            'Angled Grip': { name: 'Angled Grip' },
-          },
-          scope: {
-            'none': { name: 'Kein Scope' },
-            'Red Dot A': { name: 'Red Dot A' },
-            'Red Dot B': { name: 'Red Dot B' },
-            'Red Dot C': { name: 'Red Dot C' },
-            'Holo A' : { name: 'Holo A' },
-            'Holo B': { name: 'Holo B' },
-            'Holo C': { name: 'Holo C' },
-            'Holo D': { name: 'Holo D' },
-            'Reflex A': { name: 'Reflex A' },
-            'Reflex B': { name: 'Reflex B' },
-            'Reflex C': { name: 'Reflex C' },
-          }
+        name: 'SMG-11',
+        img: './img/weapon/SMG-11.png',
+        attachment: {
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
+        },
+        gripe: {
+          'none': { name: 'Kein Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
+        },
+        scope: {
+          'none': { name: 'Kein Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       }
     },
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './img/gadget/Impact Grenade.png',
+        img: './img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './img/gadget/Bulletproof Camera.png',
+        img: './img/gadgets/Bulletproof_camera.png',
       }
     }
   }
