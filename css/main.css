@@ -173,4 +173,23 @@ body {
     }
 }
 
-
+.footer {
+    z-index: 1;
+    position: absolute;
+    display: inline;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 0.5% 0;
+    font-family: 'Abel', sans-serif;  
+    color: #fff;
+}
+   
+  .right {
+    display: inline;
+    padding: 0 1.5%;
+    font-size: 14px;
+    margin: auto;
+    text-align: right;
+    float: right;
+  }
