@@ -83,20 +83,21 @@ function randomOperator(operator) {
     operator_gadgets_img.src = randomGadget.img;
 
     R6img.onerror = function() {
-        this.src = "https://pic.pnnet.dev/300x500";
+        this.src = "https://via.placeholder.com/300x500?text=" + chosenName;
     };
-
+    
     R6badge.onerror = function() {
-        this.src = "https://pic.pnnet.dev/201x201";
+        this.src = "https://pic.pnnet.dev/201x201?text=" + chosenName;
     };
-
+    
     operator_weapons_img.onerror = function() {
-        this.src = "https://pic.pnnet.dev/290x100";
+        this.src = "https://pic.pnnet.dev/290x100?text=" + operator_weapons.textContent;
     };
     operator_weapons2_img.onerror = function() {
-        this.src = "https://pic.pnnet.dev/290x100";
+        this.src = "https://pic.pnnet.dev/290x100?text=" + operator_weapons2.textContent;
     }
     operator_gadgets_img.onerror = function() {
-        this.src = "https://pic.pnnet.dev/290x100";
+        this.src = "https://pic.pnnet.dev/290x100?text=" + operator_gadgets.textContent;
     }
+    
 }
