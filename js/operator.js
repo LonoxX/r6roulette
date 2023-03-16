@@ -412,20 +412,18 @@ var Attacker = {
     },
     secondary: {
       secondary: {
-        name: 'P9',
-        img: './img/weapon/P9.png',
+        name: 'D-50',
+        img: './img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'Kein Scope' },
         }
       }
     },
