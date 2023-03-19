@@ -4677,7 +4677,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'Mp7',
-        img: './img/weapon/Mp7.png',
+        img: './img/weapon/MP7.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
