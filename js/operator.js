@@ -2412,7 +2412,7 @@ var Attacker = {
       },
       primary2: {
         name: 'M4 GS',
-        img: './img/weapon/M4_GS.png',
+        img: './img/weapon/M4.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
@@ -2573,7 +2573,7 @@ var Attacker = {
       },
       primary2: {
         name: 'SIX12 SD',
-        img: './img/weapon/Six12.png',
+        img: './img/weapon/SIX12_SD.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -2638,7 +2638,7 @@ var Attacker = {
       },
       gadget3: {
         name: 'Impact EMP Grenade',
-        img: './img/gadgets/Impact_Emp_Grenade.png'
+        img: './img/gadgets/Impact_EMP_Grenade.png'
       },
     }
   },
@@ -5047,7 +5047,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'Supernova',
-        img: './img/weapon/Supernova.png',
+        img: './img/weapon/SuperNova.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Suppressor' },
@@ -5071,7 +5071,7 @@ var Defender = {
       },
       primary2: {
         name: 'Mp5SD',
-        img: './img/weapon/Mp5SD.png',
+        img: './img/weapon/MP5SD.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -5247,7 +5247,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'Six12 SD',
-        img: './img/weapon/Six12_SD.png',
+        img: './img/weapon/SIX12.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
         },
@@ -5364,7 +5364,7 @@ var Defender = {
       },
       primary2: {
         name: 'Fo-12',
-        img: './img/weapon/Fo-12.png',
+        img: './img/weapon/FO-12.png',
         attachment: {
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Suppressor' },
@@ -6762,7 +6762,7 @@ var Defender = {
     primary: {
       primary: {
         name: 'UZK50GI',
-        img: './img/weapon/UZK50GI.png',
+        img: './img/weapon/uzk50gi.png',
         attachment: {  
           attachment: { name: 'Kein Atachment' },
           attachment: { name: 'Flash Hilder' },
