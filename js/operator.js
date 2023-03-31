@@ -3882,8 +3882,8 @@ var Defender = {
       }
     },
     primary2: {
-      name: 'M590A1',
-      img: './img/weapon/M590A1.png',
+      name: 'M1014',
+      img: './img/weapon/M1014.png',
       attachment: {
         attachment: { name: 'Kein Atachment' },
       },

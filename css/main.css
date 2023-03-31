@@ -141,7 +141,7 @@ body {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .operatorBox {
         position: relative;
         top: auto;
@@ -151,7 +151,7 @@ body {
         margin-right: auto;
         text-align: center;
     }
-    .operator-weapon, .operator-secondweapon, .operator-gadget {
+    .operator-weapon, .operator-secondweapon, .operator-gadget ,.operator-grip{
         position: relative;
         top: auto;
         left: auto;
