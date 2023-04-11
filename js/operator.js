@@ -4370,7 +4370,6 @@ var Defender = {
         },
         scope: {
           'none': { name: 'Kein Scope' },
-          'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4499,6 +4498,8 @@ var Defender = {
         },
         scope: {
           'none': { name: 'Kein Scope' },
+          'Scope 1.5x': { name: 'Scope 1.5x' },
+          'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6296,6 +6297,7 @@ var Defender = {
         },
         scope: {
           'none': { name: 'Kein Scope' },  
+          'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6376,7 +6378,6 @@ var Defender = {
         },
         scope: {
           'none': { name: 'Kein Scope' },
-          'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
