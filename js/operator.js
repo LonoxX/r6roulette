@@ -847,7 +847,7 @@ var Attacker = {
         name: 'Impact EMP Grenade',
         img: './img/gadgets/Impact_EMP_Grenade.png'
       }
-    },
+    }
   },
   Finka: {
     name: 'Finka',
@@ -1481,7 +1481,7 @@ var Attacker = {
         name: 'Impact EMP Grenade',
         img: './img/gadgets/Impact_EMP_Grenade.png'
       }
-    },
+    }
   },
   Grim: {
     name: 'Grim',
@@ -2639,7 +2639,7 @@ var Attacker = {
       gadget3: {
         name: 'Impact EMP Grenade',
         img: './img/gadgets/Impact_EMP_Grenade.png'
-      },
+      }
     }
   },
   Nomad: {
@@ -4593,8 +4593,8 @@ var Defender = {
       gadget3: {
         name: 'Proximity Alarm',
         img: './img/gadgets/Proximity_alarm.png',
-      },
-    },
+      }
+    }
   },
   Jager: {
     name: 'Jager',
@@ -5869,7 +5869,7 @@ var Defender = {
       gadget3: {
         name: 'Deployable Shield',
           img: './img/gadgets/Deployable_Shield.png'
-      },
+      }
     }
   },
   Kaid: {
@@ -6285,7 +6285,8 @@ var Defender = {
       gadget3: {
         name: 'Impact Grenade',
         img: './img/gadgets/Impact_Grenade.png',
-    }   
+      }
+    }
   },
   Warmai: {
     name: 'Wamai',
