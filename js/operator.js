@@ -3838,8 +3838,8 @@ var Defender = {
         img: './img/gadgets/Barbed_Wire.png'
       },
       gadget2: {
-        name: 'Deployable Shield',
-        img: './img/gadgets/Deployable_Shield.png'
+        name: 'Proximity Alarm',
+        img: './img/gadgets/Proximity_Alarm.png'
       }
     }
   },
@@ -4058,12 +4058,16 @@ var Defender = {
     },
     gadgets: {
       gadget1: {
-        name: 'Barbed Wire',
-        img: './img/gadgets/Barbed_Wire.png'
+        name: 'Deployable Shield',
+        img: './img/gadgets/Deployable_Shield.png'
       },
       gadget2: {
         name: 'Nitro Cell',
         img: './img/gadgets/Nitro_Cell.png'
+      },
+      gadget3: {
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -4344,6 +4348,10 @@ var Defender = {
         name: 'Impact Grenade',
         img: './img/gadgets/Impact_Grenade.png',
       },
+      gadget3: {
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png'
+      }
     }
   },
   Kapkan: {
@@ -4581,7 +4589,11 @@ var Defender = {
       gadget2: {
         name: 'Deployable Shield',
         img: './img/gadgets/Deployable_Shield.png',
-      }
+      },
+      gadget3: {
+        name: 'Proximity Alarm',
+        img: './img/gadgets/Proximity_alarm.png',
+      },
     },
   },
   Jager: {
@@ -4661,8 +4673,8 @@ var Defender = {
     },
     gadgets: {
       gadget1: {
-        name: 'Bulletproof Camera',
-        img: './img/gadgets/Bulletproof_camera.png',
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png',
       },
       gadget2: {
         name: 'Barbed Wire',
@@ -5037,6 +5049,10 @@ var Defender = {
       gadget2: {
         name: 'Proximity Alarm',
         img: './img/gadgets/Proximity_alarm.png',
+      },
+      gadget3: {
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -5416,6 +5432,10 @@ var Defender = {
       gadget2: {
         name: 'Deployable Shield',
         img: './img/gadgets/Deployable_Shield.png',
+      },
+      gadget3: {
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -5638,6 +5658,10 @@ var Defender = {
       gadget2: {
         name: 'Impact Grenade',
         img: './img/gadgets/Impact_Grenade.png',
+      },
+      gadget3: {
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -5737,11 +5761,11 @@ var Defender = {
     },
     gadgets: {
       gadget1: {
-        name: 'Impact Grenade',
-        img: './img/gadgets/Impact_Grenade.png',
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png',
       },
       gadget2: {
-        name: 'Deployable Shield',
+        name: 'Proximity Alarm',
         img: './img/gadgets/Deployable_Shield.png',
       }
     }
@@ -5841,7 +5865,11 @@ var Defender = {
       gadget2: {
         name: 'Impact Grenade',
         img: './img/gadgets/Impact_Grenade.png',
-      }
+      },
+      gadget3: {
+        name: 'Deployable Shield',
+          img: './img/gadgets/Deployable_Shield.png'
+      },
     }
   },
   Kaid: {
@@ -5944,6 +5972,10 @@ var Defender = {
       gadget2: {
         name: 'Barbed Wire',
         img: './img/gadgets/Barbed_Wire.png',
+      },
+      gadget3: {
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -6151,6 +6183,10 @@ var Defender = {
       gadget2: {
         name: 'Nitro Cell',
         img: './img/gadgets/Nitro_Cell.png',
+      },
+      gadget3: {
+        name: 'Observation Blocker',
+        img: './img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -6243,9 +6279,12 @@ var Defender = {
         img: './img/gadgets/Proximity_alarm.png',
       },
       gadget2: {
-        name: 'Nitro Cell',
-        img: './img/gadgets/Nitro_Cell.png',
-      }
+        name: 'Bulletproof Camera.',
+        img: './img/gadgets/Bulletproof_Camera.png',
+      },
+      gadget3: {
+        name: 'Impact Grenade',
+        img: './img/gadgets/Impact_Grenade.png',
     }   
   },
   Warmai: {
@@ -6745,12 +6784,12 @@ var Defender = {
     },
     gadgets: {
       gadget1: {
-        name: 'Impact Grenade',
-        img: './img/gadgets/Impact_Grenade.png',
+        name: 'Barbed Wire',
+        img: './img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
-        name: 'Nitro Cell',
-        img: './img/gadgets/Nitro_Cell.png',
+        name: 'Bulletproof Camera',
+        img: './img/gadgets/Bulletproof_camera.png',
       }
     }
  
