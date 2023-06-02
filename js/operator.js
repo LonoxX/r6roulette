@@ -9,19 +9,19 @@ var Attacker = {
         name: 'AK-12',
         img: './img/weapon/AK-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -39,13 +39,13 @@ var Attacker = {
         name: 'M1014',
         img: './img/weapon/M1014.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -64,15 +64,15 @@ var Attacker = {
         name: 'P9',
         img: './img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -97,19 +97,19 @@ var Attacker = {
         name: 'G8A1',
         img: './img/weapon/G8A1.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -134,7 +134,7 @@ var Attacker = {
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -155,7 +155,7 @@ var Attacker = {
         name: 'SMG-11',
         img: './img/weapon/SMG-11.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -163,12 +163,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -185,13 +185,13 @@ var Attacker = {
         name: 'ITA12S',
         img: './img/weapon/ITA12S.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -208,13 +208,13 @@ var Attacker = {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -239,7 +239,7 @@ var Attacker = {
         name: 'R4-C',
         img: './img/weapon/R4-C.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -247,7 +247,7 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -268,7 +268,7 @@ var Attacker = {
         name: 'G36C',
         img: './img/weapon/G36C.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -276,12 +276,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -301,30 +301,30 @@ var Attacker = {
         name: '5.7 USG',
         img: './img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'No Attachment' },  
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'M45 MEUSOC',
         img: './img/weapon/M45_MEUSOC.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'No Attachment' },  
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -349,7 +349,7 @@ var Attacker = {
         name: 'Mk17 CQB',
         img: './img/weapon/Mk17_CQB.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -357,12 +357,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -381,17 +381,17 @@ var Attacker = {
         name: 'SR-25',
         img: './img/weapon/SR-25.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },        
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -415,15 +415,15 @@ var Attacker = {
         name: 'D-50',
         img: './img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -452,13 +452,13 @@ var Attacker = {
         name: 'G52-Tactical Shield',
         img: './img/weapon/G52-Tactical_Shield.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -467,15 +467,15 @@ var Attacker = {
         name: 'P12',
         img: './img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -500,7 +500,7 @@ var Attacker = {
         name: 'C8-SFW',
         img: './img/weapon/C8-SFW.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -508,10 +508,10 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -529,15 +529,15 @@ var Attacker = {
         name: 'CAMRS',
         img: './img/weapon/CAMRS.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -562,15 +562,15 @@ var Attacker = {
         name: 'Mk1 9mm',
         img: './img/weapon/Mk1_9mm.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -578,13 +578,13 @@ var Attacker = {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-        attachment: { name: 'Kein Atachment' },
+        attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
     },
     gadgets: {
@@ -608,7 +608,7 @@ var Attacker = {
         name: 'PARA-308',
         img: './img/weapon/PARA-308.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -616,12 +616,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -640,18 +640,18 @@ var Attacker = {
         name: 'M249',
         img: './img/weapon/M249.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -675,28 +675,28 @@ var Attacker = {
         name: 'PRB92',
         img: './img/weapon/PRB92.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -721,17 +721,17 @@ var Attacker = {
         name: 'Mk 14 EBR',
         img: './img/weapon/Mk_14_EBR.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -754,15 +754,15 @@ var Attacker = {
         name: 'BOSG.12.2',
         img: './img/weapon/BOSG-12-2.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -786,10 +786,10 @@ var Attacker = {
         name: 'SMG-12',
         img: './img/weapon/SMG-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -810,27 +810,27 @@ var Attacker = {
         name: 'C75 Auto',
         img: './img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -859,7 +859,7 @@ var Attacker = {
         name: 'Spear .308',
         img: './img/weapon/Spear_308.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -867,12 +867,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -891,19 +891,19 @@ var Attacker = {
         name: '6P41',
         img: './img/weapon/6P41.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -922,16 +922,16 @@ var Attacker = {
         name: 'SASG-12',
         img: './img/weapon/SASG-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -950,43 +950,43 @@ var Attacker = {
         name: 'PMM',
         img: './img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'GSH 18',
         img: './img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -1011,19 +1011,19 @@ var Attacker = {
         name: 'AR33',
         img: './img/weapon/AR33.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -1042,17 +1042,17 @@ var Attacker = {
         name: 'SR-25',
         img: './img/weapon/SR-25.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },        
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -1077,15 +1077,15 @@ var Attacker = {
         name: 'GSH-18',
         img: './img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -1110,19 +1110,19 @@ var Attacker = {
         name: 'AK-12',
         img: './img/weapon/AK-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -1143,19 +1143,19 @@ var Attacker = {
         name: '6P41',
         img: './img/weapon/6P41.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -1177,13 +1177,13 @@ var Attacker = {
         name: 'Ballistic Shield',
         img: './img/weapon/Ballistic_Shield.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -1192,30 +1192,30 @@ var Attacker = {
         name: 'PMM',
         img: './img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'GSH-18',
         img: './img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -1244,12 +1244,12 @@ var Attacker = {
         name: 'OTs-03',
         img: './img/weapon/OTs-03.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'No Attachment' },  
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -1272,35 +1272,35 @@ var Attacker = {
         name: 'PMM',
         img: './img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'Bearing9',
         img: './img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -1308,10 +1308,10 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -1350,7 +1350,7 @@ var Attacker = {
         name: 'F90',
         img: './img/weapon/F90.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -1358,12 +1358,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -1385,18 +1385,18 @@ var Attacker = {
         name: 'M249 SAW',
         img: './img/weapon/M249_SAW.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {  
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -1420,13 +1420,13 @@ var Attacker = {
         name: 'Super Shorty',
         img: './img/weapon/Super_Shorty.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -1443,28 +1443,28 @@ var Attacker = {
         name: 'SDP 9mm',
         img: './img/weapon/SDP_9mm.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -1493,7 +1493,7 @@ var Attacker = {
         name: '552 Commando',
         img: './img/weapon/552_Commando.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -1501,12 +1501,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
         }
@@ -1515,14 +1515,14 @@ var Attacker = {
         name: 'SG-CQB',
         img: './img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -1541,15 +1541,15 @@ var Attacker = {
         name: 'P229',
         img: './img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -1574,19 +1574,19 @@ var Attacker = {
         name: 'Type-89',
         img: './img/weapon/Type-89.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x A': { name: 'Scope 2.5x A' },
@@ -1610,7 +1610,7 @@ var Attacker = {
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -1631,22 +1631,22 @@ var Attacker = {
         name: 'P229',
         img: './img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'Bearing 9',
         img: './img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -1654,7 +1654,7 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -1691,19 +1691,19 @@ var Attacker = {
         name: 'ARX200',
         img: './img/weapon/ARX200.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -1720,7 +1720,7 @@ var Attacker = {
         name: 'G36C',
         img: './img/weapon/G36C.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -1728,12 +1728,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -1753,15 +1753,15 @@ var Attacker = {
         name: 'Mk1 9mm',
         img: './img/weapon/Mk1_9mm.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -1803,7 +1803,7 @@ var Attacker = {
         name: '552 Commando',
         img: './img/weapon/552_Commando.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -1811,12 +1811,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
         }
@@ -1825,14 +1825,14 @@ var Attacker = {
         name: 'SG-CQB',
         img: './img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -1903,19 +1903,19 @@ var Attacker = {
         name: 'C7E',
         img: './img/weapon/C7E.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -1934,7 +1934,7 @@ var Attacker = {
         name: 'PDW9',
         img: './img/weapon/PDW9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -1942,12 +1942,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -1965,10 +1965,10 @@ var Attacker = {
         name: 'ITA12L',
         img: './img/weapon/ITA12L.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -1989,28 +1989,28 @@ var Attacker = {
         name: 'USP40',
         img: './img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'ITA12S',
         img: './img/weapon/ITA12S.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -2045,19 +2045,19 @@ var Attacker = {
         name: 'T-95 LSW',
         img: './img/weapon/T-95_LSW.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2079,13 +2079,13 @@ var Attacker = {
         name: 'Six12',
         img: './img/weapon/Six12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -2104,15 +2104,15 @@ var Attacker = {
         name: 'Q-929',
         img: './img/weapon/Q-929.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2140,7 +2140,7 @@ var Attacker = {
           attachment: { name: 'Extended Barrel ;)' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'none': { name: 'Reflex C ;)' },
@@ -2152,7 +2152,7 @@ var Attacker = {
         name: 'SPSMG9',
         img: './img/weapon/SPSMG9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -2160,7 +2160,7 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -2179,29 +2179,29 @@ var Attacker = {
         name: 'C75 Auto',
         img: './img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'P226 Mk 25',
         img: './img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2226,19 +2226,19 @@ var Attacker = {
         name: 'V308',
         img: './img/weapon/V308.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2260,17 +2260,17 @@ var Attacker = {
         name: '417',
         img: './img/weapon/417.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2292,14 +2292,14 @@ var Attacker = {
         name: 'SG-CQB',
         img: './img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -2318,41 +2318,41 @@ var Attacker = {
         name: 'LFP586',
         img: './img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'P9',
         img: './img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -2381,17 +2381,17 @@ var Attacker = {
         name: 'AR-15.50',
         img: './img/weapon/AR-15-50.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2414,7 +2414,7 @@ var Attacker = {
         name: 'M4 GS',
         img: './img/weapon/M4.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -2422,12 +2422,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2452,15 +2452,15 @@ var Attacker = {
         name: '1911 TACOPS',
         img: './img/weapon/1911_TACOPS.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2485,13 +2485,13 @@ var Attacker = {
         name: 'LE ROC SHIELD',
         img: './img/weapon/LE_ROC_SHIELD.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {  
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2500,28 +2500,28 @@ var Attacker = {
         name: 'P9',
         img: './img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'LFP586',
         img: './img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2546,7 +2546,7 @@ var Attacker = {
         name: 'FMG-9',
         img: './img/weapon/FMG-9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -2554,10 +2554,10 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -2575,13 +2575,13 @@ var Attacker = {
         name: 'SIX12 SD',
         img: './img/weapon/SIX12_SD.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -2600,30 +2600,30 @@ var Attacker = {
         name: '5.7 USG',
         img: './img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'D-50',
         img: './img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2652,17 +2652,17 @@ var Attacker = {
         name: 'AK-74M',
         img: './img/weapon/AK-74M.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {  
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2684,19 +2684,19 @@ var Attacker = {
         name: 'ARX200',
         img: './img/weapon/ARX200.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -2717,28 +2717,28 @@ var Attacker = {
         name: '.44 MAG SEMI-AUTO',
         img: './img/weapon/44_MAG_SEMI-AUTO.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'PRB92',
         img: './img/weapon/PRB92.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2763,19 +2763,19 @@ var Attacker = {
         name: '556xi',
         img: './img/weapon/556xi.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2796,7 +2796,7 @@ var Attacker = {
        name: 'PDW9',
         img: './img/weapon/PDW9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -2804,12 +2804,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -2829,15 +2829,15 @@ var Attacker = {
         name: 'PMM',
         img: './img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2866,7 +2866,7 @@ var Attacker = {
         name: 'POF9',
         img: './img/weapon/POF9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -2874,12 +2874,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2901,17 +2901,17 @@ var Attacker = {
         name: '417',
         img: './img/weapon/417.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -2935,15 +2935,15 @@ var Attacker = {
         name: 'SDP 9mm',
         img: './img/weapon/SDP_9mm.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -2968,19 +2968,19 @@ var Attacker = {
         name: 'L85A2',
         img: './img/weapon/L85A2.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -2998,13 +2998,13 @@ var Attacker = {
         name: 'M590A1',
         img: './img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3023,15 +3023,15 @@ var Attacker = {
         name: 'P226 Mk 25',
         img: './img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -3056,19 +3056,19 @@ var Attacker = {
         name: 'AR33',
         img: './img/weapon/AR33.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -3089,19 +3089,19 @@ var Attacker = {
         name: 'L85A2',
         img: './img/weapon/L85A2.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -3119,13 +3119,13 @@ var Attacker = {
         name: 'M590A1',
         img: './img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3144,15 +3144,15 @@ var Attacker = {
         name: 'P226 Mk 25',
         img: './img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -3177,10 +3177,10 @@ var Attacker = {
         name: 'M1014',
         img: './img/weapon/M1014.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -3199,19 +3199,19 @@ var Attacker = {
         name: '556xi',
         img: './img/weapon/556xi.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -3234,15 +3234,15 @@ var Attacker = {
         name: '5.7 USG',
         img: './img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
@@ -3250,15 +3250,15 @@ var Attacker = {
           name: 'M45 MEUSOC',
           img: './img/weapon/M45_MEUSOC.png',
           attachment: {
-            attachment: { name: 'Kein Atachment' },
+            attachment: { name: 'No Attachment' },
             attachment: { name: 'Muzzle Brake' },
             attachment: { name: 'Suppressor' },
           },
           gripe: {
-            'none': { name: 'Kein Grip' },
+            'none': { name: 'No Grip' },
           },
           scope: {
-            'none': { name: 'Kein Scope' },
+            'none': { name: 'No Scope' },
           }
         }
       }
@@ -3284,7 +3284,7 @@ var Attacker = {
         name: 'F2',
         img: './img/weapon/F2.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -3292,10 +3292,10 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -3313,17 +3313,17 @@ var Attacker = {
         name: '417',
         img: './img/weapon/417.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -3345,14 +3345,14 @@ var Attacker = {
         name: 'SG-CQB',
         img: './img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3371,28 +3371,28 @@ var Attacker = {
         name: 'P9',
         img: './img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'LFP586',
         img: './img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-         'none': { name: 'Kein Grip' },
+         'none': { name: 'No Grip' },
         },
         scope: {
-         'none': { name: 'Kein Scope' },
+         'none': { name: 'No Scope' },
         }
       }
     },
@@ -3417,7 +3417,7 @@ var Attacker = {
         name: 'SC3000K',
         img: './img/weapon/SC3000K.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -3425,12 +3425,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -3449,7 +3449,7 @@ var Attacker = {
         name: 'MP7',
         img: './img/weapon/MP7.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -3457,10 +3457,10 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -3480,28 +3480,28 @@ var Attacker = {
         name: '5.7 USG',
         img: './img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'No Attachment' },  
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'Gonne 6',
         img: './img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -3526,19 +3526,19 @@ var Attacker = {
         name: 'LMG-E',
         img: './img/weapon/LMG-E.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -3557,19 +3557,19 @@ var Attacker = {
         name: 'M762',
         img: './img/weapon/M762.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
         }
@@ -3580,15 +3580,15 @@ var Attacker = {
         name: 'RG15',
         img: './img/weapon/RG15.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -3613,7 +3613,7 @@ var Attacker = {
         name: 'PARA-308',
         img: './img/weapon/PARA-308.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -3621,12 +3621,12 @@ var Attacker = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -3645,15 +3645,15 @@ var Attacker = {
         name: 'CAMRS',
         img: './img/weapon/CAMRS.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -3678,13 +3678,13 @@ var Attacker = {
         name: 'Super Shorty',
         img: './img/weapon/Super_Shorty.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3701,15 +3701,15 @@ var Attacker = {
         name: 'USP40',
         img: './img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },  
@@ -3736,7 +3736,7 @@ var Defender = {
         name: 'FMG-9',
         img: './img/weapon/FMG-9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -3744,10 +3744,10 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -3765,13 +3765,13 @@ var Defender = {
         name: 'M590A1',
         img: './img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3790,22 +3790,22 @@ var Defender = {
         name: 'P226 Mk 25',
         img: './img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'SMG-11',
         img: './img/weapon/SMG-11.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -3813,12 +3813,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3854,7 +3854,7 @@ var Defender = {
         name: 'UMP45',
         img: './img/weapon/UMP45.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -3862,12 +3862,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {  
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: { 
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -3885,13 +3885,13 @@ var Defender = {
       name: 'M1014',
       img: './img/weapon/M1014.png',
       attachment: {
-        attachment: { name: 'Kein Atachment' },
+        attachment: { name: 'No Attachment' },
       },
       gripe: {
-        'none': { name: 'Kein Grip' },
+        'none': { name: 'No Grip' },
       },
       scope: {
-        'none': { name: 'Kein Scope' },
+        'none': { name: 'No Scope' },
         'Red Dot A': { name: 'Red Dot A' },
         'Red Dot B': { name: 'Red Dot B' },
         'Red Dot C': { name: 'Red Dot C' },
@@ -3910,45 +3910,45 @@ var Defender = {
       name: '5.7 USG',
       img: './img/weapon/5-7_USG.png',
       attachment: {
-        attachment: { name: 'Kein Atachment' },  
+        attachment: { name: 'No Attachment' },  
         attachment: { name: 'Muzzle Brake' },
         attachment: { name: 'Suppressor' },
       },
       gripe: {
-        'none': { name: 'Kein Grip' },
+        'none': { name: 'No Grip' },
       },
       scope: {
-        'none': { name: 'Kein Scope' },
+        'none': { name: 'No Scope' },
       }
     },
     secondary2: {
       name: '5.7 USG',
       img: './img/weapon/5-7_USG.png',
       attachment: {
-        attachment: { name: 'Kein Atachment' },  
+        attachment: { name: 'No Attachment' },  
         attachment: { name: 'Muzzle Brake' },
         attachment: { name: 'Suppressor' },
       },
       gripe: {
-        'none': { name: 'Kein Grip' },
+        'none': { name: 'No Grip' },
       },
       scope: {
-        'none': { name: 'Kein Scope' },
+        'none': { name: 'No Scope' },
       }
     },
     secondary3: {
       name: '5.7 USG',
       img: './img/weapon/5-7_USG.png',
       attachment: {
-        attachment: { name: 'Kein Atachment' },  
+        attachment: { name: 'No Attachment' },  
         attachment: { name: 'Muzzle Brake' },
         attachment: { name: 'Suppressor' },
       },
       gripe: {
-        'none': { name: 'Kein Grip' },
+        'none': { name: 'No Grip' },
       },
       scope: {
-        'none': { name: 'Kein Scope' },
+        'none': { name: 'No Scope' },
       }
     },
   },
@@ -3973,13 +3973,13 @@ var Defender = {
         name: 'M1014',
         img: './img/weapon/M1014.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -3996,7 +3996,7 @@ var Defender = {
         name: 'UMP45',
         img: './img/weapon/UMP45.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4004,12 +4004,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {  
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: { 
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -4029,30 +4029,30 @@ var Defender = {
         name: 'M45 MEUSOC',
         img: './img/weapon/M45_MEUSOC.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'No Attachment' },  
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: '5.7 USG',
         img: './img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },  
+          attachment: { name: 'No Attachment' },  
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -4081,14 +4081,14 @@ var Defender = {
         name: 'SG-CQB',
         img: './img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4105,7 +4105,7 @@ var Defender = {
         name: 'MP5',
         img: './img/weapon/MP5.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4113,11 +4113,11 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -4135,7 +4135,7 @@ var Defender = {
         name: 'P90',
         img: './img/weapon/P90.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4143,12 +4143,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -4168,41 +4168,41 @@ var Defender = {
         name: 'P9',
         img: './img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'LFP586',
         img: './img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'Bailiff 410',
         img: './img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -4227,7 +4227,7 @@ var Defender = {
         name: 'P90',
         img: './img/weapon/P90.png',
         attachment: {
-        attachment: { name: 'Kein Atachment' },
+        attachment: { name: 'No Attachment' },
         attachment: { name: 'Flash Hilder' },
         attachment: { name: 'Compensator' },
         attachment: { name: 'Muzzle Brake' },
@@ -4235,10 +4235,10 @@ var Defender = {
         attachment: { name: 'Extended Barrel' },
       },
       gripe: {
-        'none': { name: 'Kein Grip' }
+        'none': { name: 'No Grip' }
       },
       scope: {
-        'none': { name: 'Kein Scope' },
+        'none': { name: 'No Scope' },
         'Scope 1.5x': { name: 'Scope 1.5x' },
         'Red Dot A': { name: 'Red Dot A' },
         'Red Dot B': { name: 'Red Dot B' },
@@ -4256,7 +4256,7 @@ var Defender = {
         name: 'MP5',
         img: './img/weapon/MP5.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4264,12 +4264,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -4288,14 +4288,14 @@ var Defender = {
         name: 'SG-CQB',
         img: './img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4314,28 +4314,28 @@ var Defender = {
         name: 'P9',
         img: './img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'LFP586',
         img: './img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -4364,7 +4364,7 @@ var Defender = {
         name: '9x19VSN',
         img: './img/weapon/9x19VSN.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4372,12 +4372,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4394,16 +4394,16 @@ var Defender = {
         name: 'SASG-12',
         img: './img/weapon/SASG-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4422,30 +4422,30 @@ var Defender = {
         name: 'PMM',
         img: './img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'GSH 18',
         img: './img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -4470,10 +4470,10 @@ var Defender = {
         name: 'DP27',
         img: './img/weapon/DP27.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -4492,7 +4492,7 @@ var Defender = {
         name: '9x19VSN',
         img: './img/weapon/9x19VSN.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4500,12 +4500,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -4526,37 +4526,37 @@ var Defender = {
         name: 'PMM',
         img: './img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'GSH 18',
         img: './img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary3: {
         name: 'Bearing9',
         img: './img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4564,10 +4564,10 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4606,10 +4606,10 @@ var Defender = {
         name: 'M870',
         img: './img/weapon/M870.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -4628,7 +4628,7 @@ var Defender = {
         name: '416-C Carbine',
         img: './img/weapon/416C_Carbine.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4636,7 +4636,7 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -4659,15 +4659,15 @@ var Defender = {
         name: 'P12',
         img: './img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -4692,7 +4692,7 @@ var Defender = {
         name: 'Mp7',
         img: './img/weapon/MP7.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4700,7 +4700,7 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -4719,10 +4719,10 @@ var Defender = {
         name: 'M870',
         img: './img/weapon/M870.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -4743,15 +4743,15 @@ var Defender = {
         name: 'P12',
         img: './img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -4777,13 +4777,13 @@ var Defender = {
         name: 'Super 90',
         img: './img/weapon/Super_90.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4800,7 +4800,7 @@ var Defender = {
         name: '9mm C1',
         img: './img/weapon/9mm_C1.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4808,12 +4808,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -4834,15 +4834,15 @@ var Defender = {
           name: 'Mk1 9mm',
           img: './img/weapon/Mk1_9mm.png',
           attachment: {
-            attachment: { name: 'Kein Atachment' },
+            attachment: { name: 'No Attachment' },
             attachment: { name: 'Muzzle Brake' },
             attachment: { name: 'Suppressor' },
           },
           gripe: {
-            'none': { name: 'Kein Grip' },
+            'none': { name: 'No Grip' },
           },
           scope: {
-            'none': { name: 'Kein Scope' },
+            'none': { name: 'No Scope' },
           }
         }
       },
@@ -4850,13 +4850,13 @@ var Defender = {
         name: 'ITA12S',
         img: './img/weapon/ITA12S.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4898,12 +4898,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4923,10 +4923,10 @@ var Defender = {
           attachment: { name: 'Flash Hilder' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -4945,15 +4945,15 @@ var Defender = {
         name: 'D-50',
         img: './img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -4978,7 +4978,7 @@ var Defender = {
         name: 'M12',
         img: './img/weapon/M12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -4986,10 +4986,10 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5006,13 +5006,13 @@ var Defender = {
         name: 'SPAS-15',
         img: './img/weapon/SPAS-15.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5031,13 +5031,13 @@ var Defender = {
         name: 'Luison',
         img: './img/weapon/Luison.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -5066,14 +5066,14 @@ var Defender = {
         name: 'Supernova',
         img: './img/weapon/SuperNova.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5090,15 +5090,15 @@ var Defender = {
         name: 'Mp5SD',
         img: './img/weapon/MP5SD.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },  
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -5118,22 +5118,22 @@ var Defender = {
         name: 'P229',
         img: './img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
       secondary2: {
         name: 'Bearing 9',
         img: './img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5141,7 +5141,7 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -5178,7 +5178,7 @@ var Defender = {
         name: 'Vector .45 ACP',
         img: './img/weapon/Vector_45_ACP.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5186,12 +5186,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5208,13 +5208,13 @@ var Defender = {
         name: 'ITA12L',
         img: './img/weapon/ITA12L.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5233,15 +5233,15 @@ var Defender = {
         name: 'USP40',
         img: './img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
     },
@@ -5266,13 +5266,13 @@ var Defender = {
         name: 'Six12 SD',
         img: './img/weapon/SIX12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5289,7 +5289,7 @@ var Defender = {
         name: 'T-5 SMG',
         img: './img/weapon/T-5_SMG.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5297,12 +5297,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5321,15 +5321,15 @@ var Defender = {
         name: 'Q-929',
         img: './img/weapon/Q-929.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         }, 
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
     },
@@ -5354,19 +5354,19 @@ var Defender = {
         name: 'Scorpion EVO 3 A1',
         img: './img/weapon/Scorpion_EVO_3_A1.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: { 
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5383,17 +5383,17 @@ var Defender = {
         name: 'Fo-12',
         img: './img/weapon/FO-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5412,15 +5412,15 @@ var Defender = {
         name: 'RG15',
         img: './img/weapon/RG15.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
     },
@@ -5449,7 +5449,7 @@ var Defender = {
         name: 'K1A',
         img: './img/weapon/K1A.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5457,12 +5457,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5479,15 +5479,15 @@ var Defender = {
         name: 'BOSG.12.2',
         img: './img/weapon/BOSG-12-2.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Scope 2.5x': { name: 'Scope 2.5x' },
@@ -5511,24 +5511,24 @@ var Defender = {
         name: 'C75 Auto',
         img: './img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
       secondary2: {
         name: 'SMG-12',
         img: './img/weapon/SMG-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -5567,19 +5567,19 @@ var Defender = {
         name: 'ALDA 5.56',
         img: './img/weapon/ALDA 5.56.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5596,15 +5596,15 @@ var Defender = {
         name: 'ACS12',
         img: './img/weapon/ACS12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -5625,28 +5625,28 @@ var Defender = {
         name: 'Bailiff 410',
         img: './img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
       secondary2: {
         name: 'Keratos .357',
         img: './img/weapon/Keratos_357.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
     },
@@ -5675,7 +5675,7 @@ var Defender = {
         name: 'Mx4 Storm',
         img: './img/weapon/Mx4_Storm.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5683,12 +5683,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5705,15 +5705,15 @@ var Defender = {
         name: 'ACS12',
         img: './img/weapon/ACS12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -5734,28 +5734,28 @@ var Defender = {
         name: 'Bailiff 410',
         img: './img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
       secondary2: {
         name: 'Keratos .357',
         img: './img/weapon/Keratos_357.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
     },
@@ -5780,13 +5780,13 @@ var Defender = {
         name: 'CCE Shield',
         img: './img/weapon/CCE_Shield.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
     },
@@ -5795,13 +5795,13 @@ var Defender = {
         name: 'Super Shorty',
         img: './img/weapon/Super_Shorty.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -5818,7 +5818,7 @@ var Defender = {
         name: 'SPSMG9',
         img: './img/weapon/SPSMG9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5826,7 +5826,7 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -5845,15 +5845,15 @@ var Defender = {
         name: 'P-10C',
         img: './img/weapon/P-10C.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
     },
@@ -5882,7 +5882,7 @@ var Defender = {
         name: 'Aug A3',
         img: './img/weapon/AUG_A3.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5890,7 +5890,7 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -5911,16 +5911,16 @@ var Defender = {
         name: 'TCSG12',
         img: './img/weapon/TCSG12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -5941,26 +5941,26 @@ var Defender = {
         name: '.44 MAG SEMI-AUTO',
         img: './img/weapon/44_MAG_SEMI-AUTO.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'LFP586',
         img: './img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -5989,7 +5989,7 @@ var Defender = {
         name: 'Commando 9',
         img: './img/weapon/Commando_9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -5997,12 +5997,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6019,7 +6019,7 @@ var Defender = {
         name: 'P10 RONI',
         img: './img/weapon/P10Roni.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6027,12 +6027,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
            'Scope 1.5x': { name: 'Scope 1.5x' },
            'Red Dot A': { name: 'Red Dot A' },
            'Red Dot B': { name: 'Red Dot B' },
@@ -6052,15 +6052,15 @@ var Defender = {
         name: 'SDP 9mm',
         img: './img/weapon/SDP_9mm.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -6085,13 +6085,13 @@ var Defender = {
         name: 'M590A1',
         img: './img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6115,12 +6115,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6139,25 +6139,25 @@ var Defender = {
         name: 'P-10C',
         img: './img/weapon/P-10C.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
       secondary2: {
         name: 'SMG-12',
         img: './img/weapon/SMG-12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -6200,7 +6200,7 @@ var Defender = {
         name: 'Vector .45 ACP',
         img: './img/weapon/Vector_45_ACP.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6208,12 +6208,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -6231,16 +6231,16 @@ var Defender = {
         name: 'TCSG12',
         img: './img/weapon/TCSG12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -6261,15 +6261,15 @@ var Defender = {
         name: 'P229',
         img: './img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -6298,17 +6298,17 @@ var Defender = {
         name: 'AUG A2',
         img: './img/weapon/AUG_A2.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6325,7 +6325,7 @@ var Defender = {
         name: 'MP5K',
         img: './img/weapon/MP5K.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6333,10 +6333,10 @@ var Defender = {
           attachment: { name: 'Extended Barrel' }
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },  
+          'none': { name: 'No Scope' },  
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -6356,30 +6356,30 @@ var Defender = {
         name: 'Keratos .357',
         img: './img/weapon/Keratos_357.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         },
       },
       secondary2: {
         name: 'P12',
         img: './img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -6404,7 +6404,7 @@ var Defender = {
         name: 'T-5 SMG',
         img: './img/weapon/T-5_SMG.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6412,12 +6412,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6437,10 +6437,10 @@ var Defender = {
           attachment: { name: 'Flash Hilder' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6459,28 +6459,28 @@ var Defender = {
         name: 'Bailiff 410',
         img: './img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'USP40',
         img: './img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -6505,7 +6505,7 @@ var Defender = {
         name: 'MP5',
         img: './img/weapon/MP5.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6513,11 +6513,11 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6534,13 +6534,13 @@ var Defender = {
         name: 'Super 90',
         img: './img/weapon/Super_90.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6559,15 +6559,15 @@ var Defender = {
         name: 'RG15',
         img: './img/weapon/RG15.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -6592,7 +6592,7 @@ var Defender = {
         name: 'P10 RONI',
         img: './img/weapon/P10Roni.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6600,12 +6600,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
            'Scope 1.5x': { name: 'Scope 1.5x' },
            'Red Dot A': { name: 'Red Dot A' },
            'Red Dot B': { name: 'Red Dot B' },
@@ -6623,17 +6623,17 @@ var Defender = {
         name: 'Mk 14 EBR',
         img: './img/weapon/Mk_14_EBR.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -6653,15 +6653,15 @@ var Defender = {
         name: 'PRB92',
         img: './img/weapon/PRB92.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -6686,7 +6686,7 @@ var Defender = {
         name: 'Spear .308',
         img: './img/weapon/Spear_308.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6694,12 +6694,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -6718,13 +6718,13 @@ var Defender = {
         name: 'SPAS-15',
         img: './img/weapon/SPAS-15.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6743,7 +6743,7 @@ var Defender = {
         name: 'Bearing9',
         img: './img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6751,10 +6751,10 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -6771,15 +6771,15 @@ var Defender = {
         name: 'Q-929',
         img: './img/weapon/Q-929.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -6805,7 +6805,7 @@ var Defender = {
         name: 'UZK50GI',
         img: './img/weapon/uzk50gi.png',
         attachment: {  
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6813,7 +6813,7 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
@@ -6834,10 +6834,10 @@ var Defender = {
         name: 'M870',
         img: './img/weapon/M870.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -6858,29 +6858,29 @@ var Defender = {
         name: '1911 TACOPS',
         img: './img/weapon/1911_TACOPS.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
       secondary2: {
         name: 'C75 Auto',
         img: './img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       },
     },
@@ -6905,7 +6905,7 @@ var Defender = {
         name: '9x19VSN',
         img: './img/weapon/9x19VSN.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -6913,12 +6913,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -6936,15 +6936,15 @@ var Defender = {
         name: 'ACS12',
         img: './img/weapon/ACS12.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Scope 2.0x': { name: 'Scope 2.0x' },
           'Red Dot A': { name: 'Red Dot A' },
@@ -6965,15 +6965,15 @@ var Defender = {
         name: 'D-50',
         img: './img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Muzzle Brake' },
           attachment: { name: 'Suppressor' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
         }
       }
     },
@@ -6998,7 +6998,7 @@ var Defender = {
         name: 'P90',
         img: './img/weapon/P90.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -7006,12 +7006,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
@@ -7029,10 +7029,10 @@ var Defender = {
         name: 'ITA12L',
         img: './img/weapon/ITA12L.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
         },
         scope: {
           'Red Dot A': { name: 'Red Dot A' },
@@ -7053,7 +7053,7 @@ var Defender = {
         name: 'SMG-11',
         img: './img/weapon/SMG-11.png',
         attachment: {
-          attachment: { name: 'Kein Atachment' },
+          attachment: { name: 'No Attachment' },
           attachment: { name: 'Flash Hilder' },
           attachment: { name: 'Compensator' },
           attachment: { name: 'Muzzle Brake' },
@@ -7061,12 +7061,12 @@ var Defender = {
           attachment: { name: 'Extended Barrel' },
         },
         gripe: {
-          'none': { name: 'Kein Grip' },
+          'none': { name: 'No Grip' },
           'Vertical Grip': { name: 'Vertical Grip' },
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
-          'none': { name: 'Kein Scope' },
+          'none': { name: 'No Scope' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
@@ -7087,6 +7087,93 @@ var Defender = {
       },
       gadget2: {
         name: 'Bulletproof Camera',
+        img: './img/gadgets/Bulletproof_camera.png',
+      }
+    }
+  },
+  Fenrir: {
+    name: 'Fenrir',
+    role: 'defender',
+    img: './img/defender/Fenrir.png',
+    badge: './img/defender/Badge/Fenrir-Badge.png',
+    primary: {
+      primary: {
+        name: 'MP7',
+        img: './img/weapon/MP7.png',
+        attachment: {
+          attachment: { name: 'No Attachment' },
+          attachment: { name: 'Flash Hilder' },
+          attachment: { name: 'Compensator' },
+          attachment: { name: 'Muzzle Brake' },
+          attachment: { name: 'Suppressor' },
+          attachment: { name: 'Extended Barrel' },
+        },
+        gripe: {
+          'none': { name: 'No Grip' },
+        },
+        scope: {
+          'none': { name: 'No Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+        }
+      },
+      primary2: {
+        name: 'SASG-12',
+        img: './img/weapon/SASG-12.png',
+        attachment: {
+          attachment: { name: 'No Attachment' },
+          attachment: { name: 'Suppressor' },
+        },
+        gripe: {
+          'none': { name: 'No Grip' },
+          'Vertical Grip': { name: 'Vertical Grip' },
+          'Angled Grip': { name: 'Angled Grip' },
+        },
+        scope: {
+          'none': { name: 'No Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
+        }
+      }
+    },
+    secondary: {
+      secondary: {
+        name: 'Bailiff 410',
+        img: './img/weapon/Bailiff_410.png',
+        attachment: {
+          attachment: { name: 'No Attachment' },
+        },
+        gripe: {
+          'none': { name: 'No Grip' },
+        },
+        scope: {
+          'none': { name: 'No Scope' },
+        }
+      }
+    },
+    gadgets: {
+      gadget1: {
+        name: 'Barbed Wire',
+        img: './img/gadgets/Barbed_Wire.png',
+      },
+      gadget2: {
+        name: 'Boletproof Camera',
         img: './img/gadgets/Bulletproof_camera.png',
       }
     }
