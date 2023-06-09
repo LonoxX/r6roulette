@@ -2,8 +2,6 @@ var Attacker = {
   Ace: {
     name: 'Ace',
     role: 'attacker',
-    img: './img/attacker/Ace.png',
-    badge: './img/attacker/Badge/Ace-Badge.png',
     primary: {
       primary: {
         name: 'AK-12',
@@ -90,8 +88,6 @@ var Attacker = {
   Amaru: {
     name: 'Amaru',
     role: 'attacker',
-    img: './img/attacker/Amaru.png',
-    badge: './img/attacker/Badge/Amaru-Badge.png',
     primary: {
       primary: {
         name: 'G8A1',
@@ -232,8 +228,6 @@ var Attacker = {
   Ash: {
     name: 'Ash',
     role: 'attacker',
-    img: './img/attacker/Ash.png',
-    badge: './img/attacker/Badge/Ash-Badge.png',
     primary: {
       primary: {
         name: 'R4-C',
@@ -342,8 +336,6 @@ var Attacker = {
   Blackbeard: {
     name: 'Blackbeard',
     role: 'attacker',
-    img: './img/attacker/Blackbeard.png',
-    badge: './img/attacker/Badge/Blackbeard-Badge.png',
     primary: {
       primary: {
         name: 'Mk17 CQB',
@@ -445,8 +437,6 @@ var Attacker = {
   Blitz: {
     name: 'Blitz',
     role: 'attacker',
-    img: './img/attacker/Blitz.png',
-    badge: './img/attacker/Badge/Blitz-Badge.png',
     primary: {
       primary: {
         name: 'G52-Tactical Shield',
@@ -493,8 +483,6 @@ var Attacker = {
   Buck: {
     name: 'Buck',
     role: 'attacker',
-    img: './img/attacker/Buck.png',
-    badge: './img/attacker/Badge/Buck-Badge.png',
     primary: {
       primary: {
         name: 'C8-SFW',
@@ -601,8 +589,6 @@ var Attacker = {
   Capitao: {
     name: 'Capitao',
     role: 'attacker',
-    img: './img/attacker/Capitao.png',
-    badge: './img/attacker/Badge/Capitao-Badge.png',
     primary: {
       primary: {
         name: 'PARA-308',
@@ -714,8 +700,6 @@ var Attacker = {
   Dokkaebi: {
     name: 'Dokkaebi',
     role: 'attacker',
-    img: './img/attacker/Dokkaebi.png',
-    badge: './img/attacker/Badge/Dokkaebi-Badge.png',
     primary: {
       primary: {
         name: 'Mk 14 EBR',
@@ -852,8 +836,6 @@ var Attacker = {
   Finka: {
     name: 'Finka',
     role: 'attacker',
-    img: './img/attacker/Finka.png',
-    badge: './img/attacker/Badge/Finka-Badge.png',
     primary: {
       primary: {
         name: 'Spear .308',
@@ -1004,8 +986,6 @@ var Attacker = {
   Flores: {
     name: 'Flores',
     role: 'attacker',
-    img: './img/attacker/Flores.png',
-    badge: './img/attacker/Badge/Flores-Badge.png',
     primary: {
       primary: {
         name: 'AR33',
@@ -1103,8 +1083,6 @@ var Attacker = {
   Fuze: {
     name: 'Fuze',
     role: 'attacker',
-    img: './img/attacker/Fuze.png',
-    badge: './img/attacker/Badge/Fuze-Badge.png',
     primary: {
       primary: {
         name: 'AK-12',
@@ -1237,8 +1215,6 @@ var Attacker = {
   Glaz: {
     name: 'Glaz',
     role: 'attacker',
-    img: './img/attacker/Glaz.png',
-    badge: './img/attacker/Badge/Glaz-Badge.png',
     primary: {
       primary: {
         name: 'OTs-03',
@@ -1343,8 +1319,6 @@ var Attacker = {
   Gridlock: {
     name: 'Gridlock',
     role: 'attacker',
-    img: './img/attacker/Gridlock.png',
-    badge: './img/attacker/Badge/Gridlock-Badge.png',
     primary: {
       primary: {
         name: 'F90',
@@ -1486,8 +1460,6 @@ var Attacker = {
   Grim: {
     name: 'Grim',
     role: 'attacker',
-    img: './img/attacker/Grim.png',
-    badge: './img/attacker/Badge/Grim-Badge.png',
     primary: {
       primary: {
         name: '552 Commando',
@@ -1567,8 +1539,6 @@ var Attacker = {
   Hibana: {
     name: 'Hibana',
     role: 'attacker',
-    img: './img/attacker/Hibana.png',
-    badge: './img/attacker/Badge/Hibana-Badge.png',
     primary: {
       primary: {
         name: 'Type-89',
@@ -1684,8 +1654,6 @@ var Attacker = {
   Iana: {
     name: 'Iana',
     role: 'attacker',
-    img: './img/attacker/Iana.png',
-    badge: './img/attacker/Badge/Iana-Badge.png',
     primary: {
       primary: {
         name: 'ARX200',
@@ -1779,8 +1747,6 @@ var Attacker = {
   IQ: {
     name: 'IQ',
     role: 'attacker',
-    img: './img/attacker/IQ.png',
-    badge: './img/attacker/Badge/IQ-Badge.png',
     primary: {
       primary: {
         name: 'AUG A2',
@@ -1896,8 +1862,6 @@ var Attacker = {
   Jackal: {
     name: 'Jackal',
     role: 'attacker',
-    img: './img/attacker/Jackal.png',
-    badge: './img/attacker/Badge/Jackal-Badge.png',
     primary: {
       primary: {
         name: 'C7E',
@@ -2038,8 +2002,6 @@ var Attacker = {
   Ying: {
     name: 'Ying',
     role: 'attacker',
-    img: './img/attacker/Ying.png',
-    badge: './img/attacker/Badge/Ying-Badge.png',
     primary: {
       primary: {
         name: 'T-95 LSW',
@@ -2130,8 +2092,6 @@ var Attacker = {
   Kali: {
     name: 'Kali',
     role: 'attacker',
-    img: './img/attacker/Kali.png',
-    badge: './img/attacker/Badge/Kali-Badge.png',
     primary: {
       primary: {
         name: 'CSRX 300',
@@ -2219,8 +2179,6 @@ var Attacker = {
   Lion: {
     name: 'Lion',
     role: 'attacker',
-    img: './img/attacker/Lion.png',
-    badge: './img/attacker/Badge/Lion-Badge.png',
     primary: {
       primary: {
         name: 'V308',
@@ -2374,8 +2332,6 @@ var Attacker = {
   Maverick: {
     name: 'Maverick',
     role: 'attacker',
-    img: './img/attacker/Maverick.png',
-    badge: './img/attacker/Badge/Maverick-Badge.png',
     primary: {
       primary: {
         name: 'AR-15.50',
@@ -2478,8 +2434,6 @@ var Attacker = {
   Montagne: {
     name: 'Montagne',
     role: 'attacker',
-    img: './img/attacker/Montagne.png',
-    badge: './img/attacker/Badge/Montagne-Badge.png',
     primary: {
       primary: {
         name: 'LE ROC SHIELD',
@@ -2539,8 +2493,6 @@ var Attacker = {
   Nokk: {
     name: 'Nokk',
     role: 'attacker',
-    img: './img/attacker/Nokk.png',
-    badge: './img/attacker/Badge/Nokk-Badge.png',
     primary: {
       primary: {
         name: 'FMG-9',
@@ -2645,8 +2597,6 @@ var Attacker = {
   Nomad: {
     name: 'Nomad',
     role: 'attacker',
-    img: './img/attacker/Nomad.png',
-    badge: './img/attacker/Badge/Nomad-Badge.png',
     primary: {
       primary: {
         name: 'AK-74M',
@@ -2756,8 +2706,6 @@ var Attacker = {
   Osa: {
     name: 'Osa',
     role: 'attacker',
-    img: './img/attacker/Osa.png',
-    badge: './img/attacker/Badge/Osa-Badge.png',
     primary: {
       primary: {
         name: '556xi',
@@ -2859,8 +2807,6 @@ var Attacker = {
   Sens: {
     name: 'Sens',
     role: 'attacker',
-    img: './img/attacker/Sens.png',
-    badge: './img/attacker/Badge/Sens-Badge.png',
     primary: {
       primary: {
         name: 'POF9',
@@ -2961,8 +2907,6 @@ var Attacker = {
   Sledge: {
     name: 'Sledge',
     role: 'attacker',
-    img: './img/attacker/Sledge.png',
-    badge: './img/attacker/Badge/Sledge-Badge.png',
     primary: {
       primary: {
         name: 'L85A2',
@@ -3049,8 +2993,6 @@ var Attacker = {
   Thatcher: {
     name: 'Thatcher',
     role: 'attacker',
-    img: './img/attacker/Thatcher.png',
-    badge: './img/attacker/Badge/Thatcher-Badge.png',
     primary: {
       primary: {
         name: 'AR33',
@@ -3170,8 +3112,6 @@ var Attacker = {
   Thermite: {
     name: 'Thermite',
     role: 'attacker',
-    img: './img/attacker/Thermite.png',
-    badge: './img/attacker/Badge/Thermite-Badge.png',
     primary: {
       primary: {
         name: 'M1014',
@@ -3277,8 +3217,6 @@ var Attacker = {
   Twitch: {
     name: 'Twitch',
     role: 'attacker',
-    img: './img/attacker/Twitch.png',
-    badge: './img/attacker/Badge/Twitch-Badge.png',
     primary: {
       primary: {
         name: 'F2',
@@ -3410,8 +3348,6 @@ var Attacker = {
   Zero: {
     name: 'Zero',
     role: 'attacker',
-    img: './img/attacker/Zero.png',
-    badge: './img/attacker/Badge/Zero-Badge.png',
     primary: {
       primary: {
         name: 'SC3000K',
@@ -3519,8 +3455,6 @@ var Attacker = {
   Zofia: {
     name: 'Zofia',
     role: 'attacker',
-    img: './img/attacker/Zofia.png',
-    badge: './img/attacker/Badge/Zofia-Badge.png',
     primary: {
       primary: {
         name: 'LMG-E',
@@ -3606,8 +3540,6 @@ var Attacker = {
   Brava: {
     name: 'Brava',
     role: 'attacker',
-    img: './img/attacker/Brava.png',
-    badge: './img/attacker/Badge/Brava-Badge.png',
     primary: {
       primary: {
         name: 'PARA-308',
@@ -3729,8 +3661,6 @@ var Defender = {
   Smoke:{
     name: 'Smoke',
     role: 'defender',
-    img: './img/defender/Smoke.png',
-    badge: './img/defender/Badge/Smoke-Badge.png',
     primary: {
       primary: {
         name: 'FMG-9',
@@ -3843,12 +3773,9 @@ var Defender = {
       }
     }
   },
-  
   Castle: {
     name: 'Castle',
     role: 'defender',
-    img: './img/defender/Castle.png',
-    badge: './img/defender/Badge/Castle-Badge.png',
     primary: {
       primary: {
         name: 'UMP45',
@@ -3966,8 +3893,6 @@ var Defender = {
   Pulse : {
     name: 'Pulse',
     role: 'defender',
-    img: './img/defender/Pulse.png',
-    badge: './img/defender/Badge/Pulse-Badge.png',
     primary: {
       primary: {
         name: 'M1014',
@@ -4074,8 +3999,6 @@ var Defender = {
   Doc: {
     name: 'Doc',
     role: 'defender',
-    img: './img/defender/Doc.png',
-    badge: './img/defender/Badge/Doc-Badge.png',
     primary: {
       primary: {
         name: 'SG-CQB',
@@ -4220,8 +4143,6 @@ var Defender = {
   Rook: {
     name: 'Rook',
     role: 'defender',
-    img: './img/defender/Rook.png',
-    badge: './img/defender/Badge/Rook-Badge.png',
     primary: {
       primary: {
         name: 'P90',
@@ -4357,8 +4278,6 @@ var Defender = {
   Kapkan: {
     name: 'Kapkan',
     role: 'defender',
-    img: './img/defender/Kapkan.png',
-    badge: './img/defender/Badge/Kapkan-Badge.png',
     primary: {
       primary: {
         name: '9x19VSN',
@@ -4463,8 +4382,6 @@ var Defender = {
   Tachanka: {
     name: 'Tachanka',
     role: 'defender',
-    img: './img/defender/Tachanka.png',
-    badge: './img/defender/Badge/Tachanka-Badge.png',
     primary: {
       primary: {
         name: 'DP27',
@@ -4599,8 +4516,6 @@ var Defender = {
   Jager: {
     name: 'Jager',
     role: 'defender',
-    badge: './img/defender/Badge/Jager-Badge.png',
-    img: './img/defender/Jager.png',
     primary: {
       primary: {
         name: 'M870',
@@ -4685,8 +4600,6 @@ var Defender = {
   Bandit: {
     name: 'Bandit',
     role: 'defender',
-    img: './img/defender/Bandit.png',
-    badge: './img/defender/Badge/Bandit-Badge.png',
     primary: {
       primary: {
         name: 'Mp7',
@@ -4766,12 +4679,9 @@ var Defender = {
       }
     }
   },
-
   Frost: {
     name: 'Frost',
     role: 'defender',
-    img: './img/defender/Frost.png',
-    badge: './img/defender/Badge/Frost-Badge.png',
     primary: {
       primary: {
         name: 'Super 90',
@@ -4884,8 +4794,6 @@ var Defender = {
   Valkyrie: {
     name: 'Valkyrie',
     role: 'defender',
-    img: './img/defender/Valkyrie.png',
-    badge: './img/defender/Badge/Valkyrie-Badge.png',
     primary: {
       primary: {
         name: 'MPX',
@@ -4971,8 +4879,6 @@ var Defender = {
   Caveira: {
     name: 'Caveira',
     role: 'defender',
-    img: './img/defender/Caveira.png',
-    badge: './img/defender/Badge/Caveira-Badge.png',
     primary: {
       primary: {
         name: 'M12',
@@ -5059,8 +4965,6 @@ var Defender = {
   Echo: {
     name: 'Echo',
     role: 'defender',
-    img: './img/defender/Echo.png',
-    badge: './img/defender/Badge/Echo-Badge.png',
     primary: {
       primary: {
         name: 'Supernova',
@@ -5171,8 +5075,6 @@ var Defender = {
   Mira: {
     name: 'Mira',
     role: 'defender',
-    img: './img/defender/Mira.png',
-    badge: './img/defender/Badge/Mira-Badge.png',
     primary: {
       primary: {
         name: 'Vector .45 ACP',
@@ -5259,8 +5161,6 @@ var Defender = {
   Lesion: {
     name: 'Lesion',
     role: 'defender',
-    img: './img/defender/Lesion.png',
-    badge: './img/defender/Badge/Lesion-Badge.png',
     primary: {
       primary: {
         name: 'Six12 SD',
@@ -5347,8 +5247,6 @@ var Defender = {
   Ela: {
     name: 'Ela',
     role: 'defender',
-    img: './img/defender/Ela.png',
-    badge: './img/defender/Badge/Ela-Badge.png',
     primary: {
       primary: {
         name: 'Scorpion EVO 3 A1',
@@ -5442,8 +5340,6 @@ var Defender = {
   Vigil: {
     name: 'Vigil',
     role: 'defender',
-    img: './img/defender/Vigil.png',
-    badge: './img/defender/Badge/Vigil-Badge.png',
     primary: {
       primary: {
         name: 'K1A',
@@ -5560,8 +5456,6 @@ var Defender = {
   Maestro: {
     name: 'Maestro',
     role: 'defender',
-    img: './img/defender/Maestro.png',
-    badge: './img/defender/Badge/Maestro-Badge.png',
     primary: {
       primary: {
         name: 'ALDA 5.56',
@@ -5668,8 +5562,6 @@ var Defender = {
   Alibi: {
     name: 'Alibi',
     role: 'defender',
-    img: './img/defender/Alibi.png',
-    badge: './img/defender/Badge/Alibi-Badge.png',
     primary: {
       primary: {
         name: 'Mx4 Storm',
@@ -5773,8 +5665,6 @@ var Defender = {
   Clash: {  
     name: 'Clash',
     role: 'defender',
-    img: './img/defender/Clash.png',
-    badge: './img/defender/Badge/Clash-Badge.png',
     primary: {
       primary: {
         name: 'CCE Shield',
@@ -5875,8 +5765,6 @@ var Defender = {
   Kaid: {
     name: 'Kaid',
     role: 'defender',
-    img: './img/defender/Kaid.png',
-    badge: './img/defender/Badge/Kaid-Badge.png',
     primary: {
       primary: {
         name: 'Aug A3',
@@ -5982,8 +5870,6 @@ var Defender = {
   Mozzie: {
     name: 'Mozzie',
     role: 'defender',
-    img: './img/defender/Mozzie.png',
-    badge: './img/defender/Badge/Mozzie-Badge.png',
     primary: {
       primary: {
         name: 'Commando 9',
@@ -6078,8 +5964,6 @@ var Defender = {
   Warden: {
     name: 'Warden',
     role: 'defender',
-    img: './img/defender/Warden.png',
-    badge: './img/defender/Badge/Warden-Badge.png',
     primary: {
       primary: {
         name: 'M590A1',
@@ -6193,8 +6077,6 @@ var Defender = {
   Goyo: {
     name: 'Goyo',
     role: 'defender',
-    img: './img/defender/Goyo.png',
-    badge: './img/defender/Badge/Goyo-Badge.png',
     primary: {
       primary: {
         name: 'Vector .45 ACP',
@@ -6291,8 +6173,6 @@ var Defender = {
   Warmai: {
     name: 'Wamai',
     role: 'defender',
-    img: './img/defender/Wamai.png',
-    badge: './img/defender/Badge/Wamai-Badge.png',
     primary: {
       primary: {
         name: 'AUG A2',
@@ -6397,8 +6277,6 @@ var Defender = {
   Oryx: {
     name: 'Oryx',
     role: 'defender',
-    img: './img/defender/Oryx.png',
-    badge: './img/defender/Badge/Oryx-Badge.png',
     primary: {
       primary: {
         name: 'T-5 SMG',
@@ -6498,8 +6376,6 @@ var Defender = {
   Melusi: {
     name: 'Melusi',
     role: 'defender',
-    img: './img/defender/Melusi.png',
-    badge: './img/defender/Badge/Melusi-Badge.png',
     primary: {
       primary: {
         name: 'MP5',
@@ -6585,8 +6461,6 @@ var Defender = {
   Aruni: {
     name: 'Aruni',
     role: 'defender',
-    img: './img/defender/Aruni.png',
-    badge: './img/defender/Badge/Aruni-Badge.png',
     primary: {
       primary: {
         name: 'P10 RONI',
@@ -6679,8 +6553,6 @@ var Defender = {
   Thunderbird: {
     name: 'Thunderbird',
     role: 'defender',
-    img: './img/defender/Thunderbird.png',
-    badge: './img/defender/Badge/Thunderbird-Badge.png',
     primary: {
       primary: {
         name: 'Spear .308',
@@ -6793,13 +6665,10 @@ var Defender = {
         img: './img/gadgets/Bulletproof_camera.png',
       }
     }
- 
 },
   Thorn: {
     name: 'Thorn',
     role: 'defender',
-    img: './img/defender/Thorn.png',
-    badge: './img/defender/Badge/Thorn-Badge.png',
     primary: {
       primary: {
         name: 'UZK50GI',
@@ -6898,8 +6767,6 @@ var Defender = {
   Azami: {
     name: 'Azami',
     role: 'defender',
-    img: './img/defender/Azami.png',
-    badge: './img/defender/Badge/Azami-Badge.png',
     primary: {
       primary: {
         name: '9x19VSN',
@@ -6991,8 +6858,6 @@ var Defender = {
   Solis: {
     name: 'Solis',
     role: 'defender',
-    img: './img/defender/Solis.png',
-    badge: './img/defender/Badge/Solis-Badge.png',
     primary: {
       primary: {
         name: 'P90',
@@ -7094,8 +6959,6 @@ var Defender = {
   Fenrir: {
     name: 'Fenrir',
     role: 'defender',
-    img: './img/defender/Fenrir.png',
-    badge: './img/defender/Badge/Fenrir-Badge.png',
     primary: {
       primary: {
         name: 'MP7',
