@@ -15,7 +15,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Random Rainbow Six: Siege Operators">
   <meta property="og:description" content="Make the game more challenging by using a randomly selected operator with a random loadout!">
-  <meta property="og:image" content="img/social.png">
+  <meta property="og:image" content="assets/img/social.png">
   <meta property="og:url" content="https://r6roulette.de/">
   <meta property="og:site_name" content="Random Siege Operators">
 
@@ -25,16 +25,16 @@
   <meta name="twitter:image" content="img/social.png">
   <meta name="twitter:url" content="https://r6roulette.de/">
 
-  <link rel="shortcut icon" href="img/favicon/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png?v=2">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png?v=2">
-  <link rel="icon" type="image/png" sizes="194x194" href="img/favicon/favicon-194x194.png?v=2">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png?v=2">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png?v=2">
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="194x194" href="assets/img/favicon/favicon-194x194.png?v=2">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png?v=2">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <script src="https://kit.fontawesome.com/39db239ed8.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
@@ -43,28 +43,22 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-4"></div>
-      <div class="col-md-4 text-center">
-        <div class="title">Random</div>
-        <h3 class="white-text">Rainbow Six: Siege</h3>
-        <h3 class="white-text">Operator</h3>
-      </div>
       <div class="col-md-4">
         <div class="operatorBox">
-          <img class="operator-img" src="img/defender/Fenrir.png" />
-          <img class="operator-badge" src="img/defender/Badge/Fenrir-Badge.png" />
-          <div id="operator-bottom-frame">
+          <img class="operator-img" src="assets/img/defender/Fenrir.png" />
+          <img class="operator-badge" src="assets/img/defender/Badge/Fenrir-Badge.png" />
+          <div id="operator-bottom">
             <p class="operator-name">Fenrir</p>
             <div class="btn-group" role="group">
-              <button type="button" id="attacker" class="btn btn-secondary">Attacker</button>
-              <button type="button" id="defender" class="btn btn-secondary">Defender</button>
+              <button type="button" id="attacker" class="btn">Attacker</button>
+              <button type="button" id="defender" class="btn">Defender</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="operator-weapon">
-          <img class="weapon-img" src="img/weapon/MP7.png" />
+          <img class="weapon-img" src="assets/img/weapon/MP7.png" />
           <p class="weapon-name">MP7</p>
           <div class="operator-attachment">
             <div class="attachment-description">Attachment</div>
@@ -80,7 +74,7 @@
           </div>
         </div>
         <div class="operator-secondweapon">
-          <img class="secondweapon-img" src="img/weapon/Bailiff_410.png" />
+          <img class="secondweapon-img" src="assets/img/weapon/Bailiff_410.png" />
           <p class="secondweapon-name">Bailiff 410</p>
           <div class="operator-attachment">
             <div class="attachment-description">Attachment</div>
@@ -96,18 +90,18 @@
           </div>
         </div>
         <div class="operator-gadget">
-          <img class="gadget-img" src="img/gadgets/Barbed_Wire.png" />
+          <img class="gadget-img" src="assets/img/gadgets/Barbed_Wire.png" />
           <p class="gadget-name">Barbed Wire</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div class="footer">
+  <div class="footer">
     <div class="right">Powered by <a href="https://panda-network.de" target="_blank">Panda-Network</a>| <a href="https://pnnet.dev/discord" target="_blank">Support</a> | <a href="https://panda-network.de/impressum" target="_blank">Impressum</a></div>
-  </div> -->
+  </div>
 
-  <script src="./js/operator.js"></script>
-  <script src="./js/script.js"></script>
+  <script src="assets/js/operator.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

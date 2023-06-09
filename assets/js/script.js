@@ -40,8 +40,8 @@ function randomOperator(operator) {
     chosen = operator[Math.floor(Math.random() * operator.length)];
     chosenName = chosen.name;
     operatorRole = chosen.role;
-    R6img.src = "img/" + operatorRole + "/" + chosenName + ".png";
-    R6badge.src = "img/" + operatorRole + "/Badge/" + chosenName + "-Badge" + ".png";
+    R6img.src = "assets/img/" + operatorRole + "/" + chosenName + ".png";
+    R6badge.src = "assets/img/" + operatorRole + "/Badge/" + chosenName + "-Badge" + ".png";
     R6img.style.width = "352px";
     R6name.textContent = chosenName;
 
@@ -83,7 +83,7 @@ function randomOperator(operator) {
     operator_gadgets_img.src = randomGadget.img;
 
     R6img.onerror = function() {
-        this.src = "https://via.placeholder.com/300x500?text=" + chosenName;
+        this.src = "https://pic.pnnet.dev/300x500?text=" + chosenName;
     };
     
     R6badge.onerror = function() {
