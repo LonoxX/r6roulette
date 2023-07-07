@@ -5,13 +5,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'AK-12',
-        img: './assets/img//weapon/AK-12.png',
+        img: './assets/img/weapon/AK-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -35,9 +35,9 @@ var Attacker = {
       },
       primary2: {
         name: 'M1014',
-        img: './assets/img//weapon/M1014.png',
+        img: './assets/img/weapon/M1014.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -60,11 +60,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P9',
-        img: './assets/img//weapon/P9.png',
+        img: './assets/img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -77,11 +77,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -91,13 +91,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'G8A1',
-        img: './assets/img//weapon/G8A1.png',
+        img: './assets/img/weapon/G8A1.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -125,9 +125,9 @@ var Attacker = {
       },
       primary2: {
         name: 'SuperNova',
-        img: './assets/img//weapon/SuperNova.png',
+        img: './assets/img/weapon/SuperNova.png',
         attachment: {
-          attachment: { name: 'Suppressor' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -149,14 +149,14 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'SMG-11',
-        img: './assets/img//weapon/SMG-11.png',
+        img: './assets/img/weapon/SMG-11.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -179,9 +179,9 @@ var Attacker = {
       },
       secondary2: {
         name: 'ITA12S',
-        img: './assets/img//weapon/ITA12S.png',
+        img: './assets/img/weapon/ITA12S.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -202,9 +202,9 @@ var Attacker = {
       },
       secondary3: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -217,11 +217,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       },
       gadget2: {
         name: 'HARD BREACH CHARGE',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       }
     }
   },
@@ -231,14 +231,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'R4-C',
-        img: './assets/img//weapon/R4-C.png',
+        img: './assets/img/weapon/R4-C.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -260,14 +260,14 @@ var Attacker = {
       },
       primary2: {
         name: 'G36C',
-        img: './assets/img//weapon/G36C.png',
+        img: './assets/img/weapon/G36C.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -293,11 +293,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: '5.7 USG',
-        img: './assets/img//weapon/5-7_USG.png',
+        img: './assets/img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'No Attachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },  
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -308,11 +308,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'M45 MEUSOC',
-        img: './assets/img//weapon/M45_MEUSOC.png',
+        img: './assets/img/weapon/M45_MEUSOC.png',
         attachment: {
-          attachment: { name: 'No Attachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },  
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -325,11 +325,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -339,14 +339,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'Mk17 CQB',
-        img: './assets/img//weapon/Mk17_CQB.png',
+        img: './assets/img/weapon/Mk17_CQB.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -371,11 +371,11 @@ var Attacker = {
       },
       primary2: {
         name: 'SR-25',
-        img: './assets/img//weapon/SR-25.png',
+        img: './assets/img/weapon/SR-25.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -405,11 +405,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'D-50',
-        img: './assets/img//weapon/D-50.png',
+        img: './assets/img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -422,15 +422,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       },
       gadget2: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget3: {
         name: 'Impact EMP Grenade',
-        img: './assets/img//gadgets/Impact_EMP_Grenade.png'
+        img: './assets/img/gadgets/Impact_EMP_Grenade.png'
       }
     }
   },
@@ -440,7 +440,7 @@ var Attacker = {
     primary: {
       primary: {
         name: 'Tactical Shield',
-        img: './assets/img//weapon/G52-Tactical_Shield.png',
+        img: './assets/img/weapon/G52-Tactical_Shield.png',
         attachment: {
           attachment: { name: '' },
         },
@@ -455,11 +455,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P12',
-        img: './assets/img//weapon/P12.png',
+        img: './assets/img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -472,11 +472,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       }
     }
   },
@@ -486,14 +486,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'C8-SFW',
-        img: './assets/img//weapon/C8-SFW.png',
+        img: './assets/img/weapon/C8-SFW.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -515,11 +515,11 @@ var Attacker = {
       },
       primary2: {
         name: 'CAMRS',
-        img: './assets/img//weapon/CAMRS.png',
+        img: './assets/img/weapon/CAMRS.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -548,11 +548,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'Mk1 9mm',
-        img: './assets/img//weapon/Mk1_9mm.png',
+        img: './assets/img/weapon/Mk1_9mm.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -564,9 +564,9 @@ var Attacker = {
     },
       secondary2: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-        attachment: { name: 'No Attachment' },
+        'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -578,11 +578,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'HARD BREACH CHARGE',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       },
       gadget2: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -592,14 +592,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'PARA-308',
-        img: './assets/img//weapon/PARA-308.png',
+        img: './assets/img/weapon/PARA-308.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -624,12 +624,12 @@ var Attacker = {
       },
       primary2: {
         name: 'M249',
-        img: './assets/img//weapon/M249.png',
+        img: './assets/img/weapon/M249.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -659,11 +659,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'PRB92',
-        img: './assets/img//weapon/PRB92.png',
+        img: './assets/img/weapon/PRB92.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -674,9 +674,9 @@ var Attacker = {
       },
       secondary2: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -689,11 +689,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       },
       gadget2: {
         name: 'HARD BREACH CHARGE',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       }
     }
   },
@@ -703,11 +703,11 @@ var Attacker = {
     primary: {
       primary: {
         name: 'Mk 14 EBR',
-        img: './assets/img//weapon/Mk_14_EBR.png',
+        img: './assets/img/weapon/Mk_14_EBR.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -736,9 +736,9 @@ var Attacker = {
       },
       primary2: {
         name: 'BOSG.12.2',
-        img: './assets/img//weapon/BOSG-12-2.png',
+        img: './assets/img/weapon/BOSG-12-2.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -768,9 +768,9 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'SMG-12',
-        img: './assets/img//weapon/SMG-12.png',
+        img: './assets/img/weapon/SMG-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -792,10 +792,10 @@ var Attacker = {
       },
       secondary2: {
         name: 'C75 Auto',
-        img: './assets/img//weapon/C75_Auto.png',
+        img: './assets/img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -806,9 +806,9 @@ var Attacker = {
       },
       secondary3: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -821,15 +821,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget2: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       },
       gadget3: {
         name: 'Impact EMP Grenade',
-        img: './assets/img//gadgets/Impact_EMP_Grenade.png'
+        img: './assets/img/gadgets/Impact_EMP_Grenade.png'
       }
     }
   },
@@ -839,14 +839,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'Spear .308',
-        img: './assets/img//weapon/Spear_308.png',
+        img: './assets/img/weapon/Spear_308.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -871,13 +871,13 @@ var Attacker = {
       },
       primary2: {
         name: '6P41',
-        img: './assets/img//weapon/6P41.png',
+        img: './assets/img/weapon/6P41.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -902,10 +902,10 @@ var Attacker = {
       },
       primary3: {
         name: 'SASG-12',
-        img: './assets/img//weapon/SASG-12.png',
+        img: './assets/img/weapon/SASG-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -930,11 +930,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'PMM',
-        img: './assets/img//weapon/PMM.png',
+        img: './assets/img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -945,11 +945,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'GSH 18',
-        img: './assets/img//weapon/GSH_18.png',
+        img: './assets/img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -960,9 +960,9 @@ var Attacker = {
       },
       secondary3: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -975,11 +975,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget2: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       }
     }
   },
@@ -989,13 +989,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'AR33',
-        img: './assets/img//weapon/AR33.png',
+        img: './assets/img/weapon/AR33.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1020,11 +1020,11 @@ var Attacker = {
       },
       primary2: {
         name: 'SR-25',
-        img: './assets/img//weapon/SR-25.png',
+        img: './assets/img/weapon/SR-25.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1055,11 +1055,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'GSH-18',
-        img: './assets/img//weapon/GSH_18.png',
+        img: './assets/img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1072,11 +1072,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -1086,13 +1086,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'AK-12',
-        img: './assets/img//weapon/AK-12.png',
+        img: './assets/img/weapon/AK-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1119,13 +1119,13 @@ var Attacker = {
       },
       primary2: {
         name: '6P41',
-        img: './assets/img//weapon/6P41.png',
+        img: './assets/img/weapon/6P41.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1153,9 +1153,9 @@ var Attacker = {
       },
       primary3: {
         name: 'Ballistic Shield',
-        img: './assets/img//weapon/Ballistic_Shield.png',
+        img: './assets/img/weapon/Ballistic_Shield.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1168,11 +1168,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'PMM',
-        img: './assets/img//weapon/PMM.png',
+        img: './assets/img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1183,11 +1183,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'GSH-18',
-        img: './assets/img//weapon/GSH_18.png',
+        img: './assets/img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1200,15 +1200,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'HARD BREACH CHARGE',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       },
       gadget3: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       }
     }
   },
@@ -1218,11 +1218,11 @@ var Attacker = {
     primary: {
       primary: {
         name: 'OTs-03',
-        img: './assets/img//weapon/OTs-03.png',
+        img: './assets/img/weapon/OTs-03.png',
         attachment: {
-          attachment: { name: 'No Attachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },  
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1246,11 +1246,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'PMM',
-        img: './assets/img//weapon/PMM.png',
+        img: './assets/img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1261,9 +1261,9 @@ var Attacker = {
       },
       secondary2: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1274,14 +1274,14 @@ var Attacker = {
       },
       secondary3: {
         name: 'Bearing9',
-        img: './assets/img//weapon/Bearing_9.png',
+        img: './assets/img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1304,15 +1304,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget2: {
         name: 'Frag Grenade',
-        img: './assets/img//gadgets/Frag_Grenade.png'
+        img: './assets/img/gadgets/Frag_Grenade.png'
       },
       gadget3: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -1322,14 +1322,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'F90',
-        img: './assets/img//weapon/F90.png',
+        img: './assets/img/weapon/F90.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1357,12 +1357,12 @@ var Attacker = {
       },
       primary2: {
         name: 'M249 SAW',
-        img: './assets/img//weapon/M249_SAW.png',
+        img: './assets/img/weapon/M249_SAW.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1392,9 +1392,9 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'Super Shorty',
-        img: './assets/img//weapon/Super_Shorty.png',
+        img: './assets/img/weapon/Super_Shorty.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1415,11 +1415,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'SDP 9mm',
-        img: './assets/img//weapon/SDP_9mm.png',
+        img: './assets/img/weapon/SDP_9mm.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1430,9 +1430,9 @@ var Attacker = {
       },
       secondary3: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1445,15 +1445,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget2: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget3: {
         name: 'Impact EMP Grenade',
-        img: './assets/img//gadgets/Impact_EMP_Grenade.png'
+        img: './assets/img/gadgets/Impact_EMP_Grenade.png'
       }
     }
   },
@@ -1463,14 +1463,14 @@ var Attacker = {
     primary: {
       primary: {
         name: '552 Commando',
-        img: './assets/img//weapon/552_Commando.png',
+        img: './assets/img/weapon/552_Commando.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1485,9 +1485,9 @@ var Attacker = {
       },
       primary2: {
         name: 'SG-CQB',
-        img: './assets/img//weapon/SG-CQB.png',
+        img: './assets/img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1511,11 +1511,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P229',
-        img: './assets/img//weapon/P229.png',
+        img: './assets/img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1528,11 +1528,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -1542,13 +1542,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'Type-89',
-        img: './assets/img//weapon/Type-89.png',
+        img: './assets/img/weapon/Type-89.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1575,9 +1575,9 @@ var Attacker = {
       },
       primary2: {
         name: 'SuperNova',
-        img: './assets/img//weapon/SuperNova.png',
+        img: './assets/img/weapon/SuperNova.png',
         attachment: {
-          attachment: { name: 'Suppressor' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1599,11 +1599,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P229',
-        img: './assets/img//weapon/P229.png',
+        img: './assets/img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1614,14 +1614,14 @@ var Attacker = {
       },
       secondary2: {
         name: 'Bearing 9',
-        img: './assets/img//weapon/Bearing_9.png',
+        img: './assets/img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1643,11 +1643,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       },
       gadget2: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       }
     }
   },
@@ -1657,13 +1657,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'ARX200',
-        img: './assets/img//weapon/ARX200.png',
+        img: './assets/img/weapon/ARX200.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1686,14 +1686,14 @@ var Attacker = {
       },
       primary2: {
         name: 'G36C',
-        img: './assets/img//weapon/G36C.png',
+        img: './assets/img/weapon/G36C.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1719,11 +1719,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'Mk1 9mm',
-        img: './assets/img//weapon/Mk1_9mm.png',
+        img: './assets/img/weapon/Mk1_9mm.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1736,11 +1736,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Frag Grenade',
-        img: './assets/img//gadgets/Frag_Grenade.png'
+        img: './assets/img/gadgets/Frag_Grenade.png'
       },
       gadget2: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       }
     }
   },
@@ -1750,7 +1750,7 @@ var Attacker = {
     primary: {
       primary: {
         name: 'AUG A2',
-        img: './assets/img//weapon/AUG_A2.png',
+        img: './assets/img/weapon/AUG_A2.png',
         attachment: {
           attachment: { name: 'Placeholder' },
           attachment: { name: 'Placeholder 2' },
@@ -1767,14 +1767,14 @@ var Attacker = {
       },
       primary2: {
         name: '552 Commando',
-        img: './assets/img//weapon/552_Commando.png',
+        img: './assets/img/weapon/552_Commando.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1789,9 +1789,9 @@ var Attacker = {
       },
       primary2: {
         name: 'SG-CQB',
-        img: './assets/img//weapon/SG-CQB.png',
+        img: './assets/img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1813,7 +1813,7 @@ var Attacker = {
       },
       primary3: {
         name: 'G8A1',
-        img: './assets/img//weapon/G8A1.png',
+        img: './assets/img/weapon/G8A1.png',
         attachment: {
           attachment: { name: 'Placeholder' },
           attachment: { name: 'Placeholder 2' },
@@ -1832,7 +1832,7 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P12',
-        img: './assets/img//weapon/P12.png',
+        img: './assets/img/weapon/P12.png',
         attachment: {
           attachment: { name: 'Placeholder' },
           attachment: { name: 'Placeholder 2' },
@@ -1851,11 +1851,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Chargee',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -1865,13 +1865,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'C7E',
-        img: './assets/img//weapon/C7E.png',
+        img: './assets/img/weapon/C7E.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1896,14 +1896,14 @@ var Attacker = {
       },
       primary2: {
         name: 'PDW9',
-        img: './assets/img//weapon/PDW9.png',
+        img: './assets/img/weapon/PDW9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1927,9 +1927,9 @@ var Attacker = {
       },
       primary3: {
         name: 'ITA12L',
-        img: './assets/img//weapon/ITA12L.png',
+        img: './assets/img/weapon/ITA12L.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1951,11 +1951,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'USP40',
-        img: './assets/img//weapon/USP40.png',
+        img: './assets/img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1966,9 +1966,9 @@ var Attacker = {
       },
       secondary2: {
         name: 'ITA12S',
-        img: './assets/img//weapon/ITA12S.png',
+        img: './assets/img/weapon/ITA12S.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -1991,11 +1991,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       },
       gadget2: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       }
     }
   },
@@ -2005,13 +2005,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'T-95 LSW',
-        img: './assets/img//weapon/T-95_LSW.png',
+        img: './assets/img/weapon/T-95_LSW.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2039,9 +2039,9 @@ var Attacker = {
       },
       primary2: {
         name: 'Six12',
-        img: './assets/img//weapon/Six12.png',
+        img: './assets/img/weapon/Six12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2064,11 +2064,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'Q-929',
-        img: './assets/img//weapon/Q-929.png',
+        img: './assets/img/weapon/Q-929.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2081,11 +2081,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Hard Breach Charge',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       },
       gadget2: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       }
     }
   },
@@ -2095,7 +2095,7 @@ var Attacker = {
     primary: {
       primary: {
         name: 'CSRX 300',
-        img: './assets/img//weapon/CSRX_300.png',
+        img: './assets/img/weapon/CSRX_300.png',
         attachment: {
           attachment: { name: 'Extended Barrel ;)' },
         },
@@ -2110,14 +2110,14 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'SPSMG9',
-        img: './assets/img//weapon/SPSMG9.png',
+        img: './assets/img/weapon/SPSMG9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2137,10 +2137,10 @@ var Attacker = {
       },
       secondary2: {
         name: 'C75 Auto',
-        img: './assets/img//weapon/C75_Auto.png',
+        img: './assets/img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2151,11 +2151,11 @@ var Attacker = {
       },
       secondary3: {
         name: 'P226 Mk 25',
-        img: './assets/img//weapon/P226_Mk_25.png',
+        img: './assets/img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2168,11 +2168,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       },
       gadget2: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       }
     }
   },
@@ -2182,13 +2182,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'V308',
-        img: './assets/img//weapon/V308.png',
+        img: './assets/img/weapon/V308.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2216,11 +2216,11 @@ var Attacker = {
       },
       primary2: {
         name: '417',
-        img: './assets/img//weapon/417.png',
+        img: './assets/img/weapon/417.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2248,9 +2248,9 @@ var Attacker = {
       },
       primary3: {
         name: 'SG-CQB',
-        img: './assets/img//weapon/SG-CQB.png',
+        img: './assets/img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2274,9 +2274,9 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'LFP586',
-        img: './assets/img//weapon/LFP586.png',
+        img: './assets/img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2287,11 +2287,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'P9',
-        img: './assets/img//weapon/P9.png',
+        img: './assets/img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2302,9 +2302,9 @@ var Attacker = {
       },
       secondary3: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2317,15 +2317,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       },
       gadget2: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       },
       gadget3: {
         name: 'Impact EMP Grenade',
-        img: './assets/img//gadgets/Impact_EMP_Grenade.png'
+        img: './assets/img/gadgets/Impact_EMP_Grenade.png'
       }
     }
   },
@@ -2335,11 +2335,11 @@ var Attacker = {
     primary: {
       primary: {
         name: 'AR-15.50',
-        img: './assets/img//weapon/AR-15-50.png',
+        img: './assets/img/weapon/AR-15-50.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2368,14 +2368,14 @@ var Attacker = {
       },
       primary2: {
         name: 'M4 GS',
-        img: './assets/img//weapon/M4.png',
+        img: './assets/img/weapon/M4.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2406,11 +2406,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: '1911 TACOPS',
-        img: './assets/img//weapon/1911_TACOPS.png',
+        img: './assets/img/weapon/1911_TACOPS.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2423,11 +2423,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -2437,9 +2437,9 @@ var Attacker = {
     primary: {
       primary: {
         name: 'LE ROC SHIELD',
-        img: './assets/img//weapon/LE_ROC_SHIELD.png',
+        img: './assets/img/weapon/LE_ROC_SHIELD.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2452,11 +2452,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P9',
-        img: './assets/img//weapon/P9.png',
+        img: './assets/img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2467,9 +2467,9 @@ var Attacker = {
       },
       secondary2: {
         name: 'LFP586',
-        img: './assets/img//weapon/LFP586.png',
+        img: './assets/img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2482,11 +2482,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'HARD BREACH CHARGE',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       },
       gadget2: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       }
     }
   },
@@ -2496,14 +2496,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'FMG-9',
-        img: './assets/img//weapon/FMG-9.png',
+        img: './assets/img/weapon/FMG-9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2525,9 +2525,9 @@ var Attacker = {
       },
       primary2: {
         name: 'SIX12 SD',
-        img: './assets/img//weapon/SIX12_SD.png',
+        img: './assets/img/weapon/SIX12_SD.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2550,11 +2550,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: '5.7 USG',
-        img: './assets/img//weapon/5-7_USG.png',
+        img: './assets/img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2565,11 +2565,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'D-50',
-        img: './assets/img//weapon/D-50.png',
+        img: './assets/img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2582,15 +2582,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Frag Grenade',
-        img: './assets/img//gadgets/Frag_Grenade.png'
+        img: './assets/img/gadgets/Frag_Grenade.png'
       },
       gadget2: {
         name: 'HARD BREACH CHARGE',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       },
       gadget3: {
         name: 'Impact EMP Grenade',
-        img: './assets/img//gadgets/Impact_EMP_Grenade.png'
+        img: './assets/img/gadgets/Impact_EMP_Grenade.png'
       }
     }
   },
@@ -2600,13 +2600,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'AK-74M',
-        img: './assets/img//weapon/AK-74M.png',
+        img: './assets/img/weapon/AK-74M.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2632,13 +2632,13 @@ var Attacker = {
       },
       primary2: {
         name: 'ARX200',
-        img: './assets/img//weapon/ARX200.png',
+        img: './assets/img/weapon/ARX200.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2665,9 +2665,9 @@ var Attacker = {
     secondary: {
       secondary: {
         name: '.44 MAG SEMI-AUTO',
-        img: './assets/img//weapon/44_MAG_SEMI-AUTO.png',
+        img: './assets/img/weapon/44_MAG_SEMI-AUTO.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2678,11 +2678,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'PRB92',
-        img: './assets/img//weapon/PRB92.png',
+        img: './assets/img/weapon/PRB92.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2695,11 +2695,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       },
       gadget2: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       }
     }
   },
@@ -2709,13 +2709,13 @@ var Attacker = {
     primary: {
       primary: {
         name: '556xi',
-        img: './assets/img//weapon/556xi.png',
+        img: './assets/img/weapon/556xi.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2742,14 +2742,14 @@ var Attacker = {
       },
       primary2: {
        name: 'PDW9',
-        img: './assets/img//weapon/PDW9.png',
+        img: './assets/img/weapon/PDW9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2775,11 +2775,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'PMM',
-        img: './assets/img//weapon/PMM.png',
+        img: './assets/img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2792,15 +2792,15 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       },
       gadget3: {
         name: 'Impact EMP Grenade',
-        img: './assets/img//gadgets/Impact_EMP_Grenade.png'
+        img: './assets/img/gadgets/Impact_EMP_Grenade.png'
       }
     }
   },
@@ -2810,14 +2810,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'POF9',
-        img: './assets/img//weapon/POF9.png',
+        img: './assets/img/weapon/POF9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2845,11 +2845,11 @@ var Attacker = {
       },
       primary2: {
         name: '417',
-        img: './assets/img//weapon/417.png',
+        img: './assets/img/weapon/417.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2879,11 +2879,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'SDP 9mm',
-        img: './assets/img//weapon/SDP_9mm.png',
+        img: './assets/img/weapon/SDP_9mm.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2896,11 +2896,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -2910,13 +2910,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'L85A2',
-        img: './assets/img//weapon/L85A2.png',
+        img: './assets/img/weapon/L85A2.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2940,9 +2940,9 @@ var Attacker = {
       },
       primary2: {
         name: 'M590A1',
-        img: './assets/img//weapon/M590A1.png',
+        img: './assets/img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2965,11 +2965,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P226 Mk 25',
-        img: './assets/img//weapon/P226_Mk_25.png',
+        img: './assets/img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -2982,11 +2982,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Frag Grenade',
-        img: './assets/img//gadgets/Frag_Grenade.png'
+        img: './assets/img/gadgets/Frag_Grenade.png'
       },
       gadget2: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       }
     }
   },
@@ -2996,13 +2996,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'AR33',
-        img: './assets/img//weapon/AR33.png',
+        img: './assets/img/weapon/AR33.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3029,13 +3029,13 @@ var Attacker = {
       },
       primary2: {
         name: 'L85A2',
-        img: './assets/img//weapon/L85A2.png',
+        img: './assets/img/weapon/L85A2.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3059,9 +3059,9 @@ var Attacker = {
       },
       primary3: {
         name: 'M590A1',
-        img: './assets/img//weapon/M590A1.png',
+        img: './assets/img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3084,11 +3084,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P226 Mk 25',
-        img: './assets/img//weapon/P226_Mk_25.png',
+        img: './assets/img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3101,11 +3101,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -3115,9 +3115,9 @@ var Attacker = {
     primary: {
       primary: {
         name: 'M1014',
-        img: './assets/img//weapon/M1014.png',
+        img: './assets/img/weapon/M1014.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3137,13 +3137,13 @@ var Attacker = {
       },
       primary2: {
         name: '556xi',
-        img: './assets/img//weapon/556xi.png',
+        img: './assets/img/weapon/556xi.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3172,11 +3172,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: '5.7 USG',
-        img: './assets/img//weapon/5-7_USG.png',
+        img: './assets/img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3188,11 +3188,11 @@ var Attacker = {
       secondary2: {
         secondary: {
           name: 'M45 MEUSOC',
-          img: './assets/img//weapon/M45_MEUSOC.png',
+          img: './assets/img/weapon/M45_MEUSOC.png',
           attachment: {
-            attachment: { name: 'No Attachment' },
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
+            'No Attachment': { name: 'No Attachment' },
+            'Muzzle Brake': { name: 'Muzzle Brake' },
+            'Suppressor': { name: 'Suppressor' },
           },
           gripe: {
             'none': { name: 'No Grip' },
@@ -3206,11 +3206,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget2: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png'
+        img: './assets/img/gadgets/Stun_Grenade.png'
       }
     }
   },
@@ -3220,14 +3220,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'F2',
-        img: './assets/img//weapon/F2.png',
+        img: './assets/img/weapon/F2.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3249,11 +3249,11 @@ var Attacker = {
       },
       primary2: {
         name: '417',
-        img: './assets/img//weapon/417.png',
+        img: './assets/img/weapon/417.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3281,9 +3281,9 @@ var Attacker = {
       },
       primary3: {
         name: 'SG-CQB',
-        img: './assets/img//weapon/SG-CQB.png',
+        img: './assets/img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3307,11 +3307,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'P9',
-        img: './assets/img//weapon/P9.png',
+        img: './assets/img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3322,9 +3322,9 @@ var Attacker = {
       },
       secondary2: {
         name: 'LFP586',
-        img: './assets/img//weapon/LFP586.png',
+        img: './assets/img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
          'none': { name: 'No Grip' },
@@ -3337,11 +3337,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Smoke Grenade',
-        img: './assets/img//gadgets/Smoke_Grenade.png'
+        img: './assets/img/gadgets/Smoke_Grenade.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -3351,14 +3351,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'SC3000K',
-        img: './assets/img//weapon/SC3000K.png',
+        img: './assets/img/weapon/SC3000K.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3383,14 +3383,14 @@ var Attacker = {
       },
       primary2: {
         name: 'MP7',
-        img: './assets/img//weapon/MP7.png',
+        img: './assets/img/weapon/MP7.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3414,11 +3414,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: '5.7 USG',
-        img: './assets/img//weapon/5-7_USG.png',
+        img: './assets/img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'No Attachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },  
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3429,9 +3429,9 @@ var Attacker = {
       },
       secondary2: {
         name: 'Gonne 6',
-        img: './assets/img//weapon/Gonne_6.png',
+        img: './assets/img/weapon/Gonne_6.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3444,11 +3444,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Hard Breach Charge',
-        img: './assets/img//gadgets/SecondaryBreacher.png'
+        img: './assets/img/gadgets/SecondaryBreacher.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -3458,13 +3458,13 @@ var Attacker = {
     primary: {
       primary: {
         name: 'LMG-E',
-        img: './assets/img//weapon/LMG-E.png',
+        img: './assets/img/weapon/LMG-E.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3489,13 +3489,13 @@ var Attacker = {
       },
       primary2: {
         name: 'M762',
-        img: './assets/img//weapon/M762.png',
+        img: './assets/img/weapon/M762.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3512,11 +3512,11 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'RG15',
-        img: './assets/img//weapon/RG15.png',
+        img: './assets/img/weapon/RG15.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3529,11 +3529,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Breach Charge',
-        img: './assets/img//gadgets/Breach_Charge.png'
+        img: './assets/img/gadgets/Breach_Charge.png'
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png'
+        img: './assets/img/gadgets/Claymore.png'
       }
     }
   },
@@ -3543,14 +3543,14 @@ var Attacker = {
     primary: {
       primary: {
         name: 'PARA-308',
-        img: './assets/img//weapon/PARA-308.png',
+        img: './assets/img/weapon/PARA-308.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3575,11 +3575,11 @@ var Attacker = {
       },
       primary2: {
         name: 'CAMRS',
-        img: './assets/img//weapon/CAMRS.png',
+        img: './assets/img/weapon/CAMRS.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3608,9 +3608,9 @@ var Attacker = {
     secondary: {
       secondary: {
         name: 'Super Shorty',
-        img: './assets/img//weapon/Super_Shorty.png',
+        img: './assets/img/weapon/Super_Shorty.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3631,11 +3631,11 @@ var Attacker = {
       },
       secondary2: {
         name: 'USP40',
-        img: './assets/img//weapon/USP40.png',
+        img: './assets/img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3648,11 +3648,11 @@ var Attacker = {
     gadgets: {
       gadget1: {
         name: 'Stun Grenade',
-        img: './assets/img//gadgets/Stun_Grenade.png',
+        img: './assets/img/gadgets/Stun_Grenade.png',
       },
       gadget2: {
         name: 'Claymore',
-        img: './assets/img//gadgets/Claymore.png',
+        img: './assets/img/gadgets/Claymore.png',
       }
     }
   },
@@ -3664,14 +3664,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'FMG-9',
-        img: './assets/img//weapon/FMG-9.png',
+        img: './assets/img/weapon/FMG-9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3693,9 +3693,9 @@ var Defender = {
       },
       primary2: {
         name: 'M590A1',
-        img: './assets/img//weapon/M590A1.png',
+        img: './assets/img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3718,11 +3718,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P226 Mk 25',
-        img: './assets/img//weapon/P226_Mk_25.png',
+        img: './assets/img/weapon/P226_Mk_25.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3733,14 +3733,14 @@ var Defender = {
       },
       secondary2: {
         name: 'SMG-11',
-        img: './assets/img//weapon/SMG-11.png',
+        img: './assets/img/weapon/SMG-11.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3765,11 +3765,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png'
+        img: './assets/img/gadgets/Barbed_Wire.png'
       },
       gadget2: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_Alarm.png'
+        img: './assets/img/gadgets/Proximity_Alarm.png'
       }
     }
   },
@@ -3779,14 +3779,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'UMP45',
-        img: './assets/img//weapon/UMP45.png',
+        img: './assets/img/weapon/UMP45.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {  
           'none': { name: 'No Grip' },
@@ -3810,9 +3810,9 @@ var Defender = {
     },
     primary2: {
       name: 'M1014',
-      img: './assets/img//weapon/M1014.png',
+      img: './assets/img/weapon/M1014.png',
       attachment: {
-        attachment: { name: 'No Attachment' },
+        'No Attachment': { name: 'No Attachment' },
       },
       gripe: {
         'none': { name: 'No Grip' },
@@ -3835,11 +3835,11 @@ var Defender = {
   secondary: {
     secondary: {
       name: '5.7 USG',
-      img: './assets/img//weapon/5-7_USG.png',
+      img: './assets/img/weapon/5-7_USG.png',
       attachment: {
-        attachment: { name: 'No Attachment' },  
-        attachment: { name: 'Muzzle Brake' },
-        attachment: { name: 'Suppressor' },
+        'No Attachment': { name: 'No Attachment' },  
+        'Muzzle Brake': { name: 'Muzzle Brake' },
+        'Suppressor': { name: 'Suppressor' },
       },
       gripe: {
         'none': { name: 'No Grip' },
@@ -3850,11 +3850,11 @@ var Defender = {
     },
     secondary2: {
       name: '5.7 USG',
-      img: './assets/img//weapon/5-7_USG.png',
+      img: './assets/img/weapon/5-7_USG.png',
       attachment: {
-        attachment: { name: 'No Attachment' },  
-        attachment: { name: 'Muzzle Brake' },
-        attachment: { name: 'Suppressor' },
+        'No Attachment': { name: 'No Attachment' },  
+        'Muzzle Brake': { name: 'Muzzle Brake' },
+        'Suppressor': { name: 'Suppressor' },
       },
       gripe: {
         'none': { name: 'No Grip' },
@@ -3865,11 +3865,11 @@ var Defender = {
     },
     secondary3: {
       name: '5.7 USG',
-      img: './assets/img//weapon/5-7_USG.png',
+      img: './assets/img/weapon/5-7_USG.png',
       attachment: {
-        attachment: { name: 'No Attachment' },  
-        attachment: { name: 'Muzzle Brake' },
-        attachment: { name: 'Suppressor' },
+        'No Attachment': { name: 'No Attachment' },  
+        'Muzzle Brake': { name: 'Muzzle Brake' },
+        'Suppressor': { name: 'Suppressor' },
       },
       gripe: {
         'none': { name: 'No Grip' },
@@ -3882,11 +3882,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png'
+        img: './assets/img/gadgets/Nitro_Cell.png'
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png'
+        img: './assets/img/gadgets/Bulletproof_camera.png'
       }
     }
   },
@@ -3896,9 +3896,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'M1014',
-        img: './assets/img//weapon/M1014.png',
+        img: './assets/img/weapon/M1014.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3919,14 +3919,14 @@ var Defender = {
       },
       primary2: {
         name: 'UMP45',
-        img: './assets/img//weapon/UMP45.png',
+        img: './assets/img/weapon/UMP45.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {  
           'none': { name: 'No Grip' },
@@ -3952,11 +3952,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'M45 MEUSOC',
-        img: './assets/img//weapon/M45_MEUSOC.png',
+        img: './assets/img/weapon/M45_MEUSOC.png',
         attachment: {
-          attachment: { name: 'No Attachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },  
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3967,11 +3967,11 @@ var Defender = {
       },
       secondary2: {
         name: '5.7 USG',
-        img: './assets/img//weapon/5-7_USG.png',
+        img: './assets/img/weapon/5-7_USG.png',
         attachment: {
-          attachment: { name: 'No Attachment' },  
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },  
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -3984,15 +3984,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Deployable Shield',
-        img: './assets/img//gadgets/Deployable_Shield.png'
+        img: './assets/img/gadgets/Deployable_Shield.png'
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png'
+        img: './assets/img/gadgets/Nitro_Cell.png'
       },
       gadget3: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png'
+        img: './assets/img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -4002,9 +4002,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'SG-CQB',
-        img: './assets/img//weapon/SG-CQB.png',
+        img: './assets/img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4026,14 +4026,14 @@ var Defender = {
       },
       primary2: {
         name: 'MP5',
-        img: './assets/img//weapon/MP5.png',
+        img: './assets/img/weapon/MP5.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4056,14 +4056,14 @@ var Defender = {
       },
       primary3: {
         name: 'P90',
-        img: './assets/img//weapon/P90.png',
+        img: './assets/img/weapon/P90.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4089,11 +4089,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P9',
-        img: './assets/img//weapon/P9.png',
+        img: './assets/img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4104,9 +4104,9 @@ var Defender = {
       },
       secondary2: {
         name: 'LFP586',
-        img: './assets/img//weapon/LFP586.png',
+        img: './assets/img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4117,9 +4117,9 @@ var Defender = {
       },
       secondary3: {
         name: 'Bailiff 410',
-        img: './assets/img//weapon/Bailiff_410.png',
+        img: './assets/img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4132,11 +4132,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       }
     }
   },
@@ -4146,14 +4146,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'P90',
-        img: './assets/img//weapon/P90.png',
+        img: './assets/img/weapon/P90.png',
         attachment: {
-        attachment: { name: 'No Attachment' },
-        attachment: { name: 'Flash Hilder' },
-        attachment: { name: 'Compensator' },
-        attachment: { name: 'Muzzle Brake' },
-        attachment: { name: 'Suppressor' },
-        attachment: { name: 'Extended Barrel' },
+        'No Attachment': { name: 'No Attachment' },
+        'Flash Hilder': { name: 'Flash Hilder' },
+        'Compensator': { name: 'Compensator' },
+        'Muzzle Brake': { name: 'Muzzle Brake' },
+        'Suppressor': { name: 'Suppressor' },
+        'Extended Barrel' : { name: 'Extended Barrel' },
       },
       gripe: {
         'none': { name: 'No Grip' }
@@ -4175,14 +4175,14 @@ var Defender = {
     },
       primary2: {
         name: 'MP5',
-        img: './assets/img//weapon/MP5.png',
+        img: './assets/img/weapon/MP5.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4207,9 +4207,9 @@ var Defender = {
       },
       primary3: {
         name: 'SG-CQB',
-        img: './assets/img//weapon/SG-CQB.png',
+        img: './assets/img/weapon/SG-CQB.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4233,11 +4233,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P9',
-        img: './assets/img//weapon/P9.png',
+        img: './assets/img/weapon/P9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4248,9 +4248,9 @@ var Defender = {
       },
       secondary2: {
         name: 'LFP586',
-        img: './assets/img//weapon/LFP586.png',
+        img: './assets/img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4263,15 +4263,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_alarm.png',
+        img: './assets/img/gadgets/Proximity_alarm.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget3: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png'
+        img: './assets/img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -4281,14 +4281,14 @@ var Defender = {
     primary: {
       primary: {
         name: '9x19VSN',
-        img: './assets/img//weapon/9x19VSN.png',
+        img: './assets/img/weapon/9x19VSN.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4311,10 +4311,10 @@ var Defender = {
       },
       primary2: {
         name: 'SASG-12',
-        img: './assets/img//weapon/SASG-12.png',
+        img: './assets/img/weapon/SASG-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4339,11 +4339,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'PMM',
-        img: './assets/img//weapon/PMM.png',
+        img: './assets/img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4354,11 +4354,11 @@ var Defender = {
       },
       secondary2: {
         name: 'GSH 18',
-        img: './assets/img//weapon/GSH_18.png',
+        img: './assets/img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4371,11 +4371,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png',
+        img: './assets/img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -4385,9 +4385,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'DP27',
-        img: './assets/img//weapon/DP27.png',
+        img: './assets/img/weapon/DP27.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4407,14 +4407,14 @@ var Defender = {
       },
       primary2: {
         name: '9x19VSN',
-        img: './assets/img//weapon/9x19VSN.png',
+        img: './assets/img/weapon/9x19VSN.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4441,11 +4441,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'PMM',
-        img: './assets/img//weapon/PMM.png',
+        img: './assets/img/weapon/PMM.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4456,11 +4456,11 @@ var Defender = {
       },
       secondary2: {
         name: 'GSH 18',
-        img: './assets/img//weapon/GSH_18.png',
+        img: './assets/img/weapon/GSH_18.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4471,14 +4471,14 @@ var Defender = {
       },
       secondary3: {
         name: 'Bearing9',
-        img: './assets/img//weapon/Bearing_9.png',
+        img: './assets/img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4501,15 +4501,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './assets/img//gadgets/Deployable_Shield.png',
+        img: './assets/img/gadgets/Deployable_Shield.png',
       },
       gadget3: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_alarm.png',
+        img: './assets/img/gadgets/Proximity_alarm.png',
       }
     }
   },
@@ -4519,9 +4519,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'M870',
-        img: './assets/img//weapon/M870.png',
+        img: './assets/img/weapon/M870.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4541,14 +4541,14 @@ var Defender = {
       },
       primary2: {
         name: '416-C Carbine',
-        img: './assets/img//weapon/416C_Carbine.png',
+        img: './assets/img/weapon/416C_Carbine.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4572,11 +4572,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P12',
-        img: './assets/img//weapon/P12.png',
+        img: './assets/img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4589,11 +4589,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png',
+        img: './assets/img/gadgets/Observation_Blocker.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       }
     }
   },
@@ -4603,14 +4603,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'Mp7',
-        img: './assets/img//weapon/MP7.png',
+        img: './assets/img/weapon/MP7.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4630,9 +4630,9 @@ var Defender = {
       },
       primary2: {
         name: 'M870',
-        img: './assets/img//weapon/M870.png',
+        img: './assets/img/weapon/M870.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4654,11 +4654,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P12',
-        img: './assets/img//weapon/P12.png',
+        img: './assets/img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4671,11 +4671,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png',
+        img: './assets/img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -4685,9 +4685,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'Super 90',
-        img: './assets/img//weapon/Super_90.png',
+        img: './assets/img/weapon/Super_90.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4708,14 +4708,14 @@ var Defender = {
       },
       primary2: {
         name: '9mm C1',
-        img: './assets/img//weapon/9mm_C1.png',
+        img: './assets/img/weapon/9mm_C1.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4742,11 +4742,11 @@ var Defender = {
       secondary: {
         secondary: {
           name: 'Mk1 9mm',
-          img: './assets/img//weapon/Mk1_9mm.png',
+          img: './assets/img/weapon/Mk1_9mm.png',
           attachment: {
-            attachment: { name: 'No Attachment' },
-            attachment: { name: 'Muzzle Brake' },
-            attachment: { name: 'Suppressor' },
+            'No Attachment': { name: 'No Attachment' },
+            'Muzzle Brake': { name: 'Muzzle Brake' },
+            'Suppressor': { name: 'Suppressor' },
           },
           gripe: {
             'none': { name: 'No Grip' },
@@ -4758,9 +4758,9 @@ var Defender = {
       },
       secondary2: {
         name: 'ITA12S',
-        img: './assets/img//weapon/ITA12S.png',
+        img: './assets/img/weapon/ITA12S.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4783,11 +4783,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './assets/img//gadgets/Deployable_Shield.png',
+        img: './assets/img/gadgets/Deployable_Shield.png',
       }
     }
   },
@@ -4797,13 +4797,13 @@ var Defender = {
     primary: {
       primary: {
         name: 'MPX',
-        img: './assets/img//weapon/MPX.png',
+        img: './assets/img/weapon/MPX.png',
         attachment: {
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4826,9 +4826,9 @@ var Defender = {
       },
       primary2: {
         name: 'SPAS-12',
-        img: './assets/img//weapon/SPAS-12.png',
+        img: './assets/img/weapon/SPAS-12.png',
         attachment: {
-          attachment: { name: 'Flash Hilder' },
+          'Flash Hilder': { name: 'Flash Hilder' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4851,11 +4851,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'D-50',
-        img: './assets/img//weapon/D-50.png',
+        img: './assets/img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4868,11 +4868,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png',
+        img: './assets/img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -4882,14 +4882,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'M12',
-        img: './assets/img//weapon/M12.png',
+        img: './assets/img/weapon/M12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4910,9 +4910,9 @@ var Defender = {
       },
       primary2: {
         name: 'SPAS-15',
-        img: './assets/img//weapon/SPAS-15.png',
+        img: './assets/img/weapon/SPAS-15.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4935,9 +4935,9 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Luison',
-        img: './assets/img//weapon/Luison.png',
+        img: './assets/img/weapon/Luison.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4950,15 +4950,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_alarm.png',
+        img: './assets/img/gadgets/Proximity_alarm.png',
       },
       gadget3: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png'
+        img: './assets/img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -4968,10 +4968,10 @@ var Defender = {
     primary: {
       primary: {
         name: 'Supernova',
-        img: './assets/img//weapon/SuperNova.png',
+        img: './assets/img/weapon/SuperNova.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -4992,9 +4992,9 @@ var Defender = {
       },
       primary2: {
         name: 'Mp5SD',
-        img: './assets/img//weapon/MP5SD.png',
+        img: './assets/img/weapon/MP5SD.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5020,11 +5020,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P229',
-        img: './assets/img//weapon/P229.png',
+        img: './assets/img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5035,14 +5035,14 @@ var Defender = {
       },
       secondary2: {
         name: 'Bearing 9',
-        img: './assets/img//weapon/Bearing_9.png',
+        img: './assets/img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5064,11 +5064,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './assets/img//gadgets/Deployable_Shield.png',
+        img: './assets/img/gadgets/Deployable_Shield.png',
       }
     }
   },
@@ -5078,14 +5078,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'Vector .45 ACP',
-        img: './assets/img//weapon/Vector_45_ACP.png',
+        img: './assets/img/weapon/Vector_45_ACP.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5108,9 +5108,9 @@ var Defender = {
       },
       primary2: {
         name: 'ITA12L',
-        img: './assets/img//weapon/ITA12L.png',
+        img: './assets/img/weapon/ITA12L.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5133,11 +5133,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'USP40',
-        img: './assets/img//weapon/USP40.png',
+        img: './assets/img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5150,11 +5150,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_alarm.png',
+        img: './assets/img/gadgets/Proximity_alarm.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png',
+        img: './assets/img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -5164,9 +5164,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'Six12 SD',
-        img: './assets/img//weapon/SIX12.png',
+        img: './assets/img/weapon/SIX12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5187,14 +5187,14 @@ var Defender = {
       },
       primary2: {
         name: 'T-5 SMG',
-        img: './assets/img//weapon/T-5_SMG.png',
+        img: './assets/img/weapon/T-5_SMG.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5219,11 +5219,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Q-929',
-        img: './assets/img//weapon/Q-929.png',
+        img: './assets/img/weapon/Q-929.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5236,11 +5236,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       }
     }
   },
@@ -5250,13 +5250,13 @@ var Defender = {
     primary: {
       primary: {
         name: 'Scorpion EVO 3 A1',
-        img: './assets/img//weapon/Scorpion_EVO_3_A1.png',
+        img: './assets/img/weapon/Scorpion_EVO_3_A1.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5279,11 +5279,11 @@ var Defender = {
       },
       primary2: {
         name: 'Fo-12',
-        img: './assets/img//weapon/FO-12.png',
+        img: './assets/img/weapon/FO-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5308,11 +5308,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'RG15',
-        img: './assets/img//weapon/RG15.png',
+        img: './assets/img/weapon/RG15.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5325,15 +5325,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Deployable Shield',
-        img: './assets/img//gadgets/Deployable_Shield.png',
+        img: './assets/img/gadgets/Deployable_Shield.png',
       },
       gadget3: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png'
+        img: './assets/img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -5343,14 +5343,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'K1A',
-        img: './assets/img//weapon/K1A.png',
+        img: './assets/img/weapon/K1A.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5373,9 +5373,9 @@ var Defender = {
       },
       primary2: {
         name: 'BOSG.12.2',
-        img: './assets/img//weapon/BOSG-12-2.png',
+        img: './assets/img/weapon/BOSG-12-2.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5405,10 +5405,10 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'C75 Auto',
-        img: './assets/img//weapon/C75_Auto.png',
+        img: './assets/img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5419,9 +5419,9 @@ var Defender = {
       },
       secondary2: {
         name: 'SMG-12',
-        img: './assets/img//weapon/SMG-12.png',
+        img: './assets/img/weapon/SMG-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5445,11 +5445,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       }
     }
   },
@@ -5459,13 +5459,13 @@ var Defender = {
     primary: {
       primary: {
         name: 'ALDA 5.56',
-        img: './assets/img//weapon/ALDA 5.56.png',
+        img: './assets/img/weapon/ALDA 5.56.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5488,9 +5488,9 @@ var Defender = {
       },
       primary2: {
         name: 'ACS12',
-        img: './assets/img//weapon/ACS12.png',
+        img: './assets/img/weapon/ACS12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5517,9 +5517,9 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bailiff 410',
-        img: './assets/img//weapon/Bailiff_410.png',
+        img: './assets/img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5530,11 +5530,11 @@ var Defender = {
       },
       secondary2: {
         name: 'Keratos .357',
-        img: './assets/img//weapon/Keratos_357.png',
+        img: './assets/img/weapon/Keratos_357.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5547,15 +5547,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget3: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png'
+        img: './assets/img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -5565,14 +5565,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'Mx4 Storm',
-        img: './assets/img//weapon/Mx4_Storm.png',
+        img: './assets/img/weapon/Mx4_Storm.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5595,9 +5595,9 @@ var Defender = {
       },
       primary2: {
         name: 'ACS12',
-        img: './assets/img//weapon/ACS12.png',
+        img: './assets/img/weapon/ACS12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5624,9 +5624,9 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bailiff 410',
-        img: './assets/img//weapon/Bailiff_410.png',
+        img: './assets/img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5637,11 +5637,11 @@ var Defender = {
       },
       secondary2: {
         name: 'Keratos .357',
-        img: './assets/img//weapon/Keratos_357.png',
+        img: './assets/img/weapon/Keratos_357.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5654,11 +5654,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png',
+        img: './assets/img/gadgets/Observation_Blocker.png',
       },
       gadget2: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Deployable_Shield.png',
+        img: './assets/img/gadgets/Deployable_Shield.png',
       }
     }
   },
@@ -5668,9 +5668,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'CCE Shield',
-        img: './assets/img//weapon/CCE_Shield.png',
+        img: './assets/img/weapon/CCE_Shield.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5683,9 +5683,9 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Super Shorty',
-        img: './assets/img//weapon/Super_Shorty.png',
+        img: './assets/img/weapon/Super_Shorty.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5706,14 +5706,14 @@ var Defender = {
       },
       secondary2: {
         name: 'SPSMG9',
-        img: './assets/img//weapon/SPSMG9.png',
+        img: './assets/img/weapon/SPSMG9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5733,11 +5733,11 @@ var Defender = {
       },
       secondary3: {
         name: 'P-10C',
-        img: './assets/img//weapon/P-10C.png',
+        img: './assets/img/weapon/P-10C.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5750,15 +5750,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget3: {
         name: 'Deployable Shield',
-          img: './assets/img//gadgets/Deployable_Shield.png'
+          img: './assets/img/gadgets/Deployable_Shield.png'
       }
     }
   },
@@ -5768,14 +5768,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'Aug A3',
-        img: './assets/img//weapon/AUG_A3.png',
+        img: './assets/img/weapon/AUG_A3.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5797,10 +5797,10 @@ var Defender = {
       },
       primary2: {
         name: 'TCSG12',
-        img: './assets/img//weapon/TCSG12.png',
+        img: './assets/img/weapon/TCSG12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5827,9 +5827,9 @@ var Defender = {
     secondary: {
       secondary: {
         name: '.44 MAG SEMI-AUTO',
-        img: './assets/img//weapon/44_MAG_SEMI-AUTO.png',
+        img: './assets/img/weapon/44_MAG_SEMI-AUTO.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5840,9 +5840,9 @@ var Defender = {
       },
       secondary2: {
         name: 'LFP586',
-        img: './assets/img//weapon/LFP586.png',
+        img: './assets/img/weapon/LFP586.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5855,15 +5855,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png',
+        img: './assets/img/gadgets/Nitro_Cell.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget3: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png'
+        img: './assets/img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -5873,14 +5873,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'Commando 9',
-        img: './assets/img//weapon/Commando_9.png',
+        img: './assets/img/weapon/Commando_9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5903,14 +5903,14 @@ var Defender = {
       },
       primary2: {
         name: 'P10 RONI',
-        img: './assets/img//weapon/P10Roni.png',
+        img: './assets/img/weapon/P10Roni.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5936,11 +5936,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'SDP 9mm',
-        img: './assets/img//weapon/SDP_9mm.png',
+        img: './assets/img/weapon/SDP_9mm.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5953,11 +5953,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png',
+        img: './assets/img/gadgets/Nitro_Cell.png',
       }
     }
   },
@@ -5967,9 +5967,9 @@ var Defender = {
     primary: {
       primary: {
         name: 'M590A1',
-        img: './assets/img//weapon/M590A1.png',
+        img: './assets/img/weapon/M590A1.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -5990,13 +5990,13 @@ var Defender = {
       },
       primary2: {
         name: 'MPX',
-        img: './assets/img//weapon/MPX.png',
+        img: './assets/img/weapon/MPX.png',
         attachment: {
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6021,11 +6021,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P-10C',
-        img: './assets/img//weapon/P-10C.png',
+        img: './assets/img/weapon/P-10C.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6036,9 +6036,9 @@ var Defender = {
       },
       secondary2: {
         name: 'SMG-12',
-        img: './assets/img//weapon/SMG-12.png',
+        img: './assets/img/weapon/SMG-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6062,15 +6062,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Deployable Shield',
-        img: './assets/img//gadgets/Deployable_Shield.png',
+        img: './assets/img/gadgets/Deployable_Shield.png',
       },
       gadget2: {
         name: 'Nitro Cell',
-        img: './assets/img//gadgets/Nitro_Cell.png',
+        img: './assets/img/gadgets/Nitro_Cell.png',
       },
       gadget3: {
         name: 'Observation Blocker',
-        img: './assets/img//gadgets/Observation_Blocker.png'
+        img: './assets/img/gadgets/Observation_Blocker.png'
       }
     }
   },
@@ -6080,14 +6080,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'Vector .45 ACP',
-        img: './assets/img//weapon/Vector_45_ACP.png',
+        img: './assets/img/weapon/Vector_45_ACP.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6111,10 +6111,10 @@ var Defender = {
       },
       primary2: {
         name: 'TCSG12',
-        img: './assets/img//weapon/TCSG12.png',
+        img: './assets/img/weapon/TCSG12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6141,11 +6141,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'P229',
-        img: './assets/img//weapon/P229.png',
+        img: './assets/img/weapon/P229.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6158,15 +6158,15 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_alarm.png',
+        img: './assets/img/gadgets/Proximity_alarm.png',
       },
       gadget2: {
         name: 'Bulletproof Camera.',
-        img: './assets/img//gadgets/Bulletproof_Camera.png',
+        img: './assets/img/gadgets/Bulletproof_Camera.png',
       },
       gadget3: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       }
     }
   },
@@ -6176,13 +6176,13 @@ var Defender = {
     primary: {
       primary: {
         name: 'AUG A2',
-        img: './assets/img//weapon/AUG_A2.png',
+        img: './assets/img/weapon/AUG_A2.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6203,13 +6203,13 @@ var Defender = {
       },
       primary2: {
         name: 'MP5K',
-        img: './assets/img//weapon/MP5K.png',
+        img: './assets/img/weapon/MP5K.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
           attachment: { name: 'Extended Barrel' }
         },
         gripe: {
@@ -6234,11 +6234,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Keratos .357',
-        img: './assets/img//weapon/Keratos_357.png',
+        img: './assets/img/weapon/Keratos_357.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6249,11 +6249,11 @@ var Defender = {
       },
       secondary2: {
         name: 'P12',
-        img: './assets/img//weapon/P12.png',
+        img: './assets/img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6266,11 +6266,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_alarm.png',
+        img: './assets/img/gadgets/Proximity_alarm.png',
       }
     }
   },
@@ -6280,14 +6280,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'T-5 SMG',
-        img: './assets/img//weapon/T-5_SMG.png',
+        img: './assets/img/weapon/T-5_SMG.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6310,9 +6310,9 @@ var Defender = {
       },
       primary2: {
         name: 'SPAS-12',
-        img: './assets/img//weapon/SPAS-12.png',
+        img: './assets/img/weapon/SPAS-12.png',
         attachment: {
-          attachment: { name: 'Flash Hilder' },
+          'Flash Hilder': { name: 'Flash Hilder' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6335,9 +6335,9 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bailiff 410',
-        img: './assets/img//weapon/Bailiff_410.png',
+        img: './assets/img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6348,11 +6348,11 @@ var Defender = {
       },
       secondary2: {
         name: 'USP40',
-        img: './assets/img//weapon/USP40.png',
+        img: './assets/img/weapon/USP40.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6365,11 +6365,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Proximity Alarm',
-        img: './assets/img//gadgets/Proximity_alarm.png',
+        img: './assets/img/gadgets/Proximity_alarm.png',
       }
     }
   },
@@ -6379,14 +6379,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'MP5',
-        img: './assets/img//weapon/MP5.png',
+        img: './assets/img/weapon/MP5.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6408,9 +6408,9 @@ var Defender = {
       },
       primary2: {
         name: 'Super 90',
-        img: './assets/img//weapon/Super_90.png',
+        img: './assets/img/weapon/Super_90.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6433,11 +6433,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'RG15',
-        img: './assets/img//weapon/RG15.png',
+        img: './assets/img/weapon/RG15.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6450,11 +6450,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       }
     }
   },
@@ -6464,14 +6464,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'P10 RONI',
-        img: './assets/img//weapon/P10Roni.png',
+        img: './assets/img/weapon/P10Roni.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6495,11 +6495,11 @@ var Defender = {
       },
       primary2: {
         name: 'Mk 14 EBR',
-        img: './assets/img//weapon/Mk_14_EBR.png',
+        img: './assets/img/weapon/Mk_14_EBR.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6525,11 +6525,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'PRB92',
-        img: './assets/img//weapon/PRB92.png',
+        img: './assets/img/weapon/PRB92.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6542,11 +6542,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       }
     }
   },
@@ -6556,14 +6556,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'Spear .308',
-        img: './assets/img//weapon/Spear_308.png',
+        img: './assets/img/weapon/Spear_308.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6588,9 +6588,9 @@ var Defender = {
       },
       primary2: {
         name: 'SPAS-15',
-        img: './assets/img//weapon/SPAS-15.png',
+        img: './assets/img/weapon/SPAS-15.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6613,14 +6613,14 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bearing9',
-        img: './assets/img//weapon/Bearing_9.png',
+        img: './assets/img/weapon/Bearing_9.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6641,11 +6641,11 @@ var Defender = {
       },
       secondary2: {
         name: 'Q-929',
-        img: './assets/img//weapon/Q-929.png',
+        img: './assets/img/weapon/Q-929.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6658,11 +6658,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       }
     }
 },
@@ -6672,14 +6672,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'UZK50GI',
-        img: './assets/img//weapon/uzk50gi.png',
+        img: './assets/img/weapon/uzk50gi.png',
         attachment: {  
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6701,9 +6701,9 @@ var Defender = {
       },
       primary2: {
         name: 'M870',
-        img: './assets/img//weapon/M870.png',
+        img: './assets/img/weapon/M870.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6725,11 +6725,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: '1911 TACOPS',
-        img: './assets/img//weapon/1911_TACOPS.png',
+        img: './assets/img/weapon/1911_TACOPS.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6740,10 +6740,10 @@ var Defender = {
       },
       secondary2: {
         name: 'C75 Auto',
-        img: './assets/img//weapon/C75_Auto.png',
+        img: './assets/img/weapon/C75_Auto.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6756,11 +6756,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Deployable Shield',
-        img: './assets/img//gadgets/Deployable_Shield.png',
+        img: './assets/img/gadgets/Deployable_Shield.png',
       },
       gadget2: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       }
     }
   },
@@ -6770,14 +6770,14 @@ var Defender = {
     primary: {
       primary: {
         name: '9x19VSN',
-        img: './assets/img//weapon/9x19VSN.png',
+        img: './assets/img/weapon/9x19VSN.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6801,9 +6801,9 @@ var Defender = {
       },
       primary2: {
         name: 'ACS12',
-        img: './assets/img//weapon/ACS12.png',
+        img: './assets/img/weapon/ACS12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6830,11 +6830,11 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'D-50',
-        img: './assets/img//weapon/D-50.png',
+        img: './assets/img/weapon/D-50.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6847,11 +6847,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       }
     }
   },
@@ -6861,14 +6861,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'P90',
-        img: './assets/img//weapon/P90.png',
+        img: './assets/img/weapon/P90.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6892,9 +6892,9 @@ var Defender = {
       },
       primary2: {
         name: 'ITA12L',
-        img: './assets/img//weapon/ITA12L.png',
+        img: './assets/img/weapon/ITA12L.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6916,14 +6916,14 @@ var Defender = {
     secondary: {  
       secondary: {
         name: 'SMG-11',
-        img: './assets/img//weapon/SMG-11.png',
+        img: './assets/img/weapon/SMG-11.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6948,11 +6948,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Impact Grenade',
-        img: './assets/img//gadgets/Impact_Grenade.png',
+        img: './assets/img/gadgets/Impact_Grenade.png',
       },
       gadget2: {
         name: 'Bulletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       }
     }
   },
@@ -6962,14 +6962,14 @@ var Defender = {
     primary: {
       primary: {
         name: 'MP7',
-        img: './assets/img//weapon/MP7.png',
+        img: './assets/img/weapon/MP7.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Flash Hilder' },
-          attachment: { name: 'Compensator' },
-          attachment: { name: 'Muzzle Brake' },
-          attachment: { name: 'Suppressor' },
-          attachment: { name: 'Extended Barrel' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
+          'Extended Barrel' : { name: 'Extended Barrel' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -6990,10 +6990,10 @@ var Defender = {
       },
       primary2: {
         name: 'SASG-12',
-        img: './assets/img//weapon/SASG-12.png',
+        img: './assets/img/weapon/SASG-12.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
-          attachment: { name: 'Suppressor' },
+          'No Attachment': { name: 'No Attachment' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -7018,9 +7018,9 @@ var Defender = {
     secondary: {
       secondary: {
         name: 'Bailiff 410',
-        img: './assets/img//weapon/Bailiff_410.png',
+        img: './assets/img/weapon/Bailiff_410.png',
         attachment: {
-          attachment: { name: 'No Attachment' },
+          'No Attachment': { name: 'No Attachment' },
         },
         gripe: {
           'none': { name: 'No Grip' },
@@ -7033,11 +7033,11 @@ var Defender = {
     gadgets: {
       gadget1: {
         name: 'Barbed Wire',
-        img: './assets/img//gadgets/Barbed_Wire.png',
+        img: './assets/img/gadgets/Barbed_Wire.png',
       },
       gadget2: {
         name: 'Boletproof Camera',
-        img: './assets/img//gadgets/Bulletproof_camera.png',
+        img: './assets/img/gadgets/Bulletproof_camera.png',
       }
     }
   }
