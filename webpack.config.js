@@ -23,7 +23,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: 'src/assets/img', to: 'assets/img' },
-        { from: 'CNAME', to: 'CNAME' },
+        { from: 'CNAME', to: '' },
       ],
     }),
   ],
