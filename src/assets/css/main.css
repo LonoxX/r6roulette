@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('../img/backgound.png');
+    background-image: url('../../assets/img/backgound.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
