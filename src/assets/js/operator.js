@@ -1752,17 +1752,27 @@ var Attacker = {
         name: 'AUG A2',
         img: './assets/img/weapon/AUG_A2.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          'No Attachment': { name: 'No Attachment' },
+          'Flash Hilder': { name: 'Flash Hilder' },
+          'Compensator': { name: 'Compensator' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'No Scope' },
+          'Red Dot A': { name: 'Red Dot A' },
+          'Red Dot B': { name: 'Red Dot B' },
+          'Red Dot C': { name: 'Red Dot C' },
+          'Holo A' : { name: 'Holo A' },
+          'Holo B': { name: 'Holo B' },
+          'Holo C': { name: 'Holo C' },
+          'Holo D': { name: 'Holo D' },
+          'Reflex A': { name: 'Reflex A' },
+          'Reflex B': { name: 'Reflex B' },
+          'Reflex C': { name: 'Reflex C' },
         }
       },
       primary2: {
@@ -1812,39 +1822,54 @@ var Attacker = {
         }
       },
       primary3: {
-        name: 'G8A1',
-        img: './assets/img/weapon/G8A1.png',
-        attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          name: 'G8A1',
+          img: './assets/img/weapon/G8A1.png',
+          attachment: {
+            'No Attachment': { name: 'No Attachment' },
+            'Flash Hilder': { name: 'Flash Hilder' },
+            'Compensator': { name: 'Compensator' },
+            'Muzzle Brake': { name: 'Muzzle Brake' },
+            'Suppressor': { name: 'Suppressor' },
+          },
+          gripe: {
+            'none': { name: 'No Grip' },
+            'Vertical Grip': { name: 'Vertical Grip' },
+            'Angled Grip': { name: 'Angled Grip' },
+          },
+          scope: {
+            'none': { name: 'No Scope' },
+            'Scope 1.5x': { name: 'Scope 1.5x' },
+            'Scope 2.0x': { name: 'Scope 2.0x' },
+            'Scope 2.5x': { name: 'Scope 2.5x' },
+            'Scope 2.5x A': { name: 'Scope 2.5x A' },
+            'Scope 2.5x B': { name: 'Scope 2.5x B' },
+            'Red Dot A': { name: 'Red Dot A' },
+            'Red Dot B': { name: 'Red Dot B' },
+            'Red Dot C': { name: 'Red Dot C' },
+            'Holo A' : { name: 'Holo A' },
+            'Holo B': { name: 'Holo B' },
+            'Holo C': { name: 'Holo C' },
+            'Holo D': { name: 'Holo D' },
+            'Reflex A': { name: 'Reflex A' },
+            'Reflex B': { name: 'Reflex B' },
+            'Reflex C': { name: 'Reflex C' },
+          }
         },
-        gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
-        },
-        scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
-        }
-      }
     },
     secondary: {
       secondary: {
         name: 'P12',
         img: './assets/img/weapon/P12.png',
         attachment: {
-          attachment: { name: 'Placeholder' },
-          attachment: { name: 'Placeholder 2' },
-          attachment: { name: 'Placeholder 3' },
+          'No Attachment': { name: 'No Attachment' },
+          'Muzzle Brake': { name: 'Muzzle Brake' },
+          'Suppressor': { name: 'Suppressor' },
         },
         gripe: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'No Grip' },
         },
         scope: {
-          'Placeholder': { name: 'Placeholder' },
-          'Placeholder 2': { name: 'Placeholder 2' },
+          'none': { name: 'No Scope' },
         }
       }
     },
