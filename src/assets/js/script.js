@@ -93,6 +93,7 @@ function randomOperator(operator) {
   };
 }
  
+
 function getChallenges() {
   fetch('https://api.pnnet.dev/r6roulette/challenges')
     .then(response => response.json())
@@ -105,19 +106,29 @@ function getChallenges() {
 }
   
 function displayRandomChallenge(challenges) {
-  const challengeDescription = document.querySelector('.challenge-description');
   const randomChallengeButton = document.querySelector('#random-challenge-button');
 
   randomChallengeButton.addEventListener('click', () => {
-    const randomIndex = Math.floor(Math.random() * challenges.length);
-    const randomChallenge = challenges[randomIndex];
-    challengeDescription.textContent = randomChallenge.description;
+    getrandomchallenges(challenges);
   });
-
-  const randomIndex = Math.floor(Math.random() * challenges.length);
-  const randomChallenge = challenges[randomIndex];
-  challengeDescription.textContent = randomChallenge.description;
+    getrandomchallenges(challenges);
 }
+
+function getrandomchallenges(challenges) {
+  const challengeDescription_de = document.querySelector('.challenge-description_de');
+  const challengeDescription_en = document.querySelector('.challenge-description_en');
+  const challengeTitle_de = document.querySelector('.challenge-title_de');
+  const challengeTitle_en = document.querySelector('.challenge-title_en');
+
+  const getrandomchallengesdex = Math.floor(Math.random() * challenges.length);
+  const randomChallenge = challenges[getrandomchallengesdex];
+  challengeTitle_de.textContent = randomChallenge.title_german;
+  challengeTitle_en.textContent = randomChallenge.title_english;
+  challengeDescription_de.textContent = randomChallenge.description_german;
+  challengeDescription_en.textContent = randomChallenge.description_english;
+}
+
+
 
 document.addEventListener('DOMContentLoaded', function() {
   randomOperator(Object.values(Attacker), Object.values(Defender));
