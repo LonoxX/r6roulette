@@ -6712,6 +6712,7 @@ var Defender = {
           'Angled Grip': { name: 'Angled Grip' },
         },
         scope: {
+          'Scope 1.5x': { name: 'Scope 1.5x' },
           'Red Dot A': { name: 'Red Dot A' },
           'Red Dot B': { name: 'Red Dot B' },
           'Red Dot C': { name: 'Red Dot C' },
