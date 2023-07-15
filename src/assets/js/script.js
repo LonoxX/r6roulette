@@ -21,55 +21,65 @@ R6attacker.addEventListener('click', randomAttacker);
 R6defender.addEventListener('click', randomDefender);
 
 function randomAttacker() {
-  randomOperator(Object.values(Attacker), Object.values(Defender));
+  fetch('https://api.r6roulette.de/role/attacker')
+    .then(response => response.json())
+    .then(data => {
+      randomOperator(data);
+    })
+    .catch(error => {
+      console.error('Error fetching attackers:', error);
+    });
 }
 
 function randomDefender() {
-  randomOperator(Object.values(Defender), Object.values(Attacker));
+  fetch('https://api.r6roulette.de/role/defender')
+    .then(response => response.json())
+    .then(data => {
+      randomOperator(data);
+    })
+    .catch(error => {
+      console.error('Error fetching defenders:', error);
+    });
 }
 
-function randomOperator(operator) {
-  const chosen = operator[Math.floor(Math.random() * operator.length)];
-  const chosenName = chosen.name;
-  const operatorRole = chosen.role;
-  R6img.src = `assets/img/${operatorRole}/${chosenName}.png`;
-  R6badge.src = `assets/img/${operatorRole}/Badge/${chosenName}-Badge.png`;
+function randomOperator(operators) {
+  const chosen = operators[Math.floor(Math.random() * operators.length)];
+  R6img.src = chosen.img;
+  R6badge.src = chosen.badge;
   R6img.style.width = "352px";
-  R6name.textContent = chosenName;
+  R6name.textContent = chosen.name;
 
-  const operatorPrimary = Object.values(chosen.primary);
+  
+
+  const operatorPrimary = chosen.weapons.filter(weapon => weapon.weapon_type === 'primary');
+  const operatorSecondary = chosen.weapons.filter(weapon => weapon.weapon_type === 'secondary');
+  
   const randomPrimary = operatorPrimary[Math.floor(Math.random() * operatorPrimary.length)];
-  const operatorPrimaryAttachments = Object.values(randomPrimary.attachment);
-  const randomPrimaryAttachment = operatorPrimaryAttachments[Math.floor(Math.random() * operatorPrimaryAttachments.length)];
-  const operatorPrimarygripe = Object.values(randomPrimary.gripe);
-  const randomPrimaryGrip = operatorPrimarygripe[Math.floor(Math.random() * operatorPrimarygripe.length)];    
-  const operatorPrimaryScope = Object.values(randomPrimary.scope);
-  const randomPrimaryScope = operatorPrimaryScope[Math.floor(Math.random() * operatorPrimaryScope.length)]; 
-
-  const operatorSecondary = Object.values(chosen.secondary);
   const randomSecondary = operatorSecondary[Math.floor(Math.random() * operatorSecondary.length)];
-  const operatorSecondaryScope = Object.values(randomSecondary.scope);
-  const randomSecondaryScope = operatorSecondaryScope[Math.floor(Math.random() * operatorSecondaryScope.length)];
-  const operatorSecondarygripe = Object.values(randomSecondary.gripe);
-  const randomSecondaryGrip = operatorSecondarygripe[Math.floor(Math.random() * operatorSecondarygripe.length)];
-  const operatorSecondaryAttachments = Object.values(randomSecondary.attachment);
-  const randomSecondaryAttachment = operatorSecondaryAttachments[Math.floor(Math.random() * operatorSecondaryAttachments.length)];
-  const operatorGadgets = Object.values(chosen.gadgets);
-  const randomGadget = operatorGadgets[Math.floor(Math.random() * operatorGadgets.length)];
+  
+  const randomPrimaryAttachment = randomPrimary.attachments[Math.floor(Math.random() * randomPrimary.attachments.length)];
+  const randomPrimaryGrip = randomPrimary.gripes[Math.floor(Math.random() * randomPrimary.gripes.length)];    
+  const randomPrimaryScope = randomPrimary.scopes[Math.floor(Math.random() * randomPrimary.scopes.length)]; 
 
-  operator_weapons.textContent = randomPrimary.name;
+  const randomSecondaryAttachment = randomSecondary.attachments[Math.floor(Math.random() * randomSecondary.attachments.length)];
+  const randomSecondaryGrip = randomSecondary.gripes[Math.floor(Math.random() * randomSecondary.gripes.length)];
+  const randomSecondaryScope = randomSecondary.scopes[Math.floor(Math.random() * randomSecondary.scopes.length)];
+  
+  const randomGadget = chosen.gadgets[Math.floor(Math.random() * chosen.gadgets.length)];
+
+  operator_weapons.textContent = randomPrimary.weapon_name;
   operator_weapons_img.src = randomPrimary.img;
-  Attachment.textContent = randomPrimaryAttachment.name;
-  Scope.textContent = randomPrimaryScope.name;
-  Grip.textContent = randomPrimaryGrip.name;
+  Attachment.textContent = randomPrimaryAttachment;
+  Scope.textContent = randomPrimaryScope;
+  Grip.textContent = randomPrimaryGrip;
 
-  operator_weapons2.textContent = randomSecondary.name;
+  operator_weapons2.textContent = randomSecondary.weapon_name;
   operator_weapons2_img.src = randomSecondary.img;
-  Attachment2.textContent = randomSecondaryAttachment.name;
-  Scope2.textContent = randomSecondaryScope.name;
-  Grip2.textContent = randomSecondaryGrip.name;
+  Attachment2.textContent = randomSecondaryAttachment;
+  Scope2.textContent = randomSecondaryScope;
+  Grip2.textContent = randomSecondaryGrip;
 
-  operator_gadgets.textContent = randomGadget.name;
+  operator_gadgets.textContent = randomGadget.gadget_name;
   operator_gadgets_img.src = randomGadget.img;
 
   R6img.onerror = function() {
@@ -92,10 +102,11 @@ function randomOperator(operator) {
     this.src = `https://pic.pnnet.dev/290x100?text=${operator_gadgets.textContent}`;
   };
 }
- 
+
+
 
 function getChallenges() {
-  fetch('https://api.pnnet.dev/r6roulette/challenges')
+  fetch('https://api.r6roulette.de/challenges')
     .then(response => response.json())
     .then(data => {
       displayRandomChallenge(data);
@@ -111,7 +122,7 @@ function displayRandomChallenge(challenges) {
   randomChallengeButton.addEventListener('click', () => {
     getrandomchallenges(challenges);
   });
-    getrandomchallenges(challenges);
+  getrandomchallenges(challenges);
 }
 
 function getrandomchallenges(challenges) {
@@ -128,9 +139,6 @@ function getrandomchallenges(challenges) {
   challengeDescription_en.textContent = randomChallenge.description_english;
 }
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
-  randomOperator(Object.values(Attacker), Object.values(Defender));
-  getChallenges();
+  randomOperator(randomAttacker(),randomDefender(),getChallenges())
 });
