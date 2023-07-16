@@ -185,13 +185,14 @@ body {
   }
 }
 
+
 .footer {
   background-color: #333;
   color: white;
   padding: 10px 20px;
   font-family: 'Abel', sans-serif;
   font-size: 14px;
-  text-align: right;
+  text-align: center;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -205,3 +206,5 @@ body {
 .left {
   float: left;
 }
+
+
