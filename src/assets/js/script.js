@@ -19,9 +19,9 @@ const Scope2 = document.querySelector(".secondweapon-scope-name");
 
 R6attacker.addEventListener('click', randomAttacker);
 R6defender.addEventListener('click', randomDefender);
-
+const apykey = "r6roulette"
 function randomAttacker() {
-  fetch('https://api.r6roulette.de/role/attacker')
+  fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`)
     .then(response => response.json())
     .then(data => {
       randomOperator(data);
@@ -32,7 +32,7 @@ function randomAttacker() {
 }
 
 function randomDefender() {
-  fetch('https://api.r6roulette.de/role/defender')
+  fetch(`https://api.r6roulette.de/role/defender?api_key=${apykey}`)
     .then(response => response.json())
     .then(data => {
       randomOperator(data);
@@ -48,25 +48,17 @@ function randomOperator(operators) {
   R6badge.src = chosen.badge;
   R6img.style.width = "352px";
   R6name.textContent = chosen.name;
-
-  
-
   const operatorPrimary = chosen.weapons.filter(weapon => weapon.weapon_type === 'primary');
   const operatorSecondary = chosen.weapons.filter(weapon => weapon.weapon_type === 'secondary');
-  
   const randomPrimary = operatorPrimary[Math.floor(Math.random() * operatorPrimary.length)];
   const randomSecondary = operatorSecondary[Math.floor(Math.random() * operatorSecondary.length)];
-  
   const randomPrimaryAttachment = randomPrimary.attachments[Math.floor(Math.random() * randomPrimary.attachments.length)];
   const randomPrimaryGrip = randomPrimary.gripes[Math.floor(Math.random() * randomPrimary.gripes.length)];    
   const randomPrimaryScope = randomPrimary.scopes[Math.floor(Math.random() * randomPrimary.scopes.length)]; 
-
   const randomSecondaryAttachment = randomSecondary.attachments[Math.floor(Math.random() * randomSecondary.attachments.length)];
   const randomSecondaryGrip = randomSecondary.gripes[Math.floor(Math.random() * randomSecondary.gripes.length)];
   const randomSecondaryScope = randomSecondary.scopes[Math.floor(Math.random() * randomSecondary.scopes.length)];
-  
   const randomGadget = chosen.gadgets[Math.floor(Math.random() * chosen.gadgets.length)];
-
   operator_weapons.textContent = randomPrimary.weapon_name;
   operator_weapons_img.src = randomPrimary.img;
   Attachment.textContent = randomPrimaryAttachment;
@@ -104,9 +96,8 @@ function randomOperator(operators) {
 }
 
 
-
 function getChallenges() {
-  fetch('https://api.r6roulette.de/challenges')
+  fetch(`https://api.r6roulette.de/challenges?api_key=${apykey}`)
     .then(response => response.json())
     .then(data => {
       displayRandomChallenge(data);
@@ -118,7 +109,6 @@ function getChallenges() {
   
 function displayRandomChallenge(challenges) {
   const randomChallengeButton = document.querySelector('#random-challenge-button');
-
   randomChallengeButton.addEventListener('click', () => {
     getrandomchallenges(challenges);
   });
@@ -130,7 +120,6 @@ function getrandomchallenges(challenges) {
   const challengeDescription_en = document.querySelector('.challenge-description_en');
   const challengeTitle_de = document.querySelector('.challenge-title_de');
   const challengeTitle_en = document.querySelector('.challenge-title_en');
-
   const getrandomchallengesdex = Math.floor(Math.random() * challenges.length);
   const randomChallenge = challenges[getrandomchallengesdex];
   challengeTitle_de.textContent = randomChallenge.title_german;
@@ -139,6 +128,53 @@ function getrandomchallenges(challenges) {
   challengeDescription_en.textContent = randomChallenge.description_english;
 }
 
+function getLastChangelog(type) {
+  fetch(`https://api.r6roulette.de/changelog/${type}/latest?api_key=${apykey}`)
+    .then(response => response.json())
+    .then(data => {
+      populateChangelogModal(data, type);
+    })
+    .catch(error => {
+      console.error('Error fetching changelog:', error);
+    });
+}
+
+function populateChangelogModal(changelog, type) {
+  const cardHeader = document.querySelector(`#${type}ChangelogCard .card-header`);
+  const changelogList = document.querySelector(`#${type}ChangelogList`);
+
+  const version = changelog[0].version;
+  const created_at = changelog[0].created_at;
+  const message = changelog[0].message;
+
+  cardHeader.innerHTML = `
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <p class="${type}ChangelogTitle text-uppercase">${type}</p>
+      </div>
+      <div>
+      <i class="fas fa-circle-notch"></i> Version ${version}<p class="Changelog_Date">${created_at}</p>
+      </div>
+    </div>
+  `;
+
+  const messagesArray = message.split('-');
+  let listItemHTML = '';
+  messagesArray.forEach(msg => {
+    const listItem = `<li>${msg.trim()}</li>`;
+    listItemHTML += listItem;
+  });
+
+  changelogList.innerHTML = listItemHTML;
+}
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
-  randomOperator(randomAttacker(),randomDefender(),getChallenges())
+  randomAttacker();
+  randomDefender();
+  getChallenges();
+  getLastChangelog('web');
+  getLastChangelog('bot');
 });
+

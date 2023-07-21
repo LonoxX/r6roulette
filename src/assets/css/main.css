@@ -1,3 +1,33 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-body-bg: #393e40;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +36,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 .container {
   max-width: 1200px;
@@ -183,6 +214,69 @@ body {
     margin-bottom: 10px;
     left: auto;
   }
+}
+/* Modal styles */
+
+.modal-content {
+  background-color: var(--bs-gray-800);
+}
+
+.modal-title {
+  color: var(--bs-gray-600);
+}
+
+
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  background-color: var(--bs-gray-800);
+  border-top: none;
+}
+
+.card {
+  background-color: var(--bs-gray-900);
+  border: none;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: var(--bs-gray-800);
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid var(--bs-gray-700);
+}
+
+.card-body {
+  padding: 10px;
+  background-color: var(--bs-gray-900);
+  color: var(--bs-gray-800);
+}
+
+.Changelog_Date {
+  color: var(--bs-gray-800);
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: var(--bs-gray-900);
+  color: var(--bs-gray-800);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bs-gray-800);
+}
+.list-unstyled {
+  color: #fff;
+}
+.modal-header {
+  background-color: #ccc;;
+  border-bottom: none;
 }
 
 
