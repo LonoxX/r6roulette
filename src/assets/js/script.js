@@ -21,7 +21,17 @@ R6attacker.addEventListener('click', randomAttacker);
 R6defender.addEventListener('click', randomDefender);
 const apykey = "r6roulette"
 function randomAttacker() {
-  fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`)
+  const postData = {
+    api_key: apykey
+  };
+
+  fetch('https://api.r6roulette.de/role/attacker', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(postData)
+  })
     .then(response => response.json())
     .then(data => {
       randomOperator(data);
