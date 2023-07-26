@@ -20,28 +20,28 @@ const Scope2 = document.querySelector(".secondweapon-scope-name");
 R6attacker.addEventListener('click', randomAttacker);
 R6defender.addEventListener('click', randomDefender);
 const apykey = "r6roulette"
-function randomAttacker() {
-  fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`)
-    .then(response => response.json())
-    .then(data => {
-      randomOperator(data);
-    })
-    .catch(error => {
-      console.error('Error fetching attackers:', error);
-    });
+async function randomAttacker() {
+  try {
+    const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`); 
+    const data = await response.json();
+    randomOperator(data);
+  } catch (error) {
+    console.error('%cError fetching attackers:', 'color: red; font-size: 14px', error);
+    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ','color: red; font-size: 14px');
+
+}
 }
 
-function randomDefender() {
-  fetch(`https://api.r6roulette.de/role/defender?api_key=${apykey}`)
-    .then(response => response.json())
-    .then(data => {
-      randomOperator(data);
-    })
-    .catch(error => {
-      console.error('Error fetching defenders:', error);
-    });
+async function randomDefender() {
+  try {
+    const response = await fetch(`https://api.r6roulette.de/role/defender?api_key=${apykey}`);
+    const data = await response.json();
+    randomOperator(data);
+  } catch (error) {
+    console.error('%cError fetching attackers:', 'color: red; font-size: 14px', error);
+    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ','color: red; font-size: 14px');
+  }
 }
-
 function randomOperator(operators) {
   const chosen = operators[Math.floor(Math.random() * operators.length)];
   R6img.src = chosen.img;
@@ -96,17 +96,16 @@ function randomOperator(operators) {
 }
 
 
-function getChallenges() {
-  fetch(`https://api.r6roulette.de/challenges?api_key=${apykey}`)
-    .then(response => response.json())
-    .then(data => {
-      displayRandomChallenge(data);
-    })
-    .catch(error => {
-      console.error('Error fetching challenges:', error);
-    });
+async function getChallenges() {
+  try {
+    const response = await fetch(`https://api.r6roulette.de/challenges?api_key=${apykey}`);
+    const data = await response.json();
+    displayRandomChallenge(data);
+  } catch (error) {    
+    console.error('%cError fetching challenges:', 'color: red; font-size: 14px', error);
+    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ','color: red; font-size: 14px');
+  }
 }
-  
 function displayRandomChallenge(challenges) {
   const randomChallengeButton = document.querySelector('#random-challenge-button');
   randomChallengeButton.addEventListener('click', () => {
