@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Random Operator | Rainbow Six: Siege</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Make the game more challenging by using a randomly selected Rainbow Six: Siege operator with a random loadout.">
   <meta name="keywords" content="Rainbow Six: Siege, random operators, loadout, challenging gameplay">
@@ -27,146 +28,129 @@
   <meta name="twitter:description" content="Make the game more challenging by using a randomly selected operator with a random loadout!">
   <meta name="twitter:image" content="./assets/img/social.png">
   <meta name="twitter:url" content="https://r6roulette.de/">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+  <!-- Styls -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.style.css">
+
+  <!-- Scripts -->
   <script src="https://kit.fontawesome.com/39db239ed8.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="operatorBox">
-          <img class="operator-img"/>
-          <img class="operator-badge" />
-          <div id="operator-bottom">
-            <p class="operator-name"></p>
-            <div class="btn-group" role="group">
-              <button type="button" id="attacker" class="btn">Attacker</button>
-              <button type="button" id="defender" class="btn">Defender</button>
-            </div>
-            <button type="button" id="random-challenge-button" class="btn">New Challenge</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-  <div class="operator-weapon">
-    <img class="weapon-img"/>
-    <p class="weapon-name"></p>
-    <div class="operator-attachment">
-      <div class="attachment-description">Attachment</div>
-      <div class="weapon-attachment-name"></div>
-    </div>
-    <div class="operator-grip">
-      <div class="grip-description">Grip</div>
-      <div class="weapon-grip-name"></div>
-    </div>
-    <div class="operator-scope">
-      <div class="scope-description">Visier / Scope</div>
-      <div class="weapon-scope-name"></div>
-    </div>
-  </div>
-  
-  <div class="operator-secondweapon">
-    <img class="secondweapon-img"/>
-    <p class="secondweapon-name"></p>
-    <div class="operator-attachment">
-      <div class="attachment-description">Attachment</div>
-      <div class="secondweapon-attachment-name"></div>
-    </div>
-    <div class="operator-grip">
-      <div class="grip-description">Grip</div>
-      <div class="secondweapon-grip-name"></div>
-    </div>
-    <div class="operator-scope">
-      <div class="scope-description">Visier / Scope</div>
-      <div class="secondweapon-scope-name"></div>
-    </div>
-  </div>
-  
-  <div class="operator-gadget">
-    <img class="gadget-img"  />
-    <p class="gadget-name"></p>
-  </div>
+	<section>
 
-  <div class="random-challenge">
-    <div class="challenge-de">
-      <p class="challenge-title_de"></p>
-      <p class="challenge-description_de"></p>
-    </div>
-    <div class="challenge-en">
-      <p class="challenge-title_en"></p>
-      <p class="challenge-description_en"></p>
-    </div>
-  </div>
-  
+		<div class="operatorBox">
+			<img class="operator-img"/>
+			<img class="operator-badge" />
+			<div class="operator-bottom">
+				<h1 class="operator-name"></h1>
+					
+				<button type="button" id="attacker" class="btn"><span>Attacker</span></button>
+				<button type="button" id="defender" class="btn"><span>Defender</span></button>
+				<button type="button" id="random-challenge-button" class="btn"><span>New Challenge</span></button>
+			</div>
+		</div>
+	
+		<div class="operator-weapons">
 
-</div>
+			<div class="primaryweapon">
+				<h2>Primary</h2>
 
-  
-  <div class="footer">
-    this project is not affiliated with Ubisoft Entertainment. Tom Clancy’s Rainbow Six Logo and Icons are trademarks of Ubisoft Entertainment All Rights Reserved. 
-    <div class="left">
-      <i class="fa-solid fa-code-branch"></i> <a href="#" data-bs-toggle="modal" data-bs-target="#myModal"> Changelogs</a> 
-      <i class="fa-brands fa-discord"></i><a href="https://pnnet.dev/r6discord" target="_blank"> Discord Bot</a> 
-    </div>
-        
-    <div class="right">
-      Powered by <a href="https://panda-network.de" target="_blank">Panda-Network</a> | <a href="https://pnnet.dev/discord" target="_blank">Support</a> | <a href="https://panda-network.de/impressum" target="_blank">Impressum</a>
-    </div>
-  </div>
-  
-  <div class="modal" id="myModal">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Changelog</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-md-12 mb-3">
-                    <div class="card" id="webChangelogCard">
-                      <div class="card-header">
-                      </div>
-                      <div class="card-body">
-                        <ul class="list-unstyled" id="webChangelogList">
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-md-12 mb-3">
-                    <div class="card" id="botChangelogCard">
-                      <div class="card-header">
-                      </div>
-                      <div class="card-body">
-                        <ul class="list-unstyled" id="botChangelogList">
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div> 
-  
+				<div class="weapon-info">
+
+					<div class="weapon">
+						<span class="weapon-name"></span>
+						<img class="weapon-img">
+					</div>
+
+					<div class="attachment">
+						<span class="attachment-description">Attachment</span>
+						<div class="weapon-attachment-name"></div>
+					</div>
+
+					<div class="grip">
+						<span class="grip-description">Grip</span>
+						<div class="weapon-grip-name"></div>
+					</div>
+
+					<div class="scope">
+						<span class="scope-description">Visier / Scope</span>
+						<div class="weapon-scope-name"></div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="secondweapon">
+				<h2>Secondary</h2>
+
+				<div class="weapon-info">
+
+					<div class="weapon">
+						<span class="secondweapon-name"></span>
+						<img class="secondweapon-img">
+					</div>
+
+					<div class="attachment">
+						<span class="attachment-description">Attachment</span>
+						<div class="secondweapon-attachment-name"></div>
+					</div>
+
+					<div class="grip">
+						<span class="grip-description">Grip</span>
+						<div class="secondweapon-grip-name"></div>
+					</div>
+
+					<div class="scope">
+						<span class="scope-description">Visier / Scope</span>
+						<div class="secondweapon-scope-name"></div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="operator-gadget">
+
+			<h2>Gadget</h2>
+
+			<p class="gadget-name"></p>
+			<img class="gadget-img">
+
+		</div>
+
+		<div class="challenges">
+			<h2>Challenges</h2>
+
+			<div class="random-challenge">
+				<div class="challenge-de">
+					<span class="challenge-title_de"></span>
+					<p class="challenge-description_de"></p>
+				</div>
+
+				<div class="challenge-en">
+					<span class="challenge-title_en"></span>
+					<p class="challenge-description_en"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="left">
+			<a href=""><i class="fa-solid fa-code-branch"></i> Changelogs</a> 
+			<a href="https://pnnet.dev/r6discord" target="_blank"><i class="fa-brands fa-discord"></i> Discord Bot</a> 
+		</div>
+
+		<span>this project is not affiliated with Ubisoft Entertainment. Tom Clancy’s Rainbow Six Logo and Icons are trademarks of Ubisoft Entertainment <br> All Rights Reserved. </span>
+			
+		<div class="right">
+			developed  with <i id="heart" class="fa-solid fa-heart fa-bounce font-red"></i> by <a class="pn" href="https://panda-network.de" target="_blank">Panda-Network</a> | <a href="https://pnnet.dev/discord" target="_blank">Support</a> | <a href="https://panda-network.de/impressum" target="_blank">Impressum</a>
+		</div>
+	</footer>
+
   <script src="assets/js/script.js"></script>
 </body>
 

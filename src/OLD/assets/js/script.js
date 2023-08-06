@@ -3,7 +3,6 @@ const R6defender = document.querySelector("#defender");
 const R6img = document.querySelector(".operator-img");
 const R6badge = document.querySelector(".operator-badge");
 const R6name = document.querySelector(".operator-name");
-const footerHeart = document.querySelector("#heart");
 
 const operator_weapons = document.querySelector(".weapon-name");
 const operator_weapons_img = document.querySelector(".weapon-img");
@@ -20,7 +19,7 @@ const Scope2 = document.querySelector(".secondweapon-scope-name");
 
 R6attacker.addEventListener('click', randomAttacker);
 R6defender.addEventListener('click', randomDefender);
-const apykey = "pandanetwork"
+const apykey = "r6roulette"
 async function randomAttacker() {
   try {
     const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`); 
@@ -47,7 +46,7 @@ function randomOperator(operators) {
   const chosen = operators[Math.floor(Math.random() * operators.length)];
   R6img.src = chosen.img;
   R6badge.src = chosen.badge;
-  // R6img.style.width = "352px";
+  R6img.style.width = "352px";
   R6name.textContent = chosen.name;
   const operatorPrimary = chosen.weapons.filter(weapon => weapon.weapon_type === 'primary');
   const operatorSecondary = chosen.weapons.filter(weapon => weapon.weapon_type === 'secondary');
@@ -178,15 +177,3 @@ document.addEventListener('DOMContentLoaded', function() {
   getLastChangelog('bot');
 });
 
-// Event-Listener für das focus-Ereignis
-window.addEventListener("focus", function() {
-  
-  footerHeart.classList.add("fa-bounce");
-  // console.log("Browser/Fenster ist aktiv");
-});
-// Event-Listener für das blur-Ereignis
-window.addEventListener("blur", function() {
-  
-  footerHeart.classList.remove("fa-bounce");
-  // console.log("Browser/Fenster ist nicht aktiv");
-});
