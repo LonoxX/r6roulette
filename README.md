@@ -44,7 +44,8 @@ If you would like to contribute to the project, please follow these steps:
 3. Make your changes.
 4. Commit your changes: `git commit -m 'Add some feature'`.
 5. Push the branch to your fork: `git push origin feature/your-feature`.
-6. Create a pull request.
+6. Create a pull request. Use the branch `contributor/pull_request`.
+
 
 # Support
 
