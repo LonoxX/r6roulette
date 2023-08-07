@@ -4,6 +4,7 @@ const R6img = document.querySelector(".operator-img");
 const R6badge = document.querySelector(".operator-badge");
 const R6name = document.querySelector(".operator-name");
 const footerHeart = document.querySelector("#heart");
+const supportedpatch = document.querySelector("#supportedpatch");
 
 const operator_weapons = document.querySelector(".weapon-name");
 const operator_weapons_img = document.querySelector(".weapon-img");
@@ -133,42 +134,32 @@ function getLastChangelog(type) {
     .then(response => response.json())
     .then(data => {
       populateChangelogModal(data, type);
+
+      supportedpatch.innerText = data[0].Upatch;
     })
     .catch(error => {
       console.error('Error fetching changelog:', error);
     });
 }
 
+
 function populateChangelogModal(changelog, type) {
-  const cardHeader = document.querySelector(`#${type}ChangelogCard .card-header`);
-  const changelogList = document.querySelector(`#${type}ChangelogList`);
+  const log = document.querySelector(`#${type}`);
+  const date = new Date(changelog[0].created_at);
+      datestring = date.getDate()  + "." + (date.getMonth()+1) + "." + date.getFullYear();
 
-  const version = changelog[0].version;
-  const created_at = changelog[0].created_at;
-  const message = changelog[0].message;
+  const Item = `<div class="log">` +
+    '<p id="message">' + changelog[0].message + '</p>' +
+    '<code class="">V ' + changelog[0].version + ' | ' + datestring + ' </code>' +
+  '</div>';
 
-  cardHeader.innerHTML = `
-    <div class="d-flex justify-content-between align-items-center">
-      <div>
-        <p class="${type}ChangelogTitle text-uppercase">${type}</p>
-      </div>
-      <div>
-      <i class="fas fa-circle-notch"></i> Version ${version}<p class="Changelog_Date">${created_at}</p>
-      </div>
-    </div>
-  `;
-
-  const messagesArray = message.split('-');
-  let listItemHTML = '';
-  messagesArray.forEach(msg => {
-    const listItem = `<li>${msg.trim()}</li>`;
-    listItemHTML += listItem;
-  });
-
-  changelogList.innerHTML = listItemHTML;
+  log.innerHTML = Item;
 }
 
-
+function openchangelog() {
+  const element = document.getElementById('changelogbox');
+  element.style.display = 'block';
+}
 
 document.addEventListener('DOMContentLoaded', function() {
   randomAttacker();
@@ -176,6 +167,12 @@ document.addEventListener('DOMContentLoaded', function() {
   getChallenges();
   getLastChangelog('web');
   getLastChangelog('bot');
+
+  const myButton = document.getElementById('close');
+  myButton.addEventListener('click', function() {
+    const element = document.getElementById('changelogbox');
+    element.style.display = 'none';
+  });
 });
 
 // Event-Listener für das focus-Ereignis
