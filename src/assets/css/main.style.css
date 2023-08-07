@@ -285,4 +285,72 @@ footer .pn {
   color: #0d6efd;
 }
 
+@media (max-width: 900px) {
+  .operatorBox {
+    position: relative !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    width: 70% !important;
+    padding: 0 2rem !important;
+  }
+  .operator-weapons {
+    position: relative !important;
+    top: 2rem !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    width: 75% !important;
+  }
+  .operator-weapons .primaryweapon {
+    width: auto !important;
+  }
+  .operator-weapons .primaryweapon .weapon-info {
+    display: block !important;
+  }
+  .operator-weapons .primaryweapon .weapon-info .weapon {
+    justify-items: center;
+  }
+  .operator-weapons .secondweapon {
+    margin-top: 6rem;
+    width: auto !important;
+  }
+  .operator-weapons .secondweapon .weapon-info {
+    display: block !important;
+  }
+  .operator-weapons .secondweapon .weapon-info .weapon {
+    justify-items: center;
+  }
+  .operator-gadget {
+    position: relative !important;
+    top: 4rem !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    width: 75% !important;
+    padding: 1rem !important;
+  }
+  .challenges {
+    position: relative !important;
+    top: 6rem !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    width: 75% !important;
+    padding: 1rem !important;
+  }
+  .challenges .random-challenge {
+    display: block !important;
+    font-size: 1.2rem !important;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    margin-top: 8rem;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+  footer span {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=main.style.css.map */
