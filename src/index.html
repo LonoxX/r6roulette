@@ -138,13 +138,40 @@
 		</div>
 	</section>
 
+	<div id="changelogbox">
+		<div class="changelog">
+
+			<a id="close" class="close"><i class="fa-solid fa-xmark"></i></a>
+
+			<div class="log-tab">
+				<h2>Website-Log</h2>
+
+				<div id="web"></div>
+				<!-- <div class="log">
+					<p id="message"></p>
+					<code class="">V 0.0 | 00.00.0000</code>
+				</div> -->
+			</div>
+
+			<div class="log-tab">
+				<h2>Bot-Log</h2>
+
+				<div id="bot"></div>
+				<!-- <div class="log">
+					<p id="message"></p>
+					<code class="">V 0.0 | 00.00.0000</code>
+				</div> -->
+			</div>
+		</div>
+	</div>
+
 	<footer>
 		<div class="left">
-			<a href=""><i class="fa-solid fa-code-branch"></i> Changelogs</a> 
+			<a onclick="openchangelog()"><i class="fa-solid fa-code-branch"></i> Changelogs</a> 
 			<a href="https://pnnet.dev/r6discord" target="_blank"><i class="fa-brands fa-discord"></i> Discord Bot</a> 
 		</div>
 
-		<span>this project is not affiliated with Ubisoft Entertainment. Tom Clancy’s Rainbow Six Logo and Icons are trademarks of Ubisoft Entertainment <br> All Rights Reserved. </span>
+		<span>this project is not affiliated with Ubisoft Entertainment. Tom Clancy’s Rainbow Six Logo and Icons are trademarks of Ubisoft Entertainment <br> All Rights Reserved. Available for Patch: <code id="supportedpatch"></code> </span>
 			
 		<div class="right">
 			developed  with <i id="heart" class="fa-solid fa-heart fa-bounce font-red"></i> by <a class="pn" href="https://panda-network.de" target="_blank">Panda-Network</a> | <a href="https://pnnet.dev/discord" target="_blank">Support</a> | <a href="https://panda-network.de/impressum" target="_blank">Impressum</a>

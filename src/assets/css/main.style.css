@@ -252,6 +252,54 @@ section .challenges .random-challenge .challenge-en::before {
   content: "🇬🇧";
 }
 
+#changelogbox {
+  display: none;
+}
+#changelogbox .changelog {
+  z-index: 1;
+  width: 50%;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8549019608);
+  border-radius: 0.3125rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#changelogbox .changelog .close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.6rem;
+  font-size: 1.4rem;
+  z-index: 2;
+  color: #fff;
+  transition: 200ms;
+  cursor: pointer;
+}
+#changelogbox .changelog .close:hover {
+  color: #6c757d;
+}
+#changelogbox .changelog .log-tab h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Mohave-Medium-Italic";
+}
+#changelogbox .changelog .log-tab .log {
+  margin: 0 0.4rem;
+  padding: 0.8rem;
+  border-radius: 0.3125rem;
+  background: #0d1117;
+}
+#changelogbox .changelog .log-tab .log p {
+  margin: 0.2rem 0;
+}
+#changelogbox .changelog .log-tab .log code {
+  display: block;
+  text-align: right;
+}
+
 footer {
   width: 100%;
   position: absolute;
@@ -285,7 +333,7 @@ footer .pn {
   color: #0d6efd;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .operatorBox {
     position: relative !important;
     left: 50% !important;
@@ -338,6 +386,10 @@ footer .pn {
   .challenges .random-challenge {
     display: block !important;
     font-size: 1.2rem !important;
+  }
+  .changelog {
+    width: 74% !important;
+    display: block !important;
   }
   footer {
     position: relative;
