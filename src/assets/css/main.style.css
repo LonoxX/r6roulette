@@ -16,13 +16,13 @@ body {
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format("ttf");
+  src: url("../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Mohave-Medium-Italic";
-  src: url("../fonts/Mohave/Mohave-Medium-Italic.ttf.woff") format("woff"), url("../fonts/Mohave/Mohave-Medium-Italic.ttf.svg#Mohave-Medium-Italic") format("svg"), url("../fonts/Mohave/Mohave-Medium-Italic.ttf.eot"), url("../fonts/Mohave/Mohave-Medium-Italic.ttf.eot?#iefix") format("embedded-opentype");
+  src: url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.woff") format("woff"), url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.svg#Mohave-Medium-Italic") format("svg"), url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.eot"), url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
