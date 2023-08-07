@@ -322,3 +322,99 @@ footer {
    }
 
 }
+
+@media (max-width: 900px)  {
+
+   .operatorBox {
+
+      position: relative !important;
+      left: 50% !important;
+      transform: translate(-50%, 0) !important;
+      width: 70% !important;
+      padding: 0 2rem !important;
+
+   }
+
+   .operator-weapons {
+
+      position: relative !important;
+      top: 2rem !important;
+      left: 50% !important;
+      transform: translate(-50%, 0) !important;
+      width: 75% !important;
+
+      .primaryweapon {
+
+         width: auto !important;
+
+         .weapon-info { 
+
+            display: block !important;
+
+            .weapon {
+               justify-items: center;
+            }
+         }
+
+      }
+
+      .secondweapon {
+
+         margin-top: 6rem;
+         width: auto !important;
+
+         .weapon-info { 
+            
+            display: block !important;
+
+            .weapon {
+               justify-items: center;
+            }
+         }
+      }
+   }
+
+   .operator-gadget {
+
+      position: relative !important;
+      top: 4rem !important;
+      left: 50% !important;
+      transform: translate(-50%, 0) !important;
+      width: 75% !important;
+      padding: 1rem !important;
+
+   }
+
+   .challenges {
+
+      position: relative !important;
+      top: 6rem !important;
+      left: 50% !important;
+      transform: translate(-50%, 0) !important;
+      width: 75% !important;
+      padding: 1rem !important;
+
+      .random-challenge {
+         display: block !important;
+         font-size: 1.2rem !important;       
+      }
+
+   }
+
+   footer {
+
+      position: relative;
+      bottom: 0;
+      left: 0;
+      display: grid;
+      margin-top: 8rem;
+      grid-template-columns: auto auto;
+      align-items: center;
+
+      span {
+         display: none;
+      }
+
+   }
+
+}
