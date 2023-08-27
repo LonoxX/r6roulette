@@ -21,7 +21,7 @@ const Scope2 = document.querySelector(".secondweapon-scope-name");
 
 R6attacker.addEventListener('click', randomAttacker);
 R6defender.addEventListener('click', randomDefender);
-const apykey = "pandanetwork"
+const apykey = "Ut1qawz-21bc45e7f3d0"
 async function randomAttacker() {
   try {
     const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`); 
