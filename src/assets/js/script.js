@@ -24,14 +24,14 @@ R6defender.addEventListener('click', randomDefender);
 const apykey = "Ut1qawz-21bc45e7f3d0"
 async function randomAttacker() {
   try {
-    const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`); 
+    const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`);
     const data = await response.json();
     randomOperator(data);
   } catch (error) {
     console.error('%cError fetching attackers:', 'color: red; font-size: 14px', error);
-    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ','color: red; font-size: 14px');
+    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ', 'color: red; font-size: 14px');
 
-}
+  }
 }
 
 async function randomDefender() {
@@ -41,22 +41,31 @@ async function randomDefender() {
     randomOperator(data);
   } catch (error) {
     console.error('%cError fetching attackers:', 'color: red; font-size: 14px', error);
-    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ','color: red; font-size: 14px');
+    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ', 'color: red; font-size: 14px');
   }
 }
+
+function randomize() {
+  select = Math.floor(Math.random() * 2);
+  if (select == 0) {
+    randomAttacker();
+  } else {
+    randomDefender();
+  }
+}
+
 function randomOperator(operators) {
   const chosen = operators[Math.floor(Math.random() * operators.length)];
   R6img.src = chosen.img;
   R6badge.src = chosen.badge;
-  // R6img.style.width = "352px";
   R6name.textContent = chosen.name;
   const operatorPrimary = chosen.weapons.filter(weapon => weapon.weapon_type === 'primary');
   const operatorSecondary = chosen.weapons.filter(weapon => weapon.weapon_type === 'secondary');
   const randomPrimary = operatorPrimary[Math.floor(Math.random() * operatorPrimary.length)];
   const randomSecondary = operatorSecondary[Math.floor(Math.random() * operatorSecondary.length)];
   const randomPrimaryAttachment = randomPrimary.attachments[Math.floor(Math.random() * randomPrimary.attachments.length)];
-  const randomPrimaryGrip = randomPrimary.gripes[Math.floor(Math.random() * randomPrimary.gripes.length)];    
-  const randomPrimaryScope = randomPrimary.scopes[Math.floor(Math.random() * randomPrimary.scopes.length)]; 
+  const randomPrimaryGrip = randomPrimary.gripes[Math.floor(Math.random() * randomPrimary.gripes.length)];
+  const randomPrimaryScope = randomPrimary.scopes[Math.floor(Math.random() * randomPrimary.scopes.length)];
   const randomSecondaryAttachment = randomSecondary.attachments[Math.floor(Math.random() * randomSecondary.attachments.length)];
   const randomSecondaryGrip = randomSecondary.gripes[Math.floor(Math.random() * randomSecondary.gripes.length)];
   const randomSecondaryScope = randomSecondary.scopes[Math.floor(Math.random() * randomSecondary.scopes.length)];
@@ -76,23 +85,23 @@ function randomOperator(operators) {
   operator_gadgets.textContent = randomGadget.gadget_name;
   operator_gadgets_img.src = randomGadget.img;
 
-  R6img.onerror = function() {
+  R6img.onerror = function () {
     this.src = `https://pic.pnnet.dev/300x500?text=${chosenName}`;
   };
 
-  R6badge.onerror = function() {
+  R6badge.onerror = function () {
     this.src = `https://pic.pnnet.dev/201x201?text=${chosenName}`;
   };
 
-  operator_weapons_img.onerror = function() {
+  operator_weapons_img.onerror = function () {
     this.src = `https://pic.pnnet.dev/290x100?text=${operator_weapons.textContent}`;
   };
 
-  operator_weapons2_img.onerror = function() {
+  operator_weapons2_img.onerror = function () {
     this.src = `https://pic.pnnet.dev/290x100?text=${operator_weapons2.textContent}`;
   };
 
-  operator_gadgets_img.onerror = function() {
+  operator_gadgets_img.onerror = function () {
     this.src = `https://pic.pnnet.dev/290x100?text=${operator_gadgets.textContent}`;
   };
 }
@@ -103,11 +112,12 @@ async function getChallenges() {
     const response = await fetch(`https://api.r6roulette.de/challenges?api_key=${apykey}`);
     const data = await response.json();
     displayRandomChallenge(data);
-  } catch (error) {    
+  } catch (error) {
     console.error('%cError fetching challenges:', 'color: red; font-size: 14px', error);
-    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ','color: red; font-size: 14px');
+    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ', 'color: red; font-size: 14px');
   }
 }
+
 function displayRandomChallenge(challenges) {
   const randomChallengeButton = document.querySelector('#random-challenge-button');
   randomChallengeButton.addEventListener('click', () => {
@@ -146,13 +156,12 @@ function getLastChangelog(type) {
 function populateChangelogModal(changelog, type) {
   const log = document.querySelector(`#${type}`);
   const date = new Date(changelog[0].created_at);
-      datestring = date.getDate()  + "." + (date.getMonth()+1) + "." + date.getFullYear();
-
-  const Item = `<div class="log">` +
-    '<p id="message">' + changelog[0].message + '</p>' +
+  datestring = date.getDate() + "." + (date.getMonth() + 1) + "." + date.getFullYear();
+  const messageWithListItems = changelog[0].message.replace(/-/g, '<li>');
+  const Item = '<div class="log">' +
+    '<ul>' + messageWithListItems + '</ul>' +
     '<code class="">V ' + changelog[0].version + ' | ' + datestring + ' </code>' +
-  '</div>';
-
+    '</div>';
   log.innerHTML = Item;
 }
 
@@ -161,29 +170,33 @@ function openchangelog() {
   element.style.display = 'block';
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  randomAttacker();
-  randomDefender();
+function openimpressum() {
+  const element = document.getElementById('impressumbox');
+  element.style.display = 'block';
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  randomize()
   getChallenges();
   getLastChangelog('web');
   getLastChangelog('bot');
+  const myButton1 = document.getElementById('close1');
+  myButton1.addEventListener('click', function () {
+    const element = document.getElementById('impressumbox');
+    element.style.display = 'none';
+  });
 
   const myButton = document.getElementById('close');
-  myButton.addEventListener('click', function() {
+  myButton.addEventListener('click', function () {
     const element = document.getElementById('changelogbox');
     element.style.display = 'none';
   });
 });
 
-// Event-Listener für das focus-Ereignis
-window.addEventListener("focus", function() {
-  
+window.addEventListener("focus", function () {
   footerHeart.classList.add("fa-bounce");
-  // console.log("Browser/Fenster ist aktiv");
 });
-// Event-Listener für das blur-Ereignis
-window.addEventListener("blur", function() {
-  
+window.addEventListener("blur", function () {
   footerHeart.classList.remove("fa-bounce");
-  // console.log("Browser/Fenster ist nicht aktiv");
 });
