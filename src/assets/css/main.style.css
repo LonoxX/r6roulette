@@ -436,6 +436,7 @@ footer div.left a {
 
 footer div.right {
   text-align: right;
+  padding: 0 0.5rem;
 }
 
 footer .pn {
