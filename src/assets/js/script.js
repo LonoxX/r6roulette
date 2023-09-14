@@ -21,7 +21,7 @@ const Scope2 = document.querySelector(".secondweapon-scope-name");
 
 R6attacker.addEventListener('click', randomAttacker);
 R6defender.addEventListener('click', randomDefender);
-const apykey = "Ut1qawz-21bc45e7f3d0"
+const apykey = "Uj16gk9-f2a987ec5340"
 async function randomAttacker() {
   try {
     const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`);
@@ -181,13 +181,13 @@ document.addEventListener('DOMContentLoaded', function () {
   getChallenges();
   getLastChangelog('web');
   getLastChangelog('bot');
-  const myButton1 = document.getElementById('close1');
+  const myButton1 = document.getElementById('close_imp');
   myButton1.addEventListener('click', function () {
     const element = document.getElementById('impressumbox');
     element.style.display = 'none';
   });
 
-  const myButton = document.getElementById('close');
+  const myButton = document.getElementById('close_change');
   myButton.addEventListener('click', function () {
     const element = document.getElementById('changelogbox');
     element.style.display = 'none';
