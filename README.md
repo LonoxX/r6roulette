@@ -8,7 +8,7 @@ R6 Operator Roulette is a project that randomly generates operators and their eq
 - The selected operator will be displayed along with their primary and secondary weapons, attachments, and gadgets.
 
 ## Discord Bot
-The Discord Bot has the same functions as the website [Invite](https://pnnet.dev).
+The Discord Bot has the same functions as the website [Invite](https://pnnet.dev/r6discord).
 
 
 ## API

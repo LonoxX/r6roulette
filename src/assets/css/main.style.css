@@ -16,7 +16,7 @@ body {
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format("ttf");
+  src: url("../fonts/OpenSans-VariableFont_wdth.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -143,12 +143,12 @@ section .operatorBox .operator-bottom button#random-challenge-button {
 }
 section .operator-weapons {
   position: absolute;
-  top: 4rem;
-  left: 38%;
+  right: 10%;
+  width: 50%;
+  margin: 4% 0;
   display: block;
-  margin: 0;
   background: rgba(0, 0, 0, 0.5019607843);
-  padding: 1rem 0.8rem;
+  padding: 1rem 0;
   border-radius: 0.3125rem;
 }
 section .operator-weapons .primaryweapon {
@@ -197,10 +197,17 @@ section .operator-weapons .secondweapon .weapon-info {
 section .operator-weapons .secondweapon .weapon-info div {
   display: grid;
 }
-section .operator-gadget {
+section .sectiopnplus {
   position: absolute;
-  top: 35rem;
-  left: 38%;
+  top: 36rem;
+  right: 10%;
+  width: 50%;
+  height: 12rem;
+  display: grid;
+  gap: 5%;
+  grid-template-columns: auto auto;
+}
+section .sectiopnplus .operator-gadget {
   display: block;
   margin: 0;
   background: rgba(0, 0, 0, 0.5019607843);
@@ -208,54 +215,55 @@ section .operator-gadget {
   border-radius: 0.3125rem;
   text-align: center;
 }
-section .operator-gadget h2 {
+section .sectiopnplus .operator-gadget h2 {
   font-family: "Mohave-Medium-Italic";
   font-size: 1.8rem;
   margin: 0;
 }
-section .challenges {
-  position: absolute;
-  top: 35rem;
-  left: 58%;
+section .sectiopnplus .operator-gadget img {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+section .sectiopnplus .challenges {
   display: block;
   margin: 0;
   background: rgba(0, 0, 0, 0.5019607843);
   padding: 1rem 1.2rem;
   border-radius: 0.3125rem;
   text-align: center;
-  width: 30%;
 }
-section .challenges h2 {
+section .sectiopnplus .challenges h2 {
   font-family: "Mohave-Medium-Italic";
   font-size: 1.8rem;
   margin: 0;
 }
-section .challenges .random-challenge {
+section .sectiopnplus .challenges .random-challenge {
   display: grid;
   grid-template-columns: 50% 50%;
   font-size: 1rem;
   padding: 0.8rem 1.2rem;
 }
-section .challenges .random-challenge span {
+section .sectiopnplus .challenges .random-challenge span {
   font-weight: bold;
 }
-section .challenges .random-challenge p {
+section .sectiopnplus .challenges .random-challenge p {
   margin: 0.6rem 0;
 }
-section .challenges .random-challenge .challenge-de, section .challenges .random-challenge .challenge-en {
+section .sectiopnplus .challenges .random-challenge .challenge-de, section .sectiopnplus .challenges .random-challenge .challenge-en {
   margin: 0 0.8rem;
 }
-section .challenges .random-challenge .challenge-de::before {
+section .sectiopnplus .challenges .random-challenge .challenge-de::before {
   content: "🇩🇪";
 }
-section .challenges .random-challenge .challenge-en::before {
+section .sectiopnplus .challenges .random-challenge .challenge-en::before {
   content: "🇬🇧";
 }
 
-#changelogbox {
+#changelogbox, #impressumbox {
   display: none;
 }
-#changelogbox .changelog {
+#changelogbox .modalbox, #impressumbox .modalbox {
   z-index: 1;
   width: 50%;
   position: fixed;
@@ -268,7 +276,7 @@ section .challenges .random-challenge .challenge-en::before {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-#changelogbox .changelog .close {
+#changelogbox .modalbox .close, #impressumbox .modalbox .close {
   position: absolute;
   top: 0.4rem;
   right: 0.6rem;
@@ -278,24 +286,24 @@ section .challenges .random-challenge .challenge-en::before {
   transition: 200ms;
   cursor: pointer;
 }
-#changelogbox .changelog .close:hover {
+#changelogbox .modalbox .close:hover, #impressumbox .modalbox .close:hover {
   color: #6c757d;
 }
-#changelogbox .changelog .log-tab h2 {
+#changelogbox .modalbox .log-tab h2, #impressumbox .modalbox .log-tab h2 {
   text-align: center;
   font-size: 1.6rem;
   font-family: "Mohave-Medium-Italic";
 }
-#changelogbox .changelog .log-tab .log {
+#changelogbox .modalbox .log-tab .log, #impressumbox .modalbox .log-tab .log {
   margin: 0 0.4rem;
   padding: 0.8rem;
   border-radius: 0.3125rem;
   background: #0d1117;
 }
-#changelogbox .changelog .log-tab .log p {
+#changelogbox .modalbox .log-tab .log p, #impressumbox .modalbox .log-tab .log p {
   margin: 0.2rem 0;
 }
-#changelogbox .changelog .log-tab .log code {
+#changelogbox .modalbox .log-tab .log code, #impressumbox .modalbox .log-tab .log code {
   display: block;
   text-align: right;
 }
@@ -304,7 +312,7 @@ footer {
   width: 100%;
   position: absolute;
   display: grid;
-  grid-template-columns: 25% auto 25%;
+  grid-template-columns: 30% auto 30%;
   align-items: center;
   bottom: 0;
   left: 0;
@@ -347,6 +355,7 @@ footer .pn {
     left: 50% !important;
     transform: translate(-50%, 0) !important;
     width: 75% !important;
+    padding: 1rem 0.6rem !important;
   }
   .operator-weapons .primaryweapon {
     width: auto !important;
@@ -367,23 +376,25 @@ footer .pn {
   .operator-weapons .secondweapon .weapon-info .weapon {
     justify-items: center;
   }
-  .operator-gadget {
+  .sectiopnplus {
     position: relative !important;
     top: 4rem !important;
     left: 50% !important;
+    display: grid !important;
+    grid-template-columns: auto !important;
+    gap: 4rem !important;
+    width: 80% !important;
+    height: auto !important;
+  }
+  .sectiopnplus .operator-gadget {
     transform: translate(-50%, 0) !important;
-    width: 75% !important;
     padding: 1rem !important;
   }
-  .challenges {
-    position: relative !important;
-    top: 6rem !important;
-    left: 50% !important;
+  .sectiopnplus .challenges {
     transform: translate(-50%, 0) !important;
-    width: 75% !important;
     padding: 1rem !important;
   }
-  .challenges .random-challenge {
+  .sectiopnplus .challenges .random-challenge {
     display: block !important;
     font-size: 1.2rem !important;
   }
@@ -397,8 +408,16 @@ footer .pn {
     left: 0;
     display: grid;
     margin-top: 8rem;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto !important;
+    gap: 1rem;
     align-items: center;
+    text-align: center;
+  }
+  footer .left {
+    text-align: unset !important;
+  }
+  footer .right {
+    text-align: unset !important;
   }
   footer span {
     display: none;
