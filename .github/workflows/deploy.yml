@@ -20,9 +20,9 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Get net version
-        uses: thenativeweb/get-next-version@main
+      - name: Get next version
         id: get_next_version
+        uses: thenativeweb/get-next-version@main
 
       - name: Create New Release
         if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
@@ -33,14 +33,15 @@ jobs:
 
   build-deploy:
     name: Build and Deploy
-    if: ${{ github.ref == 'refs/heads/main' && steps.release.outputs.hasNextVersion == 'true' }}
+    needs: release
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Set-up Node
+      - name: Set up Node.js
         uses: actions/setup-node@v3.7.0
         with:
           node-version: "18.x"
