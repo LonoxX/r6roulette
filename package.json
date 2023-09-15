@@ -1,5 +1,23 @@
 {
-  "devDependencies": {
+  "name": "r6roulette",
+  "version": "0.1",
+  "description": "Tom Clancy's Rainbow Six Siege operator randomizer that display a random operator, random gun selection, and random equipment. ",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LonoxX/r6roulette.git"
+  },
+  "bugs": {
+      "url": "https://github.com/LonoxX/r6roulette/issues"
+  },
+  "homepage": "https://github.com/LonoxX/r6roulette#readme",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "keywords": ["fun,games,random,rainbow,random-generation,r6s,rainbow-six-siege,r6-operatoricons, LonoxX, r6roulette, panda-network,operator randomizer,random operator,random gun selection,random equipment"],
+  "author": "LonoxX",
+  "license": "GPL-3.0 license",
+  "dependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
     "html-loader": "^4.2.0",
@@ -8,11 +26,5 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
-  "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --config webpack.config.js"
-  },
-  "dependencies": {
-    "webpack-dev-server": "^4.15.1"
-  }
+  "devDependencies": {}
 }

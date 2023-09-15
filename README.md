@@ -34,6 +34,26 @@ all challenges
 https://api.r6roulette.de/challenges?api_key={YourApiKey}
 ```
 
+<details >
+  <summary>🛠️<b> Screenshot </b> </summary>
+  <details >
+  
+  <summary><b> Discord Bot</b> </summary>
+<a href="https://imagicx.de/i/mGDygPXcuhJI"><img src="https://cdn.r6roulette.de/about/DiscordBot/operator.png" alt="operator.png" width="100%"></a>
+<a href="https://imagicx.de/i/wvz3hdqMAHVQ"><img src="https://cdn.r6roulette.de/about/DiscordBot/attacker.png" alt="attacker.png" width="100%"></a>
+<a href="https://imagicx.de/i/KROZ9yeSPAE7"><img src="https://cdn.r6roulette.de/about/DiscordBot/getchallenge.png" alt="getchallenge.png"  width="100%"></a>
+<a href="https://imagicx.de/i/0Kf1Xt5qOInu"><img src="https://cdn.r6roulette.de/about/DiscordBot/changelog.png" alt="changelog.png" width="100%"></a>
+<a href="https://imagicx.de/i/qZSHDeFWy9tu"><img src="https://cdn.r6roulette.de/about/DiscordBot/invite.png" alt="invite.png" width="100%"></a>
+</details>
+
+  <details >
+  
+  <summary><b> Homepage </b> </summary>
+<a href="https://imagicx.de/i/94r7ibgaKTWc"><img src="https://cdn.r6roulette.de/about/Web/homepage.png" alt="operator.png" width="100%"></a>
+</details>
+</details>
+
+
 
 ## Contributing
 

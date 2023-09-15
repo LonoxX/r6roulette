@@ -181,13 +181,13 @@ document.addEventListener('DOMContentLoaded', function () {
   getChallenges();
   getLastChangelog('web');
   getLastChangelog('bot');
-  const myButton1 = document.getElementById('close1');
+  const myButton1 = document.getElementById('close_imp');
   myButton1.addEventListener('click', function () {
     const element = document.getElementById('impressumbox');
     element.style.display = 'none';
   });
 
-  const myButton = document.getElementById('close');
+  const myButton = document.getElementById('close_change');
   myButton.addEventListener('click', function () {
     const element = document.getElementById('changelogbox');
     element.style.display = 'none';
