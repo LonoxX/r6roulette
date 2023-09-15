@@ -1,42 +1,53 @@
 name: Deploy static content to Pages
+
 on:
   push:
     branches:
       - main
+
 permissions:
   contents: write
+
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Clone repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-        ref: main
-    - name: Get net version
-      uses: thenativeweb/get-next-version@main
-      id: get_next_version
-    - name: Create New Release
-      if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
-      run: |
-        NEXT_VERSION=${{ steps.get_next_version.outputs.version }}
-        git tag $NEXT_VERSION
-        git push origin $NEXT_VERSION
+      - name: Clone repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Get net version
+        uses: thenativeweb/get-next-version@main
+        id: get_next_version
+
+      - name: Create New Release
+        if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
+        run: |
+          NEXT_VERSION=${{ steps.get_next_version.outputs.version }}
+          git tag $NEXT_VERSION
+          git push origin $NEXT_VERSION
+
   build-deploy:
-    if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
+    name: Build and Deploy
+    if: ${{ github.ref == 'refs/heads/main' && steps.release.outputs.hasNextVersion == 'true' }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Set-up Node
         uses: actions/setup-node@v3.7.0
         with:
           node-version: "18.x"
+
       - run: npm install
       - run: npm run build
+
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
