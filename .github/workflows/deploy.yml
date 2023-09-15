@@ -34,7 +34,7 @@ jobs:
   build-deploy:
     name: Build and Deploy
     needs: release
-    if: github.ref == 'refs/heads/main'
+    if: ${{ needs.release.result == 'success' && steps.get_next_version.outputs.hasNextVersion == 'true' }}
     runs-on: ubuntu-latest
 
     steps:
