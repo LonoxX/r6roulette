@@ -12,27 +12,10 @@ The Discord Bot has the same functions as the website [Invite](https://pnnet.dev
 
 
 ## API
-To access the API, you will need an API key. You can request this key through the ticket system on [Discord](https://discord.gg/z8ScRvf). Once you receive the API key, you can use it to access the API and utilize all available functions.
+> To access the API, you will need an API key. You can request this key through the ticket system on [Discord](https://discord.gg/z8ScRvf).  
+> Once you receive the API key, you can use it to access the API and utilize all available functions.
 
-# Api Request
-
-All Operator
-```js
-https://api.r6roulette.de/operator?api_key={YourApiKey}
-```
-Select a specific one
-```js
-https://api.r6roulette.de/operator/Ace?api_key={YourApiKey}
-```
-Only attacker or defender
-```js
-https://api.r6roulette.de/role/attacker?api_key={YourApiKey}
-https://api.r6roulette.de/role/defender?api_key={YourApiKey}
-```
-all challenges
-```js
-https://api.r6roulette.de/challenges?api_key={YourApiKey}
-```
+[Api Documentation](https://docs.panda-network.de/products/r6roulette)
 
 <details >
   <summary>🛠️<b> Screenshot </b> </summary>
@@ -66,7 +49,7 @@ If you would like to contribute to the project, please follow these steps:
 5. Push the branch to your fork: `git push origin feature/your-feature`.
 6. Create a pull request. Use the branch `contributor/pull_request`.
 
-
+### ⭐ This repository if you like this project!
 # Support
 
 > Website: [Panda-Network.de](https://panda-network.de) \
