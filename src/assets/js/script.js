@@ -155,14 +155,16 @@ function getLastChangelog(type) {
 
 function populateChangelogModal(changelog, type) {
   const log = document.querySelector(`#${type}`);
-  const date = new Date(changelog[0].created_at);
-  datestring = date.getDate() + "." + (date.getMonth() + 1) + "." + date.getFullYear();
-  const messageWithListItems = changelog[0].message.replace(/-/g, '<li>');
-  const Item = '<div class="log">' +
-    '<ul>' + messageWithListItems + '</ul>' +
-    '<code class="">V ' + changelog[0].version + ' | ' + datestring + ' </code>' +
-    '</div>';
-  log.innerHTML = Item;
+  if (changelog[0] && changelog[0].message) {
+    const date = new Date(changelog[0].created_at);
+    const datestring = date.getDate() + "." + (date.getMonth() + 1) + "." + date.getFullYear();
+    const sanitizedMessage = changelog[0].message.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const item = '<div class="log">' +
+      '<ul>' + sanitizedMessage.replace(/-/g, '</li><li>') + '</ul>' +
+      '<code class="">V ' + changelog[0].version + ' | ' + datestring + ' </code>' +
+      '</div>';
+    log.innerHTML = item;
+  }
 }
 
 function openchangelog() {
