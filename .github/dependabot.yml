@@ -6,9 +6,9 @@ updates:
       interval: weekly
     open-pull-requests-limit: 10
     labels:
-    - Dependencies
+      - Dependencies
     allow:
-    - dependency-type: direct
+      - dependency-type: direct
     commit-message:
       prefix: chore
       prefix-development: chore

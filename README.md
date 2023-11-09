@@ -8,10 +8,11 @@ R6 Operator Roulette is a project that randomly generates operators and their eq
 - The selected operator will be displayed along with their primary and secondary weapons, attachments, and gadgets.
 
 ## Discord Bot
+
 The Discord Bot has the same functions as the website [Invite](https://pnnet.dev/r6discord).
 
-
 ## API
+
 > To access the API, you will need an API key. You can request this key through the ticket system on [Discord](https://discord.gg/z8ScRvf).  
 > Once you receive the API key, you can use it to access the API and utilize all available functions.
 
@@ -36,8 +37,6 @@ The Discord Bot has the same functions as the website [Invite](https://pnnet.dev
 </details>
 </details>
 
-
-
 ## Contributing
 
 If you would like to contribute to the project, please follow these steps:
@@ -50,6 +49,7 @@ If you would like to contribute to the project, please follow these steps:
 6. Create a pull request. Use the branch `contributor/pull_request`.
 
 ### ⭐ This repository if you like this project!
+
 # Support
 
 > Website: [Panda-Network.de](https://panda-network.de) \

@@ -1,30 +1,30 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  mode: 'development',
-  entry: './src/index.html',
+  mode: "development",
+  entry: "./src/index.html",
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, "build"),
   },
   module: {
     rules: [
       {
         test: /\.html$/,
-        use: 'html-loader',
+        use: "html-loader",
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: "./src/index.html",
     }),
     new CopyPlugin({
       patterns: [
-        { from: 'src/assets/img', to: 'assets/img' },
-        { from: 'src/assets/fonts', to: 'assets/fonts' },
-        { from: 'CNAME', to: '' },
+        { from: "src/assets/img", to: "assets/img" },
+        { from: "src/assets/fonts", to: "assets/fonts" },
+        { from: "CNAME", to: "" },
       ],
     }),
   ],

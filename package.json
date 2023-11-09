@@ -12,7 +12,8 @@
   "homepage": "https://github.com/LonoxX/r6roulette#readme",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --config webpack.config.js"
+    "start": "webpack-dev-server --config webpack.config.js",
+    "format": "npx prettier . --write"
   },
   "keywords": [
     "fun,games,random,rainbow,random-generation,r6s,rainbow-six-siege,r6-operatoricons, LonoxX, r6roulette, panda-network,operator randomizer,random operator,random gun selection,random equipment"
@@ -29,6 +30,7 @@
     "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+    "prettier": "3.0.3"
   }
 }

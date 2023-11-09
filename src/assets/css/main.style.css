@@ -22,7 +22,11 @@ body {
 }
 @font-face {
   font-family: "Mohave-Medium-Italic";
-  src: url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.woff") format("woff"), url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.svg#Mohave-Medium-Italic") format("svg"), url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.eot"), url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.eot?#iefix") format("embedded-opentype");
+  src:
+    url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.woff") format("woff"),
+    url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.svg#Mohave-Medium-Italic") format("svg"),
+    url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.eot"),
+    url("../assets/fonts/Mohave/Mohave-Medium-Italic.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -250,7 +254,8 @@ section .sectiopnplus .challenges .random-challenge span {
 section .sectiopnplus .challenges .random-challenge p {
   margin: 0.6rem 0;
 }
-section .sectiopnplus .challenges .random-challenge .challenge-de, section .sectiopnplus .challenges .random-challenge .challenge-en {
+section .sectiopnplus .challenges .random-challenge .challenge-de,
+section .sectiopnplus .challenges .random-challenge .challenge-en {
   margin: 0 0.8rem;
 }
 section .sectiopnplus .challenges .random-challenge .challenge-de::before {
@@ -260,10 +265,12 @@ section .sectiopnplus .challenges .random-challenge .challenge-en::before {
   content: "🇬🇧";
 }
 
-#changelogbox, #impressumbox {
+#changelogbox,
+#impressumbox {
   display: none;
 }
-#changelogbox .modalbox, #impressumbox .modalbox {
+#changelogbox .modalbox,
+#impressumbox .modalbox {
   z-index: 1;
   width: 50%;
   position: fixed;
@@ -276,7 +283,8 @@ section .sectiopnplus .challenges .random-challenge .challenge-en::before {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-#changelogbox .modalbox .close, #impressumbox .modalbox .close {
+#changelogbox .modalbox .close,
+#impressumbox .modalbox .close {
   position: absolute;
   top: 0.4rem;
   right: 0.6rem;
@@ -286,24 +294,29 @@ section .sectiopnplus .challenges .random-challenge .challenge-en::before {
   transition: 200ms;
   cursor: pointer;
 }
-#changelogbox .modalbox .close:hover, #impressumbox .modalbox .close:hover {
+#changelogbox .modalbox .close:hover,
+#impressumbox .modalbox .close:hover {
   color: #6c757d;
 }
-#changelogbox .modalbox .log-tab h2, #impressumbox .modalbox .log-tab h2 {
+#changelogbox .modalbox .log-tab h2,
+#impressumbox .modalbox .log-tab h2 {
   text-align: center;
   font-size: 1.6rem;
   font-family: "Mohave-Medium-Italic";
 }
-#changelogbox .modalbox .log-tab .log, #impressumbox .modalbox .log-tab .log {
+#changelogbox .modalbox .log-tab .log,
+#impressumbox .modalbox .log-tab .log {
   margin: 0 0.4rem;
   padding: 0.8rem;
   border-radius: 0.3125rem;
   background: #0d1117;
 }
-#changelogbox .modalbox .log-tab .log p, #impressumbox .modalbox .log-tab .log p {
+#changelogbox .modalbox .log-tab .log p,
+#impressumbox .modalbox .log-tab .log p {
   margin: 0.2rem 0;
 }
-#changelogbox .modalbox .log-tab .log code, #impressumbox .modalbox .log-tab .log code {
+#changelogbox .modalbox .log-tab .log code,
+#impressumbox .modalbox .log-tab .log code {
   display: block;
   text-align: right;
 }

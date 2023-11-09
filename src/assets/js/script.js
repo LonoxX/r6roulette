@@ -19,18 +19,17 @@ const Grip2 = document.querySelector(".secondweapon-grip-name");
 const Scope = document.querySelector(".weapon-scope-name");
 const Scope2 = document.querySelector(".secondweapon-scope-name");
 
-R6attacker.addEventListener('click', randomAttacker);
-R6defender.addEventListener('click', randomDefender);
-const apykey = "Ut1qawz-21bc45e7f3d0"
+R6attacker.addEventListener("click", randomAttacker);
+R6defender.addEventListener("click", randomDefender);
+const apykey = "Ut1qawz-21bc45e7f3d0";
 async function randomAttacker() {
   try {
     const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`);
     const data = await response.json();
     randomOperator(data);
   } catch (error) {
-    console.error('%cError fetching attackers:', 'color: red; font-size: 14px', error);
-    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ', 'color: red; font-size: 14px');
-
+    console.error("%cError fetching attackers:", "color: red; font-size: 14px", error);
+    console.log("%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ", "color: red; font-size: 14px");
   }
 }
 
@@ -40,8 +39,8 @@ async function randomDefender() {
     const data = await response.json();
     randomOperator(data);
   } catch (error) {
-    console.error('%cError fetching attackers:', 'color: red; font-size: 14px', error);
-    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ', 'color: red; font-size: 14px');
+    console.error("%cError fetching attackers:", "color: red; font-size: 14px", error);
+    console.log("%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ", "color: red; font-size: 14px");
   }
 }
 
@@ -59,8 +58,8 @@ function randomOperator(operators) {
   R6img.src = chosen.img;
   R6badge.src = chosen.badge;
   R6name.textContent = chosen.name;
-  const operatorPrimary = chosen.weapons.filter(weapon => weapon.weapon_type === 'primary');
-  const operatorSecondary = chosen.weapons.filter(weapon => weapon.weapon_type === 'secondary');
+  const operatorPrimary = chosen.weapons.filter((weapon) => weapon.weapon_type === "primary");
+  const operatorSecondary = chosen.weapons.filter((weapon) => weapon.weapon_type === "secondary");
   const randomPrimary = operatorPrimary[Math.floor(Math.random() * operatorPrimary.length)];
   const randomSecondary = operatorSecondary[Math.floor(Math.random() * operatorSecondary.length)];
   const randomPrimaryAttachment = randomPrimary.attachments[Math.floor(Math.random() * randomPrimary.attachments.length)];
@@ -106,31 +105,30 @@ function randomOperator(operators) {
   };
 }
 
-
 async function getChallenges() {
   try {
     const response = await fetch(`https://api.r6roulette.de/challenges?api_key=${apykey}`);
     const data = await response.json();
     displayRandomChallenge(data);
   } catch (error) {
-    console.error('%cError fetching challenges:', 'color: red; font-size: 14px', error);
-    console.log('%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ', 'color: red; font-size: 14px');
+    console.error("%cError fetching challenges:", "color: red; font-size: 14px", error);
+    console.log("%cPlease check your API key and try again. If the problem persists, create a Ticket at https://pnnet.dev/discord for assistance. ", "color: red; font-size: 14px");
   }
 }
 
 function displayRandomChallenge(challenges) {
-  const randomChallengeButton = document.querySelector('#random-challenge-button');
-  randomChallengeButton.addEventListener('click', () => {
+  const randomChallengeButton = document.querySelector("#random-challenge-button");
+  randomChallengeButton.addEventListener("click", () => {
     getrandomchallenges(challenges);
   });
   getrandomchallenges(challenges);
 }
 
 function getrandomchallenges(challenges) {
-  const challengeDescription_de = document.querySelector('.challenge-description_de');
-  const challengeDescription_en = document.querySelector('.challenge-description_en');
-  const challengeTitle_de = document.querySelector('.challenge-title_de');
-  const challengeTitle_en = document.querySelector('.challenge-title_en');
+  const challengeDescription_de = document.querySelector(".challenge-description_de");
+  const challengeDescription_en = document.querySelector(".challenge-description_en");
+  const challengeTitle_de = document.querySelector(".challenge-title_de");
+  const challengeTitle_en = document.querySelector(".challenge-title_en");
   const getrandomchallengesdex = Math.floor(Math.random() * challenges.length);
   const randomChallenge = challenges[getrandomchallengesdex];
   challengeTitle_de.textContent = randomChallenge.title_german;
@@ -141,58 +139,53 @@ function getrandomchallenges(challenges) {
 
 function getLastChangelog(type) {
   fetch(`https://api.r6roulette.de/changelog/${type}/latest?api_key=${apykey}`)
-    .then(response => response.json())
-    .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
       populateChangelogModal(data, type);
 
       supportedpatch.innerText = data[0].Upatch;
     })
-    .catch(error => {
-      console.error('Error fetching changelog:', error);
+    .catch((error) => {
+      console.error("Error fetching changelog:", error);
     });
 }
-
 
 function populateChangelogModal(changelog, type) {
   const log = document.querySelector(`#${type}`);
   if (changelog[0] && changelog[0].message) {
     const date = new Date(changelog[0].created_at);
     const datestring = date.getDate() + "." + (date.getMonth() + 1) + "." + date.getFullYear();
-    const sanitizedMessage = changelog[0].message.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    const item = '<div class="log">' +
-      '<ul>' + sanitizedMessage.replace(/-/g, '</li><li>') + '</ul>' +
-      '<code class="">V ' + changelog[0].version + ' | ' + datestring + ' </code>' +
-      '</div>';
+    const sanitizedMessage = changelog[0].message.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    const item = '<div class="log">' + "<ul>" + sanitizedMessage.replace(/-/g, "</li><li>") + "</ul>" + '<code class="">V ' + changelog[0].version + " | " + datestring + " </code>" + "</div>";
     log.innerHTML = item;
   }
 }
 
 function openchangelog() {
-  const element = document.getElementById('changelogbox');
-  element.style.display = 'block';
+  const element = document.getElementById("changelogbox");
+  element.style.display = "block";
 }
 
 function openimpressum() {
-  const element = document.getElementById('impressumbox');
-  element.style.display = 'block';
+  const element = document.getElementById("impressumbox");
+  element.style.display = "block";
 }
 
-
-document.addEventListener('DOMContentLoaded', function () {
-  randomize()
+document.addEventListener("DOMContentLoaded", function () {
+  randomize();
   getChallenges();
-  getLastChangelog('web');
-  getLastChangelog('bot');
-  const myButton1 = document.getElementById('close_imp');
-  myButton1.addEventListener('click', function () {
-    const element = document.getElementById('impressumbox');
-    element.style.display = 'none';
+  getLastChangelog("web");
+  getLastChangelog("bot");
+  const myButton1 = document.getElementById("close_imp");
+  myButton1.addEventListener("click", function () {
+    const element = document.getElementById("impressumbox");
+    element.style.display = "none";
   });
 
-  const myButton = document.getElementById('close_change');
-  myButton.addEventListener('click', function () {
-    const element = document.getElementById('changelogbox');
-    element.style.display = 'none';
+  const myButton = document.getElementById("close_change");
+  myButton.addEventListener("click", function () {
+    const element = document.getElementById("changelogbox");
+    element.style.display = "none";
   });
 });
 
