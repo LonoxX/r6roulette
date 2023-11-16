@@ -21,7 +21,7 @@ const Scope2 = document.querySelector(".secondweapon-scope-name");
 
 R6attacker.addEventListener("click", randomAttacker);
 R6defender.addEventListener("click", randomDefender);
-const apykey = "Ut1qawz-21bc45e7f3d0";
+const apykey = "r6roulette-web";
 async function randomAttacker() {
   try {
     const response = await fetch(`https://api.r6roulette.de/role/attacker?api_key=${apykey}`);
@@ -171,6 +171,11 @@ function openimpressum() {
   element.style.display = "block";
 }
 
+function openprivacy() {
+  const element = document.getElementById("privacybox");
+  element.style.display = "block";
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   randomize();
   getChallenges();
@@ -180,6 +185,20 @@ document.addEventListener("DOMContentLoaded", function () {
   myButton1.addEventListener("click", function () {
     const element = document.getElementById("impressumbox");
     element.style.display = "none";
+    if (window.location.href.indexOf("#") > -1) {
+      history.replaceState({}, document.title, window.location.href.replace(/#/g, ""));
+    }
+  });
+
+  const privacy = document.getElementById("close_privacy");
+  privacy.addEventListener("click", function () {
+    const element = document.getElementById("privacybox");
+    element.style.display = "none";
+    if (window.location.href.indexOf("#privacy") > -1) {
+      history.replaceState({}, document.title, window.location.href.replace(/#privacy/g, ""));
+    } else if (window.location.href.indexOf("#") > -1) {
+      history.replaceState({}, document.title, window.location.href.replace(/#/g, ""));
+    }
   });
 
   const myButton = document.getElementById("close_change");
@@ -188,6 +207,37 @@ document.addEventListener("DOMContentLoaded", function () {
     element.style.display = "none";
   });
 });
+
+if (window.location.href.indexOf("#privacy") > -1) {
+  console.log("Datenschutzerklärung anzeigen");
+  const element = document.getElementById("privacybox");
+  element.style.display = "block";
+}
+
+function toggleLanguage(language) {
+  var privacyBox = document.getElementById("privacy");
+
+  if (language === "de") {
+    loadPrivacyContent("privacy_de.html", privacyBox);
+  } else if (language === "en") {
+    loadPrivacyContent("privacy_en.html", privacyBox);
+  }
+}
+
+function loadPrivacyContent(file, element) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", file, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      element.innerHTML = xhr.responseText;
+    }
+  };
+  xhr.send();
+}
+
+window.onload = function () {
+  toggleLanguage("de");
+};
 
 window.addEventListener("focus", function () {
   footerHeart.classList.add("fa-bounce");

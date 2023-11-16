@@ -20,6 +20,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/privacy_de.html",
+      filename: "privacy_de.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/privacy_en.html",
+      filename: "privacy_en.html",
+    }),
     new CopyPlugin({
       patterns: [
         { from: "src/assets/img", to: "assets/img" },

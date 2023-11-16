@@ -186,10 +186,24 @@
       </div>
     </div>
 
+    <div id="privacybox">
+      <div class="modalbox">
+        <a id="close_privacy" class="close"><i class="fa-solid fa-xmark"></i></a>
+
+        <div id="languageToggle">
+          <button type="button" id="language-button" class="btn" onclick="toggleLanguage('de')"><span>German</span></button>
+          <button type="button" id="language-button" class="btn" onclick="toggleLanguage('en')"><span>English</span></button>
+        </div>
+        <div class="log-tab"></div>
+        <div id="privacy"></div>
+      </div>
+    </div>
+
     <footer>
       <div class="left">
         <a href="#" onclick="openchangelog()"><i class="fa-solid fa-code-branch"></i> Changelogs</a>
         <a href="https://pnnet.dev/r6discord" target="_blank"><i class="fa-brands fa-discord"></i> Discord Bot</a>
+        <a href="#" class="pn" onclick="openprivacy()"> Privacy Policy</a>
         <a href="https://request.r6roulette.de" class="pn" target="_blank"><i class="fa-solid fa-shuffle"></i> Request a Challenge</a>
       </div>
 
