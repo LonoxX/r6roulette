@@ -21,7 +21,7 @@
   "author": "LonoxX",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "copy-webpack-plugin": "^11.0.0",
+    "copy-webpack-plugin": "^12.0.1",
     "css-loader": "^6.8.1",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
