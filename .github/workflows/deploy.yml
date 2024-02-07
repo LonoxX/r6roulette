@@ -33,6 +33,16 @@ jobs:
           build_dir: build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update package.json with new version
+        if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
+        run: |
+          NEXT_VERSION="${{ steps.get_next_version.outputs.version }}"
+          npm version $NEXT_VERSION --no-git-tag-version --allow-same-version
+          git config --global user.email "lonoxx96@gmail.com"
+          git config --global user.name "LonoxX"
+          git add .
+          git commit -m "chore: update version to ${NEXT_VERSION}"
+          git push origin main    
       - name: Create Tag
         if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
         run: |
