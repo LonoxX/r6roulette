@@ -42,7 +42,7 @@ jobs:
           git config --global user.name "LonoxX"
           git add .
           git commit -m "chore: update version to ${NEXT_VERSION}"
-          git push origin main    
+          git push origin main
       - name: Create Tag
         if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
         run: |
