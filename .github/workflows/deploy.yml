@@ -1,51 +1,27 @@
 name: Deploy static content to Pages
+
 on:
   push:
     branches:
       - main
 permissions:
   contents: write
+
 jobs:
-  build-deploy:
-    name: Build and Deploy
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Clone repository
+      - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          ref: main
-      - name: Get netx version
-        id: get_next_version
-        uses: thenativeweb/get-next-version@main
-      - name: Set up Node.js
-        if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
-        uses: actions/setup-node@v3.7.0
-        with:
-          node-version: "18.x"
-      - run: npm install
-      - run: npm run build
-      - name: Deploy
-        if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: gh-pages
-          build_dir: build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Update package.json with new version
-        if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
+
+      - name: Build
         run: |
-          NEXT_VERSION="${{ steps.get_next_version.outputs.version }}"
-          npm version $NEXT_VERSION --no-git-tag-version --allow-same-version
-          git config --global user.email "lonoxx96@gmail.com"
-          git config --global user.name "LonoxX"
-          git add .
-          git commit -m "chore: update version to ${NEXT_VERSION}"
-          git push origin main
-      - name: Create Tag
-        if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
-        run: |
-          NEXT_VERSION=${{ steps.get_next_version.outputs.version }}
-          git tag $NEXT_VERSION
-          git push origin $NEXT_VERSION
+          npm install
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: dist
