@@ -50,17 +50,6 @@
   
 </details>
 
-## Contributing
-
-If you would like to contribute to the project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`.
-3. Make your changes.
-4. Commit your changes: `git commit -m 'Add some feature'`.
-5. Push the branch to your fork: `git push origin feature/your-feature`.
-6. Create a pull request. Use the branch `contributor/pull_request`.
-
 ### ⭐ This repository if you like this project!
 
 # Support
