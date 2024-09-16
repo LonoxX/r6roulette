@@ -23,7 +23,7 @@
 > To access the API, you will need an API key. You can request this key through the ticket system on [Discord](https://discord.gg/z8ScRvf).  
 > Once you receive the API key, you can use it to access the API and utilize all available functions.
 
-[Api Documentation](https://docs.panda-network.de/products/r6roulette)
+[Api Documentation](https://docs.panda-network.de/#/site/r6roulette)
 
 <details>
   <summary>🛠️ <b>Screenshot</b></summary>
