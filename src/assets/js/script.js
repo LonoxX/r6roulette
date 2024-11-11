@@ -41,6 +41,7 @@ async function fetchData(endpoint) {
   }
 }
 
+
 async function getRandomOperator(role) {
   const data = await fetchData(`role/${role}`);
   if (data) randomOperator(data);
@@ -58,8 +59,8 @@ function randomOperator(operators) {
   R6badge.src = chosen.badge || "";
   R6name.textContent = chosen.name || "N/A";
 
-  const primaryWeapon = randomItem(chosen.weapons.filter((weapon) => weapon.weapon_type === "primary"));
-  const secondaryWeapon = randomItem(chosen.weapons.filter((weapon) => weapon.weapon_type === "secondary"));
+  const primaryWeapon = randomItem(chosen.weapons.filter(weapon => weapon.weapon_type === "primary"));
+  const secondaryWeapon = randomItem(chosen.weapons.filter(weapon => weapon.weapon_type === "secondary"));
   const gadget = randomItem(chosen.gadgets);
 
   displayWeapon(primaryWeapon, operatorWeapons, operatorWeaponsImg, attachment, grip, scope);
@@ -67,6 +68,7 @@ function randomOperator(operators) {
 
   operatorGadgets.textContent = gadget?.gadget_name || "N/A";
   operatorGadgetsImg.src = gadget?.img || "";
+
 }
 
 function randomItem(items) {
@@ -84,6 +86,8 @@ function displayWeapon(weapon, weaponNameElem, weaponImgElem, attachmentElem, gr
   gripElem.textContent = randomItem(weapon.gripes) || "N/A";
   scopeElem.textContent = randomItem(weapon.scopes) || "N/A";
 }
+
+
 
 R6attacker.addEventListener("click", () => getRandomOperator("attacker"));
 R6defender.addEventListener("click", () => getRandomOperator("defender"));
@@ -155,6 +159,7 @@ function setupCloseButton(buttonId, boxId) {
   });
 }
 
+
 function openchangelog() {
   const element = document.getElementById("changelogbox");
   element.style.display = "block";
@@ -170,16 +175,17 @@ function openprivacy() {
   element.style.display = "block";
 }
 
+
 function showErrorModal() {
   const modal = document.getElementById("error-modal");
   modal.style.display = "block";
 
   const closeModal = document.getElementById("close-modal");
-  closeModal.onclick = function () {
+  closeModal.onclick = function() {
     modal.style.display = "none";
   };
 
-  window.onclick = function (event) {
+  window.onclick = function(event) {
     if (event.target === modal) {
       modal.style.display = "none";
     }
