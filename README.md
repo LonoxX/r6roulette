@@ -2,19 +2,21 @@
 
 ![R6Roulette](https://lonoxx.me/dist/img/Banner/R6Roulette.png)
 
-*R6 Roulette* is a project that randomly generates operators and their equipment for the game *Rainbow Six Siege*.
+_R6 Roulette_ is a project that randomly generates operators and their equipment for the game _Rainbow Six Siege_.
 
 - Click the **Attacker** or **Defender** button to randomly select an operator.
 - The selected operator will be displayed along with their primary and secondary weapons, attachments, and gadgets.
 
 **Challenge System:**
+
 - Check out challenges to make your game even more interesting.
 
 **Challenge Request System:**
+
 - Submit your own created challenges. These will be reviewed and added by the team if they meet the guidelines.
 
-
 ## Discord Bot & Android App
+
 [Invite Discord Bot](https://pnnet.dev/r6discord). \
 [Try Android App](https://pnnet.dev/r6android).
 
@@ -23,7 +25,7 @@
 > To access the API, you will need an API key. You can request this key through the ticket system on [Discord](https://discord.gg/z8ScRvf).  
 > Once you receive the API key, you can use it to access the API and utilize all available functions.
 
-[Api Documentation](https://docs.panda-network.de/products/r6roulette)
+[Api Documentation](https://docs.panda-network.de/#/site/r6roulette)
 
 <details>
   <summary>🛠️ <b>Screenshot</b></summary>
