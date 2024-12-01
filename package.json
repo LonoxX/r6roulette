@@ -30,7 +30,7 @@
     "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
-    "prettier": "3.3.3",
+    "prettier": "3.4.1",
     "webpack-dev-server": "^5.1.0"
   }
 }
