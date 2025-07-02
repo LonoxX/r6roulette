@@ -105,13 +105,13 @@ section {
 }
 
 .operator-img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem;
-  border: 0.3rem solid #161b22;
-  border-radius: 0.5rem;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border: 0.3rem solid #161b22;
+    /* border-radius: 0.5rem; */
 }
 
 .operator-badge {
