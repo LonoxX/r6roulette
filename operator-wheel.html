@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Operator Wheel</title>
+    <style>
+        html, body {
+            background: linear-gradient(135deg, #0f1115 0%, #1a1f27 100%);
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+        }
+
+        #wheel-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90vw;
+            height: 90vw;
+            max-width: 500px;
+            max-height: 500px;
+            pointer-events: none;
+            filter: drop-shadow(0 8px 32px #000a);
+        }
+
+        #controls {
+            position: absolute;
+            top: 32px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8em;
+            border-radius: 1.5em;
+            padding: 1em 2em;
+            align-items: center;
+            pointer-events: auto;
+            backdrop-filter: blur(12px);
+        }
+
+        button {
+            font-size: 1rem;
+            padding: 0.8em 1.8em;
+            border-radius: 2em;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(8px);
+            box-shadow: none;
+            text-shadow: none;
+            color: #fff;;
+            background: rgba(34, 40, 49, 0.8);
+        }
+
+
+        #result {
+            position: absolute;
+            top: 82%;
+            left: 50%;
+            font-size: 2em;
+            z-index: 20;
+            pointer-events: none;
+            font-weight: bold;
+            border-radius: 1em;
+            background: rgba(13, 17, 23, 0.7);
+            min-width: 180px;
+            text-align: center;
+        }
+
+        #edit-mode-btn {
+            background: #1d4b88;
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            #controls {
+                flex-direction: column;
+                gap: 0.7em;
+                padding: 1em;
+            }
+
+            #wheel-container {
+                max-width: 98vw;
+                max-height: 98vw;
+            }
+
+            #result {
+                font-size: 1.3em;
+                min-width: 100px;
+            }
+        }
+    </style>
+<script defer src="main.js"></script></head>
+<body>
+
+    <div id="controls">
+        <button id="btn-all" class="role-btn">Alle</button>
+        <button id="btn-attackers" class="role-btn">Angreifer</button>
+        <button id="btn-defenders" class="role-btn">Verteidiger</button>
+        <button id="spin-btn">Drehen</button>
+        <button id="streamer-mode-btn" class="streamer-mode-btn">Streamer Mode</button>
+        <button id="edit-mode-btn" class="edit-mode-btn">Edit Mode</button>
+    </div>
+
+    <div id="wheel-container">
+        <canvas id="wheel" width="500" height="500"></canvas>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="5bbce6696ee8bda17d35.js"></script>
+</body>
+</html>
