@@ -7,7 +7,15 @@ body {
   font-family: "Open Sans", sans-serif;
   background-image: url("../../assets/img/backgound.png");
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 .font-red {
@@ -20,6 +28,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Mohave-Medium-Italic";
   src:
@@ -30,60 +39,128 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 a {
   color: #6c757d;
   text-decoration: none;
   transition: 200ms;
 }
+
 a:hover {
   color: #343a40;
   text-decoration: underline;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 section {
   position: relative;
   width: 100%;
-  height: 100%;
-}
-section .operatorBox {
-  position: absolute;
-  left: 12%;
-  display: inline-block;
-  margin: 2rem 0;
-  background: rgba(0, 0, 0, 0.5019607843);
-  width: 20%;
-  border-radius: 0.3125rem;
-}
-section .operatorBox .operator-img {
-  position: relative;
-  z-index: 0;
   display: flex;
-  justify-content: center;
-  margin: 2rem auto;
-  border: 0.3rem solid #161b22;
-  border-radius: 0.3125rem;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+  flex: 1 0 auto;
 }
-section .operatorBox .operator-badge {
-  width: 25%;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  display: block;
+
+/* Desktop Layout */
+@media (min-width: 900px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .operatorBox {
+    grid-row: 1 / 3;
+    justify-self: center;
+  }
+
+  .operator-weapons {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .sectiopnplus {
+    grid-column: 2;
+    grid-row: 2;
+  }
 }
-section .operatorBox .operator-bottom {
-  display: block;
+
+/* Operator Box */
+.operatorBox {
+  background: rgba(0, 0, 0, 0.5019607843);
   width: 100%;
-  margin: 1rem auto 2rem auto;
-  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
-section .operatorBox .operator-bottom .operator-name {
+
+.operator-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border: 0.3rem solid #161b22;
+    /* border-radius: 0.5rem; */
+}
+
+.operator-badge {
+    width: 25%;
+    transform: translate(0, -70%);
+    margin: -0.5rem auto;
+    z-index: 1;
+    display: block;
+}
+
+section .operatorBox .operator-bottom {
+    display: block;
+    width: 100%;
+    margin: 1rem auto 2rem auto;
+    text-align: center;
+}
+
+.operator-name {
   font-family: "Mohave-Medium-Italic";
   font-size: 2.6rem;
   margin: 2rem 0 1rem;
+  word-break: break-word;
 }
-section .operatorBox .operator-bottom button {
+
+.btn-container {
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 480px) {
+  .btn-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn-container .btn:not(#random-challenge-button) {
+    flex: 1;
+    max-width: 150px;
+  }
+
+  .btn-container #random-challenge-button {
+    flex-basis: 100%;
+    margin-top: 0.5rem;
+  }
+}
+
+.btn {
   position: relative;
   font-family: "Mohave-Medium-Italic";
   font-size: 1.6rem;
@@ -91,278 +168,400 @@ section .operatorBox .operator-bottom button {
   padding: 0.6rem 1.2rem;
   border: none;
   outline: none;
-  margin: 0.4rem 0;
-  transition: 200ms;
+  transition: all 200ms ease;
+  border-radius: 0.25rem;
+  cursor: pointer;
   border-top: 0.4rem solid;
   border-bottom: 0.4rem solid;
+  margin: 0.4rem 0;
 }
-section .operatorBox .operator-bottom button span {
-  margin: auto;
-  transition: 200ms;
+
+.btn span {
+  transition: transform 200ms ease;
 }
-section .operatorBox .operator-bottom button::before {
+
+.btn::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #00ffe6;
-  background: -moz-linear-gradient(0deg, rgba(0, 255, 230, 0.8) 0, rgba(0, 255, 230, 0) 65%);
-  background: -webkit-linear-gradient(0deg, rgba(0, 255, 230, 0.8), rgba(0, 255, 230, 0) 65%);
   background: linear-gradient(0deg, rgba(0, 255, 230, 0.8), rgba(0, 255, 230, 0) 65%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffe6",endColorstr="#00ffe6",GradientType=1);
   opacity: 0;
-  transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease;
+  border-radius: inherit;
 }
-section .operatorBox .operator-bottom button:hover {
-  border-bottom: 0.4rem solid #00ffe6 !important;
+
+.btn:hover {
+  border-bottom-color: #00ffe6 !important;
+  transform: translateY(-2px);
 }
-section .operatorBox .operator-bottom button:hover::before {
+
+.btn:hover::before {
   opacity: 1;
 }
-section .operatorBox .operator-bottom button:hover span {
+
+.btn:hover span {
   transform: scale(1.1);
 }
-section .operatorBox .operator-bottom button#attacker {
-  width: 40%;
-  display: inline-flex;
+
+.btn:active {
+  transform: translateY(0);
+}
+
+#attacker {
   background: #2499ff;
   border-color: #2499ff;
+  color: white;
+  width: 100%;
 }
-section .operatorBox .operator-bottom button#defender {
-  width: 40%;
-  display: inline-flex;
+
+#defender {
   background: #ff7424;
   border-color: #ff7424;
+  color: white;
+  width: 100%;
 }
-section .operatorBox .operator-bottom button#random-challenge-button {
-  width: 81%;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  margin: 0.8rem auto;
+
+#random-challenge-button {
   background: #0d1117;
   border-color: #0d1117;
+  color: white;
+  width: 100%;
 }
-section .operator-weapons {
-  position: absolute;
-  right: 10%;
-  width: 50%;
-  margin: 4% 0;
-  display: block;
+
+/* Weapon Section */
+.operator-weapons {
   background: rgba(0, 0, 0, 0.5019607843);
-  padding: 1rem 0;
-  border-radius: 0.3125rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
-section .operator-weapons .primaryweapon {
-  display: block;
-  text-align: center;
-  width: 60rem;
+
+.weapon-section {
+  margin-bottom: 2.5rem;
 }
-section .operator-weapons .primaryweapon h2 {
-  font-family: "Mohave-Medium-Italic";
-  font-size: 1.8rem;
-  margin: 1rem 0;
+
+.weapon-section:last-child {
+  margin-bottom: 0;
 }
-section .operator-weapons .primaryweapon span {
-  font-family: "Mohave-Medium-Italic";
-  font-size: 1.6rem;
-  margin: 0.6rem 0;
-}
-section .operator-weapons .primaryweapon .weapon-info {
-  display: grid;
-  grid-template-columns: 35% auto auto auto;
-  gap: 0.4rem;
-}
-section .operator-weapons .primaryweapon .weapon-info div {
-  display: grid;
-}
-section .operator-weapons .secondweapon {
-  display: block;
-  text-align: center;
-  width: 55rem;
-}
+
+section .operator-weapons .primaryweapon h2,
 section .operator-weapons .secondweapon h2 {
   font-family: "Mohave-Medium-Italic";
   font-size: 1.8rem;
   margin: 1rem 0;
+  text-align: center;
 }
+
+section .operator-weapons .primaryweapon span,
 section .operator-weapons .secondweapon span {
   font-family: "Mohave-Medium-Italic";
   font-size: 1.6rem;
   margin: 0.6rem 0;
 }
-section .operator-weapons .secondweapon .weapon-info {
-  display: grid;
-  grid-template-columns: 35% auto auto auto;
-  gap: 0.4rem;
+
+.weapon-info {
+    display: grid;
+    grid-template-columns: 35% auto auto auto;
+    gap: 0.4rem;
 }
-section .operator-weapons .secondweapon .weapon-info div {
-  display: grid;
+
+.weapon-info div {
+    display: grid;
 }
-section .sectiopnplus {
-  position: absolute;
-  top: 36rem;
-  right: 10%;
-  width: 50%;
-  height: 12rem;
-  display: grid;
-  gap: 5%;
-  grid-template-columns: auto auto;
+
+@media (min-width: 768px) {
+  .weapon-info {
+    grid-template-columns: 35% auto auto auto;
+    gap: 0.4rem;
+  }
+
+  .weapon-info div {
+    display: grid;
+  }
 }
-section .sectiopnplus .operator-gadget {
-  display: block;
-  margin: 0;
-  background: rgba(0, 0, 0, 0.5019607843);
-  padding: 1rem 1.2rem;
-  border-radius: 0.3125rem;
+
+.weapon {
+  display: grid;
   text-align: center;
-}
-section .sectiopnplus .operator-gadget h2 {
-  font-family: "Mohave-Medium-Italic";
-  font-size: 1.8rem;
-  margin: 0;
-}
-section .sectiopnplus .operator-gadget img {
-  display: flex;
-  margin: 0 auto;
+  justify-items: center;
   align-items: center;
 }
-section .sectiopnplus .challenges {
-  display: block;
-  margin: 0;
-  background: rgba(0, 0, 0, 0.5019607843);
-  padding: 1rem 1.2rem;
-  border-radius: 0.3125rem;
+
+.weapon-name,
+.secondweapon-name {
+  font-family: "Mohave-Medium-Italic";
+  font-size: 1.6rem;
+  margin: 0.6rem 0;
+  word-break: break-word;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  justify-self: center;
+}
+
+.weapon-img,
+.secondweapon-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 120px;
+  object-fit: contain;
+  filter: brightness(1.1);
+  justify-self: center;
+}
+
+.attachment,
+.grip,
+.scope {
+  display: grid;
   text-align: center;
 }
-section .sectiopnplus .challenges h2 {
+
+.attachment-description,
+.grip-description,
+.scope-description {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: block;
+  margin: 0.6rem 0;
+  color: #fff;
+  font-family: "Mohave-Medium-Italic";
+  line-height: 1.2;
+}
+
+.weapon-attachment-name,
+.weapon-grip-name,
+.weapon-scope-name,
+.secondweapon-attachment-name,
+.secondweapon-grip-name,
+.secondweapon-scope-name {
+  font-size: 1.1rem;
+  word-break: break-word;
+  color: #ccc;
+  line-height: 1.3;
+}
+
+/* Section Plus */
+.sectiopnplus {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .sectiopnplus {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.operator-gadget,
+.challenges {
+  background: rgba(0, 0, 0, 0.5019607843);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.operator-gadget h2,
+.challenges h2 {
   font-family: "Mohave-Medium-Italic";
   font-size: 1.8rem;
   margin: 0;
 }
-section .sectiopnplus .challenges .random-challenge {
+
+.gadget-name {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  margin-bottom: 1rem;
+  word-break: break-word;
+}
+
+.gadget-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.random-challenge {
   display: grid;
-  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
   font-size: 1rem;
   padding: 0.8rem 1.2rem;
 }
-section .sectiopnplus .challenges .random-challenge span {
+
+.random-challenge span {
   font-weight: bold;
 }
-section .sectiopnplus .challenges .random-challenge p {
+
+.random-challenge p {
   margin: 0.6rem 0;
 }
-section .sectiopnplus .challenges .random-challenge .challenge-de,
-section .sectiopnplus .challenges .random-challenge .challenge-en {
+
+.challenge-de,
+.challenge-en {
+  text-align: left;
+  padding: 0.5rem;
   margin: 0 0.8rem;
 }
-section .sectiopnplus .challenges .random-challenge .challenge-de::before {
+
+.challenge-de::before {
   content: "🇩🇪";
 }
-section .sectiopnplus .challenges .random-challenge .challenge-en::before {
+
+.challenge-en::before {
   content: "🇬🇧";
 }
 
+.challenge-title_de,
+.challenge-title_en {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.challenge-description_de,
+.challenge-description_en {
+  margin: 0.5rem 0 0 0;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+/* Modal Styles */
 #changelogbox,
 #privacybox,
 #impressumbox {
   display: none;
-}
-#changelogbox .modalbox,
-#impressumbox .modalbox {
-  z-index: 1;
-  width: 50%;
   position: fixed;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.8549019608);
-  border-radius: 0.3125rem;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5019607843);
+  z-index: 1000;
 }
 
-#privacybox .modalbox {
-  z-index: 1;
-  width: 75%;
-  position: fixed;
+.modalbox {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 1rem;
-  background: rgba(0, 0, 0);
-  border-radius: 0.3125rem;
+  background: rgba(0, 0, 0, 0.95);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 90%;
+  max-width: 800px;
 }
 
-#changelogbox .modalbox .close,
-#privacybox .modalbox .close,
-#impressumbox .modalbox .close {
+#changelogbox .modalbox,
+#impressumbox .modalbox {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  #changelogbox .modalbox,
+  #impressumbox .modalbox {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.close {
   position: absolute;
   top: 0.4rem;
   right: 0.6rem;
   font-size: 1.4rem;
-  z-index: 2;
   color: #fff;
-  transition: 200ms;
   cursor: pointer;
+  transition: color 200ms;
+  z-index: 1001;
 }
-#changelogbox .modalbox .close:hover,
-#privacybox.modalbox .close:hover,
-#impressumbox .modalbox .close:hover {
+
+.close:hover {
   color: #6c757d;
 }
-#changelogbox .modalbox .log-tab h2,
-#privacybox .modalbox .log-tab h2,
-#impressumbox .modalbox .log-tab h2 {
+
+.log-tab h2 {
   text-align: center;
   font-size: 1.6rem;
   font-family: "Mohave-Medium-Italic";
+  margin-bottom: 1rem;
 }
-#changelogbox .modalbox .log-tab .log,
-#privacybox .modalbox .log-tab .log,
-#impressumbox .modalbox .log-tab .log {
-  margin: 0 0.4rem;
+
+.log {
+  margin: 0.5rem 0.4rem;
   padding: 0.8rem;
   border-radius: 0.3125rem;
   background: #0d1117;
+  line-height: 1.4;
 }
-#changelogbox .modalbox .log-tab .log p,
-#privacybox .modalbox .log-tab .log p,
-#impressumbox .modalbox .log-tab .log p {
+
+.log p {
   margin: 0.2rem 0;
 }
-#changelogbox .modalbox .log-tab .log code,
-#privacybox .modalbox .log-tab .log code,
-#impressumbox .modalbox .log-tab .log code {
+
+.log code {
   display: block;
   text-align: right;
+  margin-top: 1rem;
 }
 
 #languageToggle {
   display: flex;
-  margin-bottom: 10px;
-}
-
-#languageToggle button {
-  margin-right: 10px;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 #language-button {
-  width: 81%;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  margin: 0.8rem auto;
   background: #243154;
-  border-color: #0d1117;
+  border-color: #243154;
+  color: white;
+  flex: 1;
+  min-width: 120px;
 }
 
+/* Error Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5019607843);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #040404;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -60%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+/* Footer */
 footer {
   width: 100%;
-  position: absolute;
   display: grid;
   grid-template-columns: 30% auto 30%;
   align-items: center;
@@ -371,152 +570,139 @@ footer {
   background: #0d1117;
   color: #6c757d;
   padding: 0.4rem 0;
+  flex-shrink: 0;
 }
+
 footer span {
   font-size: 0.7rem;
   text-align: center;
 }
+
 footer div {
   font-size: 0.8rem;
   padding: 0 0.8rem;
 }
+
 footer div.left {
-  text-align: left;
+  text-align: center;
 }
+
 footer div.left a {
   padding: 0 0.2rem;
 }
+
 footer div.right {
-  text-align: right;
+  text-align: center;
 }
+
 footer .pn {
   color: #0d6efd;
 }
 
-@media (max-width: 1000px) {
-  .operatorBox {
-    position: relative !important;
-    left: 50% !important;
-    transform: translate(-50%, 0) !important;
-    width: 70% !important;
-    padding: 0 2rem !important;
-  }
-  .operator-weapons {
-    position: relative !important;
-    top: 2rem !important;
-    left: 50% !important;
-    transform: translate(-50%, 0) !important;
-    width: 75% !important;
-    padding: 1rem 0.6rem !important;
-  }
-  .operator-weapons .primaryweapon {
-    width: auto !important;
-  }
-  .operator-weapons .primaryweapon .weapon-info {
-    display: block !important;
-  }
-  .operator-weapons .primaryweapon .weapon-info .weapon {
-    justify-items: center;
-  }
-  .operator-weapons .secondweapon {
-    margin-top: 6rem;
-    width: auto !important;
-  }
-  .operator-weapons .secondweapon .weapon-info {
-    display: block !important;
-  }
-  .operator-weapons .secondweapon .weapon-info .weapon {
-    justify-items: center;
-  }
-  .sectiopnplus {
-    position: relative !important;
-    top: 4rem !important;
-    left: 50% !important;
-    display: grid !important;
-    grid-template-columns: auto !important;
-    gap: 4rem !important;
-    width: 80% !important;
-    height: auto !important;
-  }
-  .sectiopnplus .operator-gadget {
-    transform: translate(-50%, 0) !important;
-    padding: 1rem !important;
-  }
-  .sectiopnplus .challenges {
-    transform: translate(-50%, 0) !important;
-    padding: 1rem !important;
-  }
-  .sectiopnplus .challenges .random-challenge {
-    display: block !important;
-    font-size: 1.2rem !important;
-  }
-  .changelog {
-    width: 74% !important;
-    display: block !important;
-  }
+@media (min-width: 900px) {
   footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    display: grid;
-    margin-top: 8rem;
-    grid-template-columns: auto !important;
-    gap: 1rem;
+    grid-template-columns: 30% auto 30%;
+    text-align: left;
     align-items: center;
+  }
+
+  footer div.left {
+    text-align: left;
+    justify-self: start;
+  }
+
+  footer span {
     text-align: center;
   }
-  footer .left {
-    text-align: unset !important;
+
+  footer div.right {
+    text-align: right;
+    justify-self: end;
   }
-  footer .right {
-    text-align: unset !important;
+}
+
+footer a {
+  margin: 0 0.25rem;
+  white-space: nowrap;
+}
+
+footer .pn {
+  color: #0d6efd;
+}
+
+/*
+ Responsive?
+ No idea... I'm a backend developer, not a frontend developer :)
+ CSS and frontend stuff are my personal nightmare.
+ I'm lost in the world of divs and flexboxes.
+ Send help.
+*/
+
+
+@media (max-width: 600px) {
+  footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    padding: 0.6rem 0.2rem;
+    row-gap: 0.2rem;
   }
+  footer div,
   footer span {
-    display: none;
+    font-size: 0.9rem;
+    padding: 0.2rem 0;
+  }
+  footer div.left,
+  footer div.right {
+    text-align: center;
+    justify-self: center;
+    padding: 0.2rem 0;
+  }
+  footer a {
+    margin: 0 0.3rem;
   }
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 1000;
-  width: 100%;
-  height: 100%;
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 1rem 0.5rem;
+  }
+
+  .operatorBox {
+    padding: 1rem;
+  }
+
+  .operator-weapons,
+  .operator-gadget,
+  .challenges {
+    padding: 1rem;
+  }
+
+  .weapon-info {
+    gap: 0.5rem;
+  }
+
+  .modalbox {
+    padding: 1rem;
+    width: 95%;
+  }
 }
 
-.modal-content {
-  background-color: #040404;
-  padding: 20px;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  animation: fadeIn 0.3s ease;
-  position: relative;
-  top: 20%;
-}
+@media (max-width: 320px) {
+  .btn {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
 
-.close {
-  color: #aaa;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  font-size: 28px;
-  font-weight: bold;
-}
+  .operator-name {
+    font-size: 1.5rem;
+  }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  .weapon-section h2 {
+    font-size: 1.3rem;
+  }
 }

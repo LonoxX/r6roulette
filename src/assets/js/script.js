@@ -1,3 +1,5 @@
+// Main JavaScript File for R6 Roulette
+
 const R6attacker = document.querySelector("#attacker");
 const R6defender = document.querySelector("#defender");
 const R6img = document.querySelector(".operator-img");
@@ -20,7 +22,7 @@ const grip2 = document.querySelector(".secondweapon-grip-name");
 const scope = document.querySelector(".weapon-scope-name");
 const scope2 = document.querySelector(".secondweapon-scope-name");
 
-const API_KEY = "r6roulette-web";
+const API_KEY = "r6roulette-discord";
 const API_BASE_URL = "https://api.r6roulette.de";
 
 async function fetchData(endpoint) {

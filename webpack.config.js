@@ -28,6 +28,10 @@ module.exports = {
       template: "./src/privacy_en.html",
       filename: "privacy_en.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/operator-wheel.html",
+      filename: "operator-wheel.html",
+    }),
     new CopyPlugin({
       patterns: [
         { from: "src/assets/img", to: "assets/img" },
