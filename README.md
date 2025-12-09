@@ -1,6 +1,6 @@
 # R6 Roulette
 
-![R6Roulette](https://lonoxx.me/images/Banner/R6Roulette.png)
+![R6Roulette](https://lonoxx.me/assets/images/Banner/R6Roulette.png)
 
 *R6 Roulette* is a project that randomly generates operators and their equipment for the game *Rainbow Six Siege*.
 
