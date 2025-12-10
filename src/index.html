@@ -21,7 +21,6 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png?v=2" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png?v=2" />
 
-    <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Random Operator | Rainbow Six: Siege" />
     <meta property="og:description" content="R6 Roulette - Random Rainbow Six: Siege operators, weapons, and equipment for an added challenge in the game." />
@@ -29,20 +28,17 @@
     <meta property="og:url" content="https://r6roulette.de/" />
     <meta property="og:site_name" content="Random Operator | Rainbow Six: Siege" />
 
-    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Random Operator | Rainbow Six: Siege" />
     <meta name="twitter:description" content="R6 Roulette - Random Rainbow Six: Siege operators, weapons, and equipment for an added challenge in the game." />
     <meta name="twitter:image" content="https://r6roulette.de/assets/img/social.png" />
     <meta name="twitter:url" content="https://r6roulette.de/" />
 
-    <!-- Styls -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link href="https://cdn.r6roulette.de/fontawesome/releases/6.6.0/css/fontawesome.css" rel="stylesheet" />
     <link href="https://cdn.r6roulette.de/fontawesome/releases/6.6.0/css/brands.css" rel="stylesheet" />
     <link href="https://cdn.r6roulette.de/fontawesome/releases/6.6.0/css/solid.css" rel="stylesheet" />
 
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL5K6TFENP"></script>
     <meta name="google-adsense-account" content="ca-pub-2918480126105118">
     <script>
@@ -59,8 +55,11 @@
   <body>
     <section>
       <div class="operatorBox">
-        <img class="operator-img" alt="operator-img" />
-        <img class="operator-badge" alt="operator-badge" />
+        <div class="img-wrapper operator-img-wrapper">
+          <div class="img-skeleton"></div>
+          <img class="operator-img" alt="operator-img" loading="lazy" />
+        </div>
+        <img class="operator-badge" alt="operator-badge" loading="lazy" />
         <div class="operator-bottom">
           <h1 class="operator-name"></h1>
           <div class="btn-container">
@@ -82,7 +81,10 @@
           <div class="weapon-info">
             <div class="weapon">
               <span class="weapon-name"></span>
-              <img class="weapon-img" alt="Primary Weapon" />
+              <div class="img-wrapper weapon-img-wrapper">
+                <div class="img-skeleton small"></div>
+                <img class="weapon-img" alt="Primary Weapon" loading="lazy" />
+              </div>
             </div>
 
             <div class="attachment">
@@ -108,7 +110,10 @@
           <div class="weapon-info">
             <div class="weapon">
               <span class="secondweapon-name"></span>
-              <img class="secondweapon-img" alt="Secondary Weapon" />
+              <div class="img-wrapper weapon-img-wrapper">
+                <div class="img-skeleton small"></div>
+                <img class="secondweapon-img" alt="Secondary Weapon" loading="lazy" />
+              </div>
             </div>
 
             <div class="attachment">
@@ -134,7 +139,10 @@
           <h2>Gadget</h2>
 
           <p class="gadget-name"></p>
-          <img class="gadget-img" alt="Gadget" />
+          <div class="img-wrapper gadget-img-wrapper">
+            <div class="img-skeleton small"></div>
+            <img class="gadget-img" alt="Gadget" loading="lazy" />
+          </div>
         </div>
 
         <div class="challenges">
@@ -171,56 +179,6 @@
       </div>
     </div>
 
-    <div id="impressumbox">
-      <div class="modalbox">
-        <a id="close_imp" class="close">&times;</a>
-
-        <div class="log-tab">
-          <h4>Kontakt</h4>
-          <p>
-            Björn Platte <br />
-            Hinterdohr 30 <br />
-            42349 Wuppertal Deutschland <br />
-          </p>
-          <p>
-            <strong>Kontakt:</strong> <br />
-            Telefon: +49 202 52741589<br />
-            E-Mail: <a href="mailto:info@panda-network.de">info@panda-network.de</a>
-          </p>
-          Impressum vom <a href="https://www.kanzlei-hasselbach.de/standorte/frankfurt/" rel="nofollow">Kanzlei Hasselbach, Frankfurt</a>
-        </div>
-
-        <div class="log-tab" style="max-height: 600px; overflow-y: auto">
-          <strong>Haftungsausschluss: </strong><br /><br /><strong>Haftung für Inhalte</strong><br /><br />
-          Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet,
-          übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung
-          möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.<br /><br /><strong>Haftung für Links</strong><br /><br />
-          Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft.
-          Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br /><br /><strong>Urheberrecht</strong><br /><br />
-          Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen
-          Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte
-          umgehend entfernen.<br /><br /><strong>Datenschutz</strong><br /><br />
-          Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. <br />
-          Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. <br />
-          Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.<br />
-          <br />
-        </div>
-      </div>
-    </div>
-
-    <div id="privacybox">
-      <div class="modalbox">
-        <a id="close_privacy" class="close">&times;</a>
-
-        <div id="languageToggle">
-          <button type="button" id="language-button" class="btn" onclick="toggleLanguage('de')"><span>German</span></button>
-          <button type="button" id="language-button" class="btn" onclick="toggleLanguage('en')"><span>English</span></button>
-        </div>
-        <div class="log-tab"></div>
-        <div id="privacy"></div>
-      </div>
-    </div>
-
     <div id="error-modal" class="modal" style="display:none;">
       <div class="modal-content">
         <span id="close-modal" class="close">&times;</span>
@@ -244,7 +202,7 @@
       </span>
 
       <div class="right">
-        developed with <i id="heart" class="fa-solid fa-heart fa-bounce font-red"></i> by <a class="pn" href="https://panda-network.de" target="_blank">Panda-Network</a> | <a href="https://pnnet.dev/discord" target="_blank">Support</a> | <a href="#" class="pn" onclick="openprivacy()"> Privacy Policy</a>| <a href="#" onclick="openimpressum()">Impressum</a> |
+        developed with <i id="heart" class="fa-solid fa-heart fa-bounce font-red"></i> by <a class="pn" href="https://panda-network.de" target="_blank">Panda-Network</a> | <a href="https://pnnet.dev/discord" target="_blank">Support</a> | <a href="/privacy" class="pn">Privacy Policy</a> | <a href="/impressum" class="pn">Imprint</a> |
         <a class="pn" href="https://ko-fi.com/lonoxx">Support Me</a>
       </div>
     </footer>
