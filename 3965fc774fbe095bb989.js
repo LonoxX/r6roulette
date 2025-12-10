@@ -1,5 +1,3 @@
-// Main JavaScript File for R6 Roulette
-
 const R6attacker = document.querySelector("#attacker");
 const R6defender = document.querySelector("#defender");
 const R6img = document.querySelector(".operator-img");
@@ -24,6 +22,55 @@ const scope2 = document.querySelector(".secondweapon-scope-name");
 
 const API_KEY = "r6roulette-discord";
 const API_BASE_URL = "https://api.r6roulette.de";
+
+// Image loading helper functions
+function setImageWithLoading(imgElement, src, fallbackSrc = "") {
+  if (!imgElement) return;
+
+  imgElement.classList.remove("loaded", "error");
+  const skeleton = imgElement.parentElement?.querySelector(".img-skeleton");
+  if (skeleton) skeleton.classList.remove("hidden");
+
+  if (!src) {
+    imgElement.src = fallbackSrc;
+    imgElement.classList.add("loaded");
+    if (skeleton) skeleton.classList.add("hidden");
+    return;
+  }
+
+  // Preload image
+  const preloadImg = new Image();
+  preloadImg.onload = () => {
+    imgElement.src = src;
+    imgElement.classList.add("loaded");
+    if (skeleton) skeleton.classList.add("hidden");
+  };
+  preloadImg.onerror = () => {
+    if (fallbackSrc) {
+      imgElement.src = fallbackSrc;
+    }
+    imgElement.classList.add("loaded", "error");
+    if (skeleton) skeleton.classList.add("hidden");
+  };
+  preloadImg.src = src;
+}
+
+// Initialize image loading handlers for static images
+function initImageLoadHandlers() {
+  const allImages = document.querySelectorAll(".img-wrapper img");
+  allImages.forEach(img => {
+    img.addEventListener("load", function() {
+      this.classList.add("loaded");
+      const skeleton = this.parentElement?.querySelector(".img-skeleton");
+      if (skeleton) skeleton.classList.add("hidden");
+    });
+    img.addEventListener("error", function() {
+      this.classList.add("loaded", "error");
+      const skeleton = this.parentElement?.querySelector(".img-skeleton");
+      if (skeleton) skeleton.classList.add("hidden");
+    });
+  });
+}
 
 async function fetchData(endpoint) {
   try {
@@ -57,19 +104,19 @@ function randomOperator(operators) {
     return;
   }
 
-  R6img.src = chosen.img || "";
-  R6badge.src = chosen.badge || "";
+  setImageWithLoading(R6img, chosen.img, "assets/img/Fallback/Ace.png");
+  setImageWithLoading(R6badge, chosen.badge, "assets/img/Fallback/Ace-Badge.png");
   R6name.textContent = chosen.name || "N/A";
 
   const primaryWeapon = randomItem(chosen.weapons.filter(weapon => weapon.weapon_type === "primary"));
   const secondaryWeapon = randomItem(chosen.weapons.filter(weapon => weapon.weapon_type === "secondary"));
   const gadget = randomItem(chosen.gadgets);
 
-  displayWeapon(primaryWeapon, operatorWeapons, operatorWeaponsImg, attachment, grip, scope);
-  displayWeapon(secondaryWeapon, operatorWeapons2, operatorWeapons2Img, attachment2, grip2, scope2);
+  displayWeapon(primaryWeapon, operatorWeapons, operatorWeaponsImg, attachment, grip, scope, "assets/img/Fallback/AK-12.png");
+  displayWeapon(secondaryWeapon, operatorWeapons2, operatorWeapons2Img, attachment2, grip2, scope2, "assets/img/Fallback/P9.png");
 
   operatorGadgets.textContent = gadget?.gadget_name || "N/A";
-  operatorGadgetsImg.src = gadget?.img || "";
+  setImageWithLoading(operatorGadgetsImg, gadget?.img, "assets/img/Fallback/Claymore.png");
 
 }
 
@@ -80,9 +127,9 @@ function randomItem(items) {
   return items[Math.floor(Math.random() * items.length)];
 }
 
-function displayWeapon(weapon, weaponNameElem, weaponImgElem, attachmentElem, gripElem, scopeElem) {
+function displayWeapon(weapon, weaponNameElem, weaponImgElem, attachmentElem, gripElem, scopeElem, fallbackImg = "") {
   weaponNameElem.textContent = weapon.weapon_name || "N/A";
-  weaponImgElem.src = weapon.img || "";
+  setImageWithLoading(weaponImgElem, weapon.img, fallbackImg);
 
   attachmentElem.textContent = randomItem(weapon.attachments) || "N/A";
   gripElem.textContent = randomItem(weapon.gripes) || "N/A";
@@ -145,12 +192,11 @@ function populateChangelogModal(changelog, type) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  initImageLoadHandlers();
   randomize();
   getChallenges();
   getLastChangelog("web");
   getLastChangelog("bot");
-  setupCloseButton("close_imp", "impressumbox");
-  setupCloseButton("close_privacy", "privacybox");
   setupCloseButton("close_change", "changelogbox");
 });
 
@@ -166,17 +212,6 @@ function openchangelog() {
   const element = document.getElementById("changelogbox");
   element.style.display = "block";
 }
-
-function openimpressum() {
-  const element = document.getElementById("impressumbox");
-  element.style.display = "block";
-}
-
-function openprivacy() {
-  const element = document.getElementById("privacybox");
-  element.style.display = "block";
-}
-
 
 function showErrorModal() {
   const modal = document.getElementById("error-modal");
@@ -202,24 +237,24 @@ window.addEventListener("blur", function () {
 });
 
 function setFallbackValues() {
-  R6img.src = `assets/img/Fallback/Ace.png`;
-  R6badge.src = `assets/img/Fallback/Ace-Badge.png`;
+  setImageWithLoading(R6img, "assets/img/Fallback/Ace.png");
+  setImageWithLoading(R6badge, "assets/img/Fallback/Ace-Badge.png");
   R6name.textContent = "Fallback Values";
 
   operatorWeapons.textContent = "Primary Weapon";
-  operatorWeaponsImg.src = `assets/img/Fallback/AK-12.png`;
+  setImageWithLoading(operatorWeaponsImg, "assets/img/Fallback/AK-12.png");
   attachment.textContent = "Attachment";
   grip.textContent = "Grip";
   scope.textContent = "Scope";
 
   operatorWeapons2.textContent = "Secondary Weapon";
-  operatorWeapons2Img.src = `assets/img/Fallback/P9.png`;
+  setImageWithLoading(operatorWeapons2Img, "assets/img/Fallback/P9.png");
   attachment2.textContent = "Attachment";
   grip2.textContent = "Grip";
   scope2.textContent = "Scope";
 
   operatorGadgets.textContent = "Gadget";
-  operatorGadgetsImg.src = `assets/img/Fallback/Claymore.png`;
+  setImageWithLoading(operatorGadgetsImg, "assets/img/Fallback/Claymore.png");
   const challengeTitle_de = document.querySelector(".challenge-title_de");
   const challengeTitle_en = document.querySelector(".challenge-title_en");
   const challengeDescription_de = document.querySelector(".challenge-description_de");
