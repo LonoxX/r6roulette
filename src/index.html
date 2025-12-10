@@ -55,8 +55,11 @@
   <body>
     <section>
       <div class="operatorBox">
-        <img class="operator-img" alt="operator-img" />
-        <img class="operator-badge" alt="operator-badge" />
+        <div class="img-wrapper operator-img-wrapper">
+          <div class="img-skeleton"></div>
+          <img class="operator-img" alt="operator-img" loading="lazy" />
+        </div>
+        <img class="operator-badge" alt="operator-badge" loading="lazy" />
         <div class="operator-bottom">
           <h1 class="operator-name"></h1>
           <div class="btn-container">
@@ -78,7 +81,10 @@
           <div class="weapon-info">
             <div class="weapon">
               <span class="weapon-name"></span>
-              <img class="weapon-img" alt="Primary Weapon" />
+              <div class="img-wrapper weapon-img-wrapper">
+                <div class="img-skeleton small"></div>
+                <img class="weapon-img" alt="Primary Weapon" loading="lazy" />
+              </div>
             </div>
 
             <div class="attachment">
@@ -104,7 +110,10 @@
           <div class="weapon-info">
             <div class="weapon">
               <span class="secondweapon-name"></span>
-              <img class="secondweapon-img" alt="Secondary Weapon" />
+              <div class="img-wrapper weapon-img-wrapper">
+                <div class="img-skeleton small"></div>
+                <img class="secondweapon-img" alt="Secondary Weapon" loading="lazy" />
+              </div>
             </div>
 
             <div class="attachment">
@@ -130,7 +139,10 @@
           <h2>Gadget</h2>
 
           <p class="gadget-name"></p>
-          <img class="gadget-img" alt="Gadget" />
+          <div class="img-wrapper gadget-img-wrapper">
+            <div class="img-skeleton small"></div>
+            <img class="gadget-img" alt="Gadget" loading="lazy" />
+          </div>
         </div>
 
         <div class="challenges">
