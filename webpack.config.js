@@ -20,6 +20,20 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
+    // Clean URLs (ohne .html)
+    new HtmlWebpackPlugin({
+      template: "./src/privacy.html",
+      filename: "privacy/index.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/impressum.html",
+      filename: "impressum/index.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/operator-wheel.html",
+      filename: "operator-wheel/index.html",
+    }),
+    // Mit .html
     new HtmlWebpackPlugin({
       template: "./src/privacy.html",
       filename: "privacy.html",

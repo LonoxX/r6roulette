@@ -121,15 +121,15 @@
 
     <footer>
       <div class="left">
-        <a href="index.html"><i class="fa-solid fa-code-branch"></i> <span id="footer-back">Zurück zur Hauptseite</span></a>
+        <a href="/"><i class="fa-solid fa-arrow-left"></i> Back to R6Roulette</a>
       </div>
 
-      <span id="footer-disclaimer">
-        Dieses Projekt ist nicht mit Ubisoft Entertainment verbunden. Tom Clancy's Rainbow Six Logo und Icons sind Marken von Ubisoft Entertainment
+      <span>
+        this project is not affiliated with Ubisoft Entertainment. Tom Clancy's Rainbow Six Logo and Icons are trademarks of Ubisoft Entertainment
       </span>
 
       <div class="right">
-        entwickelt mit <i class="fa-solid fa-heart font-red"></i> von <a class="pn" href="https://panda-network.de" target="_blank">Panda-Network</a>
+        developed with <i class="fa-solid fa-heart font-red"></i> by <a class="pn" href="https://panda-network.de" target="_blank">Panda-Network</a> | <a href="/privacy" class="pn">Privacy</a> | <a href="/impressum" class="pn">Imprint</a>
       </div>
     </footer>
 
@@ -149,14 +149,10 @@
         if (lang === 'en') {
           document.getElementById('page-title').textContent = 'Legal Notice';
           document.getElementById('back-text').textContent = 'Back to R6Roulette';
-          document.getElementById('footer-back').textContent = 'Back to Main';
-          document.getElementById('footer-disclaimer').textContent = 'this project is not affiliated with Ubisoft Entertainment. Tom Clancy\'s Rainbow Six Logo and Icons are trademarks of Ubisoft Entertainment';
           document.documentElement.lang = 'en';
         } else {
           document.getElementById('page-title').textContent = 'Impressum';
           document.getElementById('back-text').textContent = 'Zurück zu R6Roulette';
-          document.getElementById('footer-back').textContent = 'Zurück zur Hauptseite';
-          document.getElementById('footer-disclaimer').textContent = 'Dieses Projekt ist nicht mit Ubisoft Entertainment verbunden. Tom Clancy\'s Rainbow Six Logo und Icons sind Marken von Ubisoft Entertainment';
           document.documentElement.lang = 'de';
         }
       }
