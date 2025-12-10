@@ -21,12 +21,12 @@ module.exports = {
       template: "./src/index.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/privacy_de.html",
-      filename: "privacy_de.html",
+      template: "./src/privacy.html",
+      filename: "privacy.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/privacy_en.html",
-      filename: "privacy_en.html",
+      template: "./src/impressum.html",
+      filename: "impressum.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/operator-wheel.html",

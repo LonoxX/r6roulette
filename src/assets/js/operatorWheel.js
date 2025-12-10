@@ -1,637 +1,517 @@
-// Operator lists (example, extend as needed)
-
-
-const API_KEY = "r6roulette-discord";
-const API_BASE_URL = "https://api.r6roulette.de";
-
-
-let operators = { attackers: [], defenders: [] };
-let currentOperators = [];
-let spinning = false;
-let angle = 0;
-let spinTimeout;
-let selectedOperator = null;
-let isLoading = false;
-let loadingCache = new Map(); // Cache for API requests
-
-
-// DOM Elements
-const canvas = document.getElementById('wheel');
-const ctx = canvas.getContext('2d');
-const spinBtn = document.getElementById('spin-btn');
-const btnAll = document.getElementById('btn-all');
-const btnAttackers = document.getElementById('btn-attackers');
-const btnDefenders = document.getElementById('btn-defenders');
-const resultDiv = document.getElementById('result');
-const streamerBtn = document.getElementById('streamer-mode-btn');
-
-// Create loading indicator
-function createLoadingIndicator() {
-    let loadingDiv = document.getElementById('loading-indicator');
-    if (!loadingDiv) {
-        loadingDiv = document.createElement('div');
-        loadingDiv.id = 'loading-indicator';
-        loadingDiv.innerHTML = `
-            <div style="
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background: rgba(0,0,0,0.8);
-                color: white;
-                padding: 20px;
-                border-radius: 10px;
-                text-align: center;
-                z-index: 1000;
-                font-family: Arial, sans-serif;
-            ">
-                <div style="
-                    width: 40px;
-                    height: 40px;
-                    border: 4px solid #f3f3f3;
-                    border-top: 4px solid #3498db;
-                    border-radius: 50%;
-                    animation: spin 1s linear infinite;
-                    margin: 0 auto 10px;
-                "></div>
-                <div>Loading operators...</div>
-            </div>
-            <style>
-                @keyframes spin {
-                    0% { transform: rotate(0deg); }
-                    100% { transform: rotate(360deg); }
-                }
-            </style>
-        `;
-        document.body.appendChild(loadingDiv);
+const CONFIG = {
+    API_KEY: "r6roulette-discord",
+    API_BASE_URL: "https://api.r6roulette.de",
+    CACHE_DURATION: 5 * 60 * 1000,
+    DEFAULT_SPIN_DURATION: 4,
+    MIN_SPIN_DURATION: 2,
+    MAX_SPIN_DURATION: 8,
+    WHEEL_COLORS: {
+        attackers: { primary: '#2499ff', secondary: '#1a7acc' },
+        defenders: { primary: '#ff7424', secondary: '#cc5c1d' },
+        all: { primary: '#00ffe6', secondary: '#00ccb8' }
     }
-    return loadingDiv;
+};
+
+const state = {
+    operators: { attackers: [], defenders: [] },
+    currentOperators: [],
+    currentRole: 'all',
+    spinning: false,
+    angle: 0,
+    selectedOperator: null,
+    isLoading: false,
+    settings: {
+        streamerMode: false,
+        spinDuration: CONFIG.DEFAULT_SPIN_DURATION,
+        streamerBgColor: '#ffffff'
+    }
+};
+
+const cache = new Map();
+
+const elements = {};
+
+function initElements() {
+    elements.canvas = document.getElementById('wheel');
+    elements.ctx = elements.canvas?.getContext('2d');
+    elements.spinBtn = document.getElementById('spin-btn');
+    elements.roleButtons = document.querySelectorAll('.role-btn');
+    elements.resultDisplay = document.getElementById('result');
+    elements.resultName = elements.resultDisplay?.querySelector('.result-name');
+    elements.settingsPanel = document.getElementById('settings-panel');
+    elements.settingsBtn = document.getElementById('settings-btn');
+    elements.settingsClose = document.querySelector('.settings-close');
+    elements.streamerBtn = document.getElementById('streamer-btn');
+    elements.exitStreamerBtn = document.getElementById('exit-streamer-btn');
+    elements.streamerToggle = document.getElementById('streamer-toggle');
+    elements.streamerBgColor = document.getElementById('streamer-bg-color');
+    elements.spinDurationSlider = document.getElementById('spin-duration');
+    elements.spinDurationValue = document.querySelector('.range-value');
+    elements.loadingOverlay = document.getElementById('loading-overlay');
+    elements.toastContainer = document.getElementById('toast-container');
+    elements.wheelWrapper = document.querySelector('.wheel-wrapper');
 }
 
-// Show/hide loading indicator
-function showLoading(show = true) {
-    const loadingDiv = createLoadingIndicator();
-    loadingDiv.style.display = show ? 'block' : 'none';
-    isLoading = show;
+function showToast(message, type = 'info', duration = 3000) {
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
 
-    // Disable buttons while loading
-    [btnAll, btnAttackers, btnDefenders, spinBtn].forEach(btn => {
-        if (btn) {
-            btn.disabled = show;
-            btn.style.opacity = show ? '0.5' : '1';
-        }
+    const icons = {
+        success: 'fa-check-circle',
+        error: 'fa-exclamation-circle',
+        info: 'fa-info-circle',
+        warning: 'fa-exclamation-triangle'
+    };
+
+    toast.innerHTML = `
+        <i class="fa-solid ${icons[type] || icons.info}"></i>
+        <span>${message}</span>
+    `;
+
+    elements.toastContainer?.appendChild(toast);
+
+    requestAnimationFrame(() => toast.classList.add('show'));
+
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+    }, duration);
+}
+
+function setLoading(loading) {
+    state.isLoading = loading;
+
+    if (elements.loadingOverlay) {
+        elements.loadingOverlay.classList.toggle('visible', loading);
+    }
+
+    if (elements.spinBtn) {
+        elements.spinBtn.disabled = loading;
+    }
+
+    elements.roleButtons?.forEach(btn => {
+        btn.disabled = loading;
     });
 }
 
-// Verbesserte Fetch-Funktion mit Retry-Logic und Caching
 async function fetchOperators(role, retries = 3) {
     const cacheKey = `operators_${role}`;
 
-    // Check cache first
-    if (loadingCache.has(cacheKey)) {
-        console.log(`Cache hit for ${role}`);
-        return loadingCache.get(cacheKey);
+    if (cache.has(cacheKey)) {
+        return cache.get(cacheKey);
     }
 
     let lastError;
 
     for (let attempt = 1; attempt <= retries; attempt++) {
         try {
-            console.log(`Loading ${role} operators (Attempt ${attempt}/${retries})`);
-
             const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+            const timeoutId = setTimeout(() => controller.abort(), 10000);
 
-            const response = await fetch(`${API_BASE_URL}/role/${role}?api_key=${API_KEY}`, {
-                signal: controller.signal,
-                headers: {
-                    'Accept': 'application/json'
+            const response = await fetch(
+                `${CONFIG.API_BASE_URL}/role/${role}?api_key=${CONFIG.API_KEY}`,
+                {
+                    signal: controller.signal,
+                    headers: { 'Accept': 'application/json' }
                 }
-            });
+            );
 
             clearTimeout(timeoutId);
 
             if (!response.ok) {
-                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                throw new Error(`HTTP ${response.status}`);
             }
 
             const data = await response.json();
 
-            // Validate data
             if (!Array.isArray(data)) {
-                throw new Error('Invalid data format received');
+                throw new Error('Invalid data format');
             }
 
-            // Cache data for 5 minutes
-            loadingCache.set(cacheKey, data);
-            setTimeout(() => loadingCache.delete(cacheKey), 5 * 60 * 1000);
+            cache.set(cacheKey, data);
+            setTimeout(() => cache.delete(cacheKey), CONFIG.CACHE_DURATION);
 
-            console.log(`${data.length} ${role} operators loaded`);
             return data;
 
         } catch (error) {
             lastError = error;
-            console.warn(`Attempt ${attempt} failed:`, error.message);
-
             if (attempt < retries) {
-                // Exponential backoff: 1s, 2s, 4s
-                const delay = Math.pow(2, attempt - 1) * 1000;
-                console.log(`Waiting ${delay}ms before next attempt...`);
-                await new Promise(resolve => setTimeout(resolve, delay));
+                await new Promise(r => setTimeout(r, Math.pow(2, attempt - 1) * 1000));
             }
         }
     }
 
-    // Fallback data if all attempts fail
-    console.error(`All attempts failed for ${role}:`, lastError);
-    showError(`Error loading ${role === 'attacker' ? 'attackers' : 'defenders'}: ${lastError.message}`);
+    console.error(`Failed to load ${role}:`, lastError);
     return getFallbackOperators(role);
 }
 
-// Fallback operators in case the API is not available
 function getFallbackOperators(role) {
-    const fallbackData = {
+    const fallback = {
         attacker: [
-            { name: 'Ash', icon: null },
-            { name: 'Thermite', icon: null },
-            { name: 'Sledge', icon: null },
-            { name: 'Thatcher', icon: null },
-            { name: 'Twitch', icon: null },
-            { name: 'Montagne', icon: null },
-            { name: 'Glaz', icon: null },
-            { name: 'Fuze', icon: null },
-            { name: 'IQ', icon: null },
-            { name: 'Blitz', icon: null }
+            { name: 'Ash' }, { name: 'Thermite' }, { name: 'Sledge' },
+            { name: 'Thatcher' }, { name: 'Twitch' }, { name: 'Montagne' },
+            { name: 'Glaz' }, { name: 'Fuze' }, { name: 'IQ' }, { name: 'Blitz' },
+            { name: 'Buck' }, { name: 'Blackbeard' }, { name: 'Capitão' },
+            { name: 'Hibana' }, { name: 'Jackal' }, { name: 'Ying' }
         ],
         defender: [
-            { name: 'Smoke', icon: null },
-            { name: 'Mute', icon: null },
-            { name: 'Castle', icon: null },
-            { name: 'Pulse', icon: null },
-            { name: 'Doc', icon: null },
-            { name: 'Rook', icon: null },
-            { name: 'Kapkan', icon: null },
-            { name: 'Tachanka', icon: null },
-            { name: 'Jäger', icon: null },
-            { name: 'Bandit', icon: null }
+            { name: 'Smoke' }, { name: 'Mute' }, { name: 'Castle' },
+            { name: 'Pulse' }, { name: 'Doc' }, { name: 'Rook' },
+            { name: 'Kapkan' }, { name: 'Tachanka' }, { name: 'Jäger' },
+            { name: 'Bandit' }, { name: 'Frost' }, { name: 'Valkyrie' },
+            { name: 'Caveira' }, { name: 'Echo' }, { name: 'Mira' }, { name: 'Lesion' }
         ]
     };
 
-    console.log(`Using fallback data for ${role}`);
-    return fallbackData[role] || [];
+    showToast('Offline mode: Using fallback data', 'warning');
+    return fallback[role] || [];
 }
 
-// Show error message
-function showError(message) {
-    let errorDiv = document.getElementById('error-message');
-    if (!errorDiv) {
-        errorDiv = document.createElement('div');
-        errorDiv.id = 'error-message';
-        errorDiv.style.cssText = `
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: #ff4444;
-            color: white;
-            padding: 15px;
-            border-radius: 5px;
-            z-index: 1001;
-            max-width: 300px;
-            font-family: Arial, sans-serif;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        `;
-        document.body.appendChild(errorDiv);
-    }
+async function loadOperators(role) {
+    if (state.isLoading) return;
 
-    errorDiv.textContent = message;
-    errorDiv.style.display = 'block';
-
-    // Auto-hide after 5 seconds
-    setTimeout(() => {
-        errorDiv.style.display = 'none';
-    }, 5000);
-}
-
-// Improved load function with parallel loading
-async function loadOperators(type) {
-    if (isLoading) {
-        console.log('Already loading...');
-        return;
-    }
-
-    showLoading(true);
+    setLoading(true);
+    state.currentRole = role;
 
     try {
-        if (type === 'attackers') {
-            operators.attackers = await fetchOperators('attacker');
-            currentOperators = operators.attackers;
-        } else if (type === 'defenders') {
-            operators.defenders = await fetchOperators('defender');
-            currentOperators = operators.defenders;
+        if (role === 'attackers') {
+            state.operators.attackers = await fetchOperators('attacker');
+            state.currentOperators = state.operators.attackers;
+        } else if (role === 'defenders') {
+            state.operators.defenders = await fetchOperators('defender');
+            state.currentOperators = state.operators.defenders;
         } else {
-            // Load in parallel for better performance
-            console.log('Loading all operators in parallel...');
             const [attackers, defenders] = await Promise.all([
                 fetchOperators('attacker'),
                 fetchOperators('defender')
             ]);
-
-            operators.attackers = attackers;
-            operators.defenders = defenders;
-            currentOperators = [...operators.attackers, ...operators.defenders];
+            state.operators.attackers = attackers;
+            state.operators.defenders = defenders;
+            state.currentOperators = [...attackers, ...defenders];
         }
 
-        // Reset wheel
-        angle = 0;
-        drawWheel(currentOperators);
-        resultDiv.textContent = '';
-
-        console.log(`${currentOperators.length} operators loaded for ${type}`);
+        state.angle = 0;
+        hideResult();
+        drawWheel();
 
     } catch (error) {
-        console.error('Error loading operators:', error);
-        showError('Error loading operators');
+        showToast('Error loading operators', 'error');
     } finally {
-        showLoading(false);
+        setLoading(false);
     }
 }
 
-// Show success message
-function showSuccess(message) {
-    let successDiv = document.getElementById('success-message');
-    if (!successDiv) {
-        successDiv = document.createElement('div');
-        successDiv.id = 'success-message';
-        successDiv.style.cssText = `
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            background: #44ff44;
-            color: #333;
-            padding: 15px;
-            border-radius: 5px;
-            z-index: 1001;
-            font-family: Arial, sans-serif;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        `;
-        document.body.appendChild(successDiv);
-    }
-
-    successDiv.textContent = message;
-    successDiv.style.display = 'block';
-
-    // Auto-hide after 3 seconds
-    setTimeout(() => {
-        successDiv.style.display = 'none';
-    }, 3000);
-}
-
-// Update button states
-function updateButtonStates(activeType) {
-    const buttons = {
-        'all': btnAll,
-        'attackers': btnAttackers,
-        'defenders': btnDefenders
-    };
-
-    Object.entries(buttons).forEach(([type, btn]) => {
-        if (btn) {
-            btn.classList.toggle('active', type === activeType);
-        }
-    });
-}
-
-// Responsive canvas
 function resizeCanvas() {
-    const size = Math.min(window.innerWidth, window.innerHeight, 500);
-    canvas.width = size;
-    canvas.height = size;
-    drawWheel(currentOperators);
-}
-window.addEventListener('resize', resizeCanvas);
+    if (!elements.canvas) return;
 
-// Draw the wheel
-function drawWheel(list, highlightIndex = null) {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const wrapper = elements.wheelWrapper;
+    if (!wrapper) return;
+
+    const size = Math.min(wrapper.offsetWidth, wrapper.offsetHeight) * 0.9;
+    const finalSize = Math.min(size, 500);
+
+    elements.canvas.width = finalSize;
+    elements.canvas.height = finalSize;
+
+    drawWheel();
+}
+
+function drawWheel(highlightIndex = null) {
+    const ctx = elements.ctx;
+    const canvas = elements.canvas;
+    if (!ctx || !canvas) return;
+
+    const list = state.currentOperators;
     const num = list.length || 1;
-    const arc = 2 * Math.PI / num;
+    const arc = (2 * Math.PI) / num;
     const cx = canvas.width / 2;
     const cy = canvas.height / 2;
-    const radius = canvas.width / 2 - 10;
+    const radius = (canvas.width / 2) - 5;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     for (let i = 0; i < num; i++) {
         ctx.save();
         ctx.beginPath();
         ctx.moveTo(cx, cy);
-        ctx.arc(cx, cy, radius, arc * i + angle - arc/2, arc * (i + 1) + angle - arc/2);
+        ctx.arc(cx, cy, radius, arc * i + state.angle, arc * (i + 1) + state.angle);
         ctx.closePath();
 
-        // Enhanced gradient fill with better readability
-        let grad = ctx.createLinearGradient(
-            cx, cy,
-            cx + Math.cos(arc * i + angle - arc/2) * radius,
-            cy + Math.sin(arc * i + angle - arc/2) * radius
-        );
-        grad.addColorStop(0, i === highlightIndex ? '#ffffff' : `hsl(${i * 360 / num}, 70%, 55%)`);
-        grad.addColorStop(0.7, i === highlightIndex ? '#f0f0f0' : `hsl(${i * 360 / num}, 65%, 40%)`);
-        grad.addColorStop(1, i === highlightIndex ? '#e0e0e0' : `hsl(${i * 360 / num}, 60%, 25%)`);
-        ctx.fillStyle = grad;
-        ctx.shadowColor = i === highlightIndex ? '#ffffff' : '#161b22';
-        ctx.shadowBlur = i === highlightIndex ? 40 : 12;
+        if (i === highlightIndex) {
+            ctx.fillStyle = '#ffd700';
+        } else {
+            const hue = (i * 360 / num) % 360;
+            ctx.fillStyle = `hsl(${hue}, 65%, 45%)`;
+        }
+
         ctx.fill();
-        ctx.strokeStyle = i === highlightIndex ? '#ffffff' : '#333';
-        ctx.lineWidth = i === highlightIndex ? 7 : 2.5;
+
+        ctx.strokeStyle = i === highlightIndex ? '#fff' : 'rgba(0,0,0,0.3)';
+        ctx.lineWidth = i === highlightIndex ? 3 : 1;
         ctx.stroke();
         ctx.restore();
 
-        // Text
         ctx.save();
         ctx.translate(cx, cy);
-        ctx.rotate(arc * i + arc / 2 + angle - arc/2);
+        ctx.rotate(arc * i + arc / 2 + state.angle);
         ctx.textAlign = 'right';
-        ctx.font = `bold ${Math.max(18, canvas.width/25)}px 'Mohave-Medium-Italic', Open Sans, Arial, sans-serif`;
-        ctx.fillStyle = i === highlightIndex ? '#000000' : '#ffffff';
-        ctx.shadowColor = i === highlightIndex ? '#ffffff' : '#000000';
-        ctx.shadowBlur = i === highlightIndex ? 8 : 6;
-        let op = list[i];
-        let opName = (typeof op === 'object' && op !== null && op.name) ? op.name : String(op);
-        ctx.fillText(opName, radius - 24, 10);
+        ctx.textBaseline = 'middle';
+
+        const fontSize = Math.max(12, Math.min(20, canvas.width / 25 - num / 12));
+        ctx.font = `bold ${fontSize}px 'Mohave-Medium-Italic', Arial, sans-serif`;
+
+        const op = list[i];
+        const name = op?.name || String(op);
+
+        ctx.strokeStyle = 'rgba(0,0,0,0.8)';
+        ctx.lineWidth = 3;
+        ctx.lineJoin = 'round';
+        ctx.strokeText(name, radius - 18, 0);
+
+        ctx.fillStyle = i === highlightIndex ? '#FFD700' : '#fff';
+        ctx.shadowColor = 'rgba(0,0,0,0.7)';
+        ctx.shadowBlur = 4;
+        ctx.shadowOffsetX = 1;
+        ctx.shadowOffsetY = 1;
+        ctx.fillText(name, radius - 18, 0);
         ctx.restore();
     }
 
-    // Draw pointer (arrow)
     ctx.save();
     ctx.beginPath();
-    ctx.moveTo(cx, cy - radius - 8);
-    ctx.lineTo(cx - 18, cy - radius + 32);
-    ctx.lineTo(cx - 7, cy - radius + 32);
-    ctx.lineTo(cx, cy - radius + 10);
-    ctx.lineTo(cx + 7, cy - radius + 32);
-    ctx.lineTo(cx + 18, cy - radius + 32);
-    ctx.closePath();
-    ctx.fillStyle = '#fff';
-    ctx.shadowBlur = 30;
+    ctx.arc(cx, cy, radius * 0.12, 0, 2 * Math.PI);
+    ctx.fillStyle = '#e0e0e0';
+    ctx.shadowColor = 'rgba(0,0,0,0.3)';
+    ctx.shadowBlur = 10;
     ctx.fill();
     ctx.restore();
 }
 
-// Spin the wheel - now with check if data is loaded
 function spinWheel() {
-    if (spinning || !currentOperators.length || isLoading) {
-        if (!currentOperators.length && !isLoading) {
-            showError('No operators loaded. Please select a category.');
+    if (state.spinning || !state.currentOperators.length || state.isLoading) {
+        if (!state.currentOperators.length) {
+            showToast('Please select a category first', 'warning');
         }
         return;
     }
 
-    spinning = true;
-    spinBtn.style.transform = 'scale(1.12)';
-    spinBtn.style.boxShadow = '0 0 24px #fff';
-    setTimeout(() => {
-        spinBtn.style.transform = '';
-        spinBtn.style.boxShadow = '';
-    }, 350);
-    resultDiv.textContent = '';
+    state.spinning = true;
+    hideResult();
 
-    let list = currentOperators;
-    let duration = 4000 + Math.random() * 1000;
-    let start = null;
-    let lastAngle = angle;
-    let randomSpin = 2 * Math.PI * (4 + Math.random() * 2); // 4-6 rotations
-    let finalAngle = lastAngle + randomSpin;
+    elements.spinBtn?.classList.add('spinning');
 
-    function animateWheel(ts) {
-        if (!start) start = ts;
-        let elapsed = ts - start;
-        let progress = Math.min(elapsed / duration, 1);
-        angle = lastAngle + (finalAngle - lastAngle) * easeOutCubic(progress);
-        drawWheel(list);
+    const list = state.currentOperators;
+    const duration = state.settings.spinDuration * 1000;
+    const startAngle = state.angle;
+    const totalRotation = Math.PI * 2 * (6 + Math.random() * 4);
+    const finalAngle = startAngle + totalRotation;
+
+    let startTime = null;
+    let lastSegment = -1;
+
+    function animate(timestamp) {
+        if (!startTime) startTime = timestamp;
+        const elapsed = timestamp - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+
+        const eased = 1 - Math.pow(1 - progress, 3);
+        state.angle = startAngle + (finalAngle - startAngle) * eased;
+
+        drawWheel();
+
         if (progress < 1) {
-            spinTimeout = requestAnimationFrame(animateWheel);
+            requestAnimationFrame(animate);
         } else {
-            spinning = false;
-            const num = list.length;
-            const arc = 2 * Math.PI / num;
-            let normalizedAngle = ((angle % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
-            let targetAngle = (3 * Math.PI / 2); // Pointer at top (270 deg)
-            let diff = (2 * Math.PI + targetAngle - normalizedAngle) % (2 * Math.PI);
-            let index = Math.floor(diff / arc) % num;
-            selectedOperator = list[index];
-            let opName = (typeof selectedOperator === 'object' && selectedOperator !== null && selectedOperator.name) ? selectedOperator.name : String(selectedOperator);
-            drawWheel(list, index);
-            resultDiv.textContent = opName;
-            resultDiv.style.color = '#ffff';
-            resultDiv.style.fontWeight = 'bold';
-            resultDiv.style.borderRadius = '18px';
+            finishSpin();
         }
     }
-    requestAnimationFrame(animateWheel);
+
+    requestAnimationFrame(animate);
 }
 
-function easeOutCubic(t) {
-    return 1 - Math.pow(1 - t, 3);
+function finishSpin() {
+    state.spinning = false;
+    elements.spinBtn?.classList.remove('spinning');
+
+    const list = state.currentOperators;
+    const num = list.length;
+    const arc = (2 * Math.PI) / num;
+
+    const normalizedAngle = ((state.angle % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
+    const pointerAngle = (3 * Math.PI) / 2;
+    const diff = ((pointerAngle - normalizedAngle) + 2 * Math.PI) % (2 * Math.PI);
+    const winnerIndex = Math.floor(diff / arc) % num;
+
+    state.selectedOperator = list[winnerIndex];
+    const opName = state.selectedOperator?.name || String(state.selectedOperator);
+
+    drawWheel(winnerIndex);
+    showResult(opName);
 }
 
-// Button event listeners with improved state management
-btnAll?.addEventListener('click', () => {
-    updateButtonStates('all');
-    loadOperators('all');
-});
-btnAttackers?.addEventListener('click', () => {
-    updateButtonStates('attackers');
-    loadOperators('attackers');
-});
-btnDefenders?.addEventListener('click', () => {
-    updateButtonStates('defenders');
-    loadOperators('defenders');
-});
-spinBtn?.addEventListener('click', spinWheel);
+function showResult(name) {
+    if (!elements.resultDisplay || !elements.resultName) return;
 
-// Hide controls for stream mode
-function hideControlsIfStream() {
-    const url = new URL(window.location.href);
-    if (url.searchParams.get('stream') === '1') {
-        document.getElementById('controls').style.display = 'none';
-        resultDiv.style.top = '50%';
-        resultDiv.style.fontSize = '3em';
+    elements.resultName.textContent = name;
+    elements.resultDisplay.classList.remove('hidden');
+    elements.resultDisplay.classList.add('show');
+}
+
+function hideResult() {
+    if (!elements.resultDisplay) return;
+
+    elements.resultDisplay.classList.remove('show');
+    elements.resultDisplay.classList.add('hidden');
+}
+
+function loadSettings() {
+    try {
+        const saved = localStorage.getItem('wheelSettings');
+        if (saved) {
+            Object.assign(state.settings, JSON.parse(saved));
+        }
+    } catch (e) {
+        console.warn('Could not load settings');
+    }
+
+    applySettings();
+}
+
+function saveSettings() {
+    try {
+        localStorage.setItem('wheelSettings', JSON.stringify(state.settings));
+    } catch (e) {
+        console.warn('Could not save settings');
     }
 }
 
-// Ensure dynamic-style <style> exists for streamer mode
-function ensureDynamicStyle() {
-    let style = document.getElementById('dynamic-style');
-    if (!style) {
-        style = document.createElement('style');
-        style.id = 'dynamic-style';
-        style.innerHTML = 'html, body { background: linear-gradient(135deg, #0f1115 0%, #1a1f27 100%) !important; }';
-        document.head.appendChild(style);
+function applySettings() {
+    if (elements.streamerToggle) {
+        elements.streamerToggle.checked = state.settings.streamerMode;
     }
-    return style;
+    document.body.classList.toggle('streamer-mode', state.settings.streamerMode);
+
+    if (elements.streamerBgColor) {
+        elements.streamerBgColor.value = state.settings.streamerBgColor || '#ffffff';
+    }
+    document.documentElement.style.setProperty('--streamer-bg', state.settings.streamerBgColor || '#ffffff');
+
+    if (elements.spinDurationSlider) {
+        elements.spinDurationSlider.value = state.settings.spinDuration;
+    }
+    if (elements.spinDurationValue) {
+        elements.spinDurationValue.textContent = `${state.settings.spinDuration}s`;
+    }
 }
 
-// Streamer mode toggle
-let streamerMode = false;
-streamerBtn.style.transition = 'opacity 0.3s, background 0.2s, color 0.2s';
-streamerBtn.addEventListener('click', function() {
-    const style = ensureDynamicStyle();
-    streamerMode = !streamerMode;
-    if (streamerMode) {
-        style.innerHTML = 'html, body { background: transparent !important; }';
-        document.body.style.background = 'transparent';
-        document.documentElement.style.background = 'transparent';
-        streamerBtn.textContent = 'Streamer Mode: ON';
-        streamerBtn.style.background = 'linear-gradient(90deg,#FFD700 0%,#ff7424 100%)';
-        streamerBtn.style.color = '#222';
+function toggleSettings(show) {
+    elements.settingsPanel?.classList.toggle('open', show);
+}
+
+function toggleStreamerMode(enabled) {
+    if (enabled) {
+        showToast(
+            'Streamer Mode enabled - Press ESC or click X to exit',
+            'info'
+        );
+        document.documentElement.style.setProperty('--streamer-bg', state.settings.streamerBgColor || '#ffffff');
     } else {
-        style.innerHTML = 'html, body { background: linear-gradient(135deg, #0f1115 0%, #1a1f27 100%) !important; }';
-        document.body.style.background = '';
-        document.documentElement.style.background = '';
-        streamerBtn.textContent = 'Streamer Mode';
-        streamerBtn.style.background = 'linear-gradient(90deg,#444 0%,#222 100%)';
-        streamerBtn.style.color = '#FFD700';
-    }
-});
-
-// Edit Mode: Drag & drop for all controls/buttons
-document.addEventListener('DOMContentLoaded', function() {
-    let editMode = false;
-    const editBtn = document.getElementById('edit-mode-btn');
-    const controls = document.getElementById('controls');
-    const allButtons = Array.from(controls.querySelectorAll('button'));
-    const draggableEls = [resultDiv, ...allButtons];
-
-    function setDraggableStyles(el, enable) {
-        if (enable) {
-            el.style.outline = '2px dashed #24ff24';
-            el.style.cursor = 'move';
-            if (el.id === 'result') el.style.pointerEvents = 'auto';
-        } else {
-            el.style.outline = '';
-            el.style.cursor = '';
-            if (el.id === 'result') el.style.pointerEvents = 'none';
-        }
+        showToast('Streamer Mode disabled', 'info');
     }
 
-    function makeDraggable(el) {
-        let offsetX, offsetY, dragging = false;
-        el.addEventListener('mousedown', dragStart);
-        function dragStart(e) {
-            if (!editMode) return;
-            dragging = true;
-            offsetX = e.clientX - el.offsetLeft;
-            offsetY = e.clientY - el.offsetTop;
-            document.addEventListener('mousemove', dragMove);
-            document.addEventListener('mouseup', dragEnd);
-            el.style.zIndex = 9999;
+    state.settings.streamerMode = enabled;
+    document.body.classList.toggle('streamer-mode', enabled);
+    elements.streamerBtn?.classList.toggle('active', enabled);
+    saveSettings();
+}
+
+function setupEventListeners() {
+    elements.spinBtn?.addEventListener('click', spinWheel);
+
+    document.addEventListener('keydown', (e) => {
+        if (e.code === 'Space' && !state.spinning) {
             e.preventDefault();
+            spinWheel();
         }
-        function dragMove(e) {
-            if (!dragging) return;
-            el.style.position = 'absolute';
-            el.style.left = (e.clientX - offsetX) + 'px';
-            el.style.top = (e.clientY - offsetY) + 'px';
-        }
-        function dragEnd() {
-            dragging = false;
-            el.style.zIndex = '';
-            document.removeEventListener('mousemove', dragMove);
-            document.removeEventListener('mouseup', dragEnd);
-            if (editMode) {
-                localStorage.setItem('dragpos-' + el.id, JSON.stringify({left: el.style.left, top: el.style.top}));
+        if (e.code === 'Escape' && state.settings.streamerMode) {
+            toggleStreamerMode(false);
+            if (elements.streamerToggle) {
+                elements.streamerToggle.checked = false;
             }
         }
-    }
-
-    function restorePositions() {
-        draggableEls.forEach(el => {
-            const pos = localStorage.getItem('dragpos-' + el.id);
-            if (pos) {
-                try {
-                    const {left, top} = JSON.parse(pos);
-                    el.style.position = 'absolute';
-                    el.style.left = left;
-                    el.style.top = top;
-                } catch {}
-            }
-        });
-    }
-
-    function setEditMode(on) {
-        editMode = on;
-        if (on) {
-            allButtons.forEach(btn => {
-                if (btn.id !== 'edit-mode-btn') {
-                    btn.addEventListener('click', preventClick, true);
-                }
-            });
-        } else {
-            allButtons.forEach(btn => {
-                if (btn.id !== 'edit-mode-btn') {
-                    btn.removeEventListener('click', preventClick, true);
-                }
-            });
-        }
-        draggableEls.forEach(el => setDraggableStyles(el, on));
-    }
-
-    function preventClick(e) {
-        if (editMode) {
-            e.preventDefault();
-            e.stopPropagation();
-        }
-    }
-
-    editBtn?.addEventListener('click', () => {
-        setEditMode(!editMode);
-        editBtn.textContent = editMode ? 'Edit Mode: ON' : 'Edit Mode';
-        editBtn.style.background = '#1d4b88';
     });
 
-    draggableEls.forEach(makeDraggable);
-    restorePositions();
-    if (resultDiv) resultDiv.style.pointerEvents = 'none';
-    setEditMode(false);
-});
-
-// Make background hideable for OBS/streamers
-window.addEventListener('DOMContentLoaded', function() {
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('nobg') === '1' || params.get('transparent') === '1') {
-        const style = document.getElementById('dynamic-style');
-        if (style) {
-            style.innerHTML = style.innerHTML.replace(/background:[^;]+;/g, 'background: transparent !important;');
+    elements.exitStreamerBtn?.addEventListener('click', () => {
+        toggleStreamerMode(false);
+        if (elements.streamerToggle) {
+            elements.streamerToggle.checked = false;
         }
-        document.body.style.background = 'transparent';
-        document.documentElement.style.background = 'transparent';
+    });
+
+    elements.roleButtons?.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const role = btn.dataset.role;
+
+            elements.roleButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            loadOperators(role);
+        });
+    });
+
+    elements.settingsBtn?.addEventListener('click', () => toggleSettings(true));
+    elements.settingsClose?.addEventListener('click', () => toggleSettings(false));
+
+    elements.settingsPanel?.addEventListener('click', (e) => {
+        if (e.target === elements.settingsPanel) {
+            toggleSettings(false);
+        }
+    });
+
+    elements.streamerBtn?.addEventListener('click', () => {
+        toggleStreamerMode(!state.settings.streamerMode);
+        if (elements.streamerToggle) {
+            elements.streamerToggle.checked = state.settings.streamerMode;
+        }
+    });
+
+    elements.streamerToggle?.addEventListener('change', (e) => {
+        toggleStreamerMode(e.target.checked);
+    });
+
+    elements.streamerBgColor?.addEventListener('input', (e) => {
+        state.settings.streamerBgColor = e.target.value;
+        document.documentElement.style.setProperty('--streamer-bg', e.target.value);
+        saveSettings();
+    });
+
+    elements.spinDurationSlider?.addEventListener('input', (e) => {
+        const value = parseFloat(e.target.value);
+        state.settings.spinDuration = value;
+        if (elements.spinDurationValue) {
+            elements.spinDurationValue.textContent = `${value}s`;
+        }
+        saveSettings();
+    });
+
+    window.addEventListener('resize', resizeCanvas);
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('stream') === '1' || params.get('transparent') === '1') {
+        toggleStreamerMode(true);
     }
-});
+}
 
-// Cache cleanup on page unload
-window.addEventListener('beforeunload', () => {
-    loadingCache.clear();
-});
-
-// Monitor network status
-window.addEventListener('online', () => {
-    console.log('Internet connection restored');
-    showSuccess('Internet connection restored');
-    // Clear cache to load fresh data
-    loadingCache.clear();
-});
-
-window.addEventListener('offline', () => {
-    console.log('Internet connection lost');
-    showError('No internet connection - using fallback data');
-});
-
-// Initial setup
-drawWheel(currentOperators);
-resizeCanvas();
-hideControlsIfStream();
-
-// Initial loading with improved error handling
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded, starting initial load...');
-    updateButtonStates('all');
+function init() {
+    initElements();
+    loadSettings();
+    setupEventListeners();
+    resizeCanvas();
     loadOperators('all');
-});
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}

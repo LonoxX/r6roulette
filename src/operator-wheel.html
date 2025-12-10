@@ -1,120 +1,105 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Operator Wheel</title>
-    <style>
-        html, body {
-            background: linear-gradient(135deg, #0f1115 0%, #1a1f27 100%);
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            min-height: 100vh;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #fff;
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Operator Wheel | R6Roulette</title>
+    <meta name="description" content="Spin the R6 Roulette operator wheel to randomly select Rainbow Six Siege operators" />
 
-        #wheel-container {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 90vw;
-            height: 90vw;
-            max-width: 500px;
-            max-height: 500px;
-            pointer-events: none;
-            filter: drop-shadow(0 8px 32px #000a);
-        }
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png?v=2" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png?v=2" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png?v=2" />
 
-        #controls {
-            position: absolute;
-            top: 32px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 10;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.8em;
-            border-radius: 1.5em;
-            padding: 1em 2em;
-            align-items: center;
-            pointer-events: auto;
-            backdrop-filter: blur(12px);
-        }
-
-        button {
-            font-size: 1rem;
-            padding: 0.8em 1.8em;
-            border-radius: 2em;
-            border: none;
-            cursor: pointer;
-            font-weight: 600;
-            letter-spacing: 0.05em;
-            transition: all 0.2s ease;
-            backdrop-filter: blur(8px);
-            box-shadow: none;
-            text-shadow: none;
-            color: #fff;;
-            background: rgba(34, 40, 49, 0.8);
-        }
-
-
-        #result {
-            position: absolute;
-            top: 82%;
-            left: 50%;
-            font-size: 2em;
-            z-index: 20;
-            pointer-events: none;
-            font-weight: bold;
-            border-radius: 1em;
-            background: rgba(13, 17, 23, 0.7);
-            min-width: 180px;
-            text-align: center;
-        }
-
-        #edit-mode-btn {
-            background: #1d4b88;
-            color: #fff;
-        }
-
-        @media (max-width: 600px) {
-            #controls {
-                flex-direction: column;
-                gap: 0.7em;
-                padding: 1em;
-            }
-
-            #wheel-container {
-                max-width: 98vw;
-                max-height: 98vw;
-            }
-
-            #result {
-                font-size: 1.3em;
-                min-width: 100px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link href="https://cdn.r6roulette.de/fontawesome/releases/6.6.0/css/fontawesome.css" rel="stylesheet" />
+    <link href="https://cdn.r6roulette.de/fontawesome/releases/6.6.0/css/solid.css" rel="stylesheet" />
 </head>
-<body>
+<body class="wheel-page">
 
-    <div id="controls">
-        <button id="btn-all" class="role-btn">Alle</button>
-        <button id="btn-attackers" class="role-btn">Angreifer</button>
-        <button id="btn-defenders" class="role-btn">Verteidiger</button>
-        <button id="spin-btn">Drehen</button>
-        <button id="streamer-mode-btn" class="streamer-mode-btn">Streamer Mode</button>
-        <button id="edit-mode-btn" class="edit-mode-btn">Edit Mode</button>
+    <nav class="wheel-nav">
+        <a href="index.html" class="nav-back">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Back</span>
+        </a>
+        <div class="nav-actions">
+            <button id="streamer-btn" class="nav-btn" title="Streamer Mode">
+                <i class="fa-solid fa-video"></i>
+            </button>
+            <button id="settings-btn" class="nav-btn" title="Settings">
+                <i class="fa-solid fa-gear"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="wheel-main">
+        <div class="role-selector">
+            <button class="role-btn active" data-role="all">
+                <i class="fa-solid fa-users"></i>
+                <span>All</span>
+            </button>
+            <button class="role-btn" data-role="attackers">
+                <i class="fa-solid fa-crosshairs"></i>
+                <span>Attackers</span>
+            </button>
+            <button class="role-btn" data-role="defenders">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Defenders</span>
+            </button>
+        </div>
+
+        <div class="wheel-wrapper">
+            <canvas id="wheel"></canvas>
+            <div class="wheel-center">
+                <button id="spin-btn" class="spin-button">SPIN</button>
+            </div>
+            <div class="wheel-pointer"></div>
+        </div>
+
+        <div id="result" class="result-display hidden">
+            <div class="result-label">Selected Operator</div>
+            <div class="result-name"></div>
+        </div>
+    </main>
+
+    <button id="exit-streamer-btn" class="exit-streamer-btn" title="Exit Streamer Mode (ESC)">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <aside id="settings-panel" class="settings-panel">
+        <div class="settings-header">
+            <h2><i class="fa-solid fa-gear"></i> Settings</h2>
+            <button class="settings-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="settings-content">
+            <div class="setting-group">
+                <div class="setting-label">
+                    <span>Streamer Background</span>
+                    <small>Background color in Streamer Mode</small>
+                </div>
+                <input type="color" id="streamer-bg-color" value="#ffffff" class="color-picker">
+            </div>
+            <div class="setting-group range-setting">
+                <div class="setting-label">
+                    <span>Spin Duration</span>
+                    <small>How long the wheel spins</small>
+                </div>
+                <div class="range-wrapper">
+                    <input type="range" id="spin-duration" min="2" max="8" value="4" step="0.5">
+                    <span class="range-value">4s</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-spinner">
+            <div class="spinner-ring"></div>
+            <span>Loading Operators...</span>
+        </div>
     </div>
 
-    <div id="wheel-container">
-        <canvas id="wheel" width="500" height="500"></canvas>
-    </div>
-
-    <div id="result"></div>
+    <div id="toast-container" class="toast-container"></div>
 
     <script src="assets/js/operatorWheel.js"></script>
 </body>

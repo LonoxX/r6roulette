@@ -1,5 +1,3 @@
-// Main JavaScript File for R6 Roulette
-
 const R6attacker = document.querySelector("#attacker");
 const R6defender = document.querySelector("#defender");
 const R6img = document.querySelector(".operator-img");
@@ -149,8 +147,6 @@ document.addEventListener("DOMContentLoaded", () => {
   getChallenges();
   getLastChangelog("web");
   getLastChangelog("bot");
-  setupCloseButton("close_imp", "impressumbox");
-  setupCloseButton("close_privacy", "privacybox");
   setupCloseButton("close_change", "changelogbox");
 });
 
@@ -166,17 +162,6 @@ function openchangelog() {
   const element = document.getElementById("changelogbox");
   element.style.display = "block";
 }
-
-function openimpressum() {
-  const element = document.getElementById("impressumbox");
-  element.style.display = "block";
-}
-
-function openprivacy() {
-  const element = document.getElementById("privacybox");
-  element.style.display = "block";
-}
-
 
 function showErrorModal() {
   const modal = document.getElementById("error-modal");
