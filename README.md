@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> This project has moved.
-> This repository is no longer maintained.
+> This project has moved.  
+> This repository is no longer maintained.   
 > New repository: https://git.panda-network.de/LonoxX/r6roulette
 
 # R6 Roulette
